@@ -34,3 +34,133 @@ In order to examine how income inequality affects the democracy levels in Latin 
 **GDP per Capita (Control Variable 1):** GDP per capita data can also be accessed at the Quality of Governance website, will be used to account for economic growth per person and its respective (potential) effect on democratization in a multivariate regression.
 
 **Education Expenditure (Control Variable 2):** Education expenditure as a percentage of GDP will be sourced from the World Bank as well and other sources are present in Codebook as well. This variable captures public expenditures on this sector and is particularly relevant for exploring socioeconomic conditions affecting democracy. World Bank databases are easy to access and are widely used in research. Using World Bank and Quality of Governance databases is perfect for answering the research question and hold extremely high level of reliability.
+
+# **DESCRIPTIVE ANALYSIS OF THE GINI INDEX IN LATIN AMERICA**
+
+Descriptive statistics for GINI index provide a sense of patterns and variability of inequality in 16 Latin American countries. These findings establish a basis for comprehending the potential impact of inequality on the level of democratization in the region.
+
+```{r}
+
+library(tidyverse)
+library(gtsummary)
+library(gt)
+library(zoo)
+library(psych)
+library(flextable)
+
+
+setwd("/Users/macbookpro/Documents/Statistics project")
+
+
+data <- read.csv("gini_world.csv", header = TRUE, skip = 4, sep = ",")
+
+
+colnames(data) <- make.names(colnames(data), unique = TRUE)
+
+
+latin_america_countries <- c(
+  "Argentina", "Bolivia", "Brazil", "Chile", "Colombia", "Costa Rica",
+  "Cuba", "Dominican Republic", "Ecuador", "El Salvador", "Guatemala",
+  "Honduras", "Mexico", "Nicaragua", "Panama", "Paraguay", "Peru",
+  "Uruguay", "Venezuela"
+)
+
+
+gini_latin_america <- data %>%
+  filter(Country.Name %in% latin_america_countries)
+
+
+gini_latin_america_long <- gini_latin_america %>%
+  pivot_longer(
+    cols = starts_with("X"),
+    names_to = "Year",
+    values_to = "GINI_Index"
+  ) %>%
+  mutate(
+    Year = as.numeric(gsub("X", "", Year))  # Convert Year column to numeric
+  )
+
+# Interpolating missing values
+gini_latin_america_long <- gini_latin_america_long %>%
+  group_by(Country.Name) %>%
+  arrange(Year) %>%
+  mutate(GINI_Index = zoo::na.approx(GINI_Index, na.rm = FALSE))  
+
+# Excluding countries with no valid data
+gini_latin_america_long_clean <- gini_latin_america_long %>%
+  group_by(Country.Name) %>%
+  filter(any(!is.na(GINI_Index)))
+
+
+descriptive_stats <- gini_latin_america_long_clean %>%
+  summarise(
+    Mean_GINI = mean(GINI_Index, na.rm = TRUE),
+    Median_GINI = median(GINI_Index, na.rm = TRUE),
+    SD_GINI = sd(GINI_Index, na.rm = TRUE),
+    Min_GINI = min(GINI_Index, na.rm = TRUE),
+    Max_GINI = max(GINI_Index, na.rm = TRUE),
+    Skewness_GINI = psych::skew(GINI_Index, na.rm = TRUE),
+    Kurtosis_GINI = psych::kurtosi(GINI_Index, na.rm = TRUE)
+  )
+
+
+print(descriptive_stats)
+
+
+ggplot(gini_latin_america_long_clean, aes(x = Country.Name, y = GINI_Index)) +
+  geom_boxplot(fill = "blue", color = "black") +
+  theme_minimal() +
+  coord_flip() +  
+  labs(title = "GINI Index by Country", x = "Country", y = "GINI Index")
+
+
+ggplot(gini_latin_america_long_clean, aes(x = GINI_Index)) +
+  geom_density(fill = "lightblue", color = "darkblue", alpha = 0.7) +
+  theme_minimal() +
+  labs(title = "Density Plot of GINI Index", x = "GINI Index", y = "Density")
+
+
+ggplot(gini_latin_america_long_clean, aes(x = GINI_Index)) +
+  geom_histogram(binwidth = 2, fill = "blue", color = "black") +
+  theme_minimal() +
+  facet_wrap(~ Country.Name, scales = "free_y") +
+  labs(title = "GINI Index Distribution by Country", x = "GINI Index", y = "Frequency")
+
+
+ggplot(gini_latin_america_long_clean, aes(x = Year, y = GINI_Index, color = Country.Name, group = Country.Name)) +
+  geom_line() +
+  theme_minimal() +
+  labs(title = "GINI Index Over Time by Country", x = "Year", y = "GINI Index") +
+  theme(legend.position = "bottom")
+
+
+ggplot(gini_latin_america_long_clean, aes(x = Year, y = GINI_Index, color = Country.Name, group = Country.Name)) +
+  geom_line(size = 1.2) +                             
+  geom_point(size = 2, shape = 21, fill = "white") +  
+  theme_minimal() +                                   
+  labs(
+    title = "Trends in GINI Index Across Latin American Countries",
+    subtitle = "Data interpolated for missing years",
+    caption = "Source: World Bank, GINI Index Dataset",
+    x = "Year",
+    y = "GINI Index"
+  ) +
+  scale_color_brewer(palette = "Dark2") +             
+  theme(
+    plot.title = element_text(size = 16, face = "bold", hjust = 0.5), 
+    plot.subtitle = element_text(size = 12, hjust = 0.5),            
+    plot.caption = element_text(size = 10, face = "italic"),         
+    legend.position = "bottom",                                      
+    legend.title = element_blank(),                                  
+    legend.text = element_text(size = 10),                           
+    axis.text.x = element_text(angle = 45, hjust = 1),               
+    axis.title.x = element_text(size = 12, face = "bold"),           
+    axis.title.y = element_text(size = 12, face = "bold"),           
+    panel.grid.major = element_line(color = "gray90")                
+  ) +
+  guides(
+    color = guide_legend(ncol = 3)                                   
+  )
+
+write.csv(gini_latin_america_long_clean, "cleaned_interpolated_gini.csv", row.names = FALSE)
+```
