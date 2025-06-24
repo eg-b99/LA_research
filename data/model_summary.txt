@@ -1,0 +1,23 @@
+
+Call:
+lm(formula = Democratization_Level ~ GINI_Index + Education_Expenditure + 
+    GDP_per_Capita + Year, data = merged_data)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-17.3435  -3.6242   0.2004   5.0847  13.8825 
+
+Coefficients:
+                        Estimate Std. Error t value Pr(>|t|)   
+(Intercept)           -4.038e+01  2.485e+02  -0.163  0.87118   
+GINI_Index            -1.745e-01  1.357e-01  -1.286  0.20114   
+Education_Expenditure -6.539e-01  7.532e-01  -0.868  0.38713   
+GDP_per_Capita         9.528e-04  3.334e-04   2.858  0.00509 **
+Year                   3.286e-02  1.260e-01   0.261  0.79470   
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 6.517 on 112 degrees of freedom
+Multiple R-squared:  0.1527,	Adjusted R-squared:  0.1224 
+F-statistic: 5.046 on 4 and 112 DF,  p-value: 0.0008923
+

@@ -1,0 +1,10 @@
+---
+title: "GINI and Democratization in LA"
+author: "Egor Balalykin"
+format: html
+editor: visual
+---
+
+## INTRODUCTION
+
+Latin America was a region that began to successfully democratize at the end of the 20th century.

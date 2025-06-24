@@ -1,0 +1,886 @@
+"Country.Name","Country.Code","Indicator.Name","Indicator.Code","Year","GINI_Index","Democratization_Index"
+"Argentina","ARG","Gini index","SI.POV.GINI",1960,NA,24.9
+"Brazil","BRA","Gini index","SI.POV.GINI",1960,NA,10
+"Chile","CHL","Gini index","SI.POV.GINI",1960,NA,11.6
+"Colombia","COL","Gini index","SI.POV.GINI",1960,NA,4.3
+"Costa Rica","CRI","Gini index","SI.POV.GINI",1960,NA,11
+"Ecuador","ECU","Gini index","SI.POV.GINI",1960,NA,9
+"Guatemala","GTM","Gini index","SI.POV.GINI",1960,NA,8.3
+"Honduras","HND","Gini index","SI.POV.GINI",1960,NA,0
+"Mexico","MEX","Gini index","SI.POV.GINI",1960,NA,2.1
+"Nicaragua","NIC","Gini index","SI.POV.GINI",1960,NA,3
+"Panama","PAN","Gini index","SI.POV.GINI",1960,NA,13.4
+"Peru","PER","Gini index","SI.POV.GINI",1960,NA,8.4
+"Paraguay","PRY","Gini index","SI.POV.GINI",1960,NA,0
+"El Salvador","SLV","Gini index","SI.POV.GINI",1960,NA,0
+"Uruguay","URY","Gini index","SI.POV.GINI",1960,NA,20.5
+"Argentina","ARG","Gini index","SI.POV.GINI",1961,NA,24.9
+"Brazil","BRA","Gini index","SI.POV.GINI",1961,NA,10
+"Chile","CHL","Gini index","SI.POV.GINI",1961,NA,11.6
+"Colombia","COL","Gini index","SI.POV.GINI",1961,NA,4.3
+"Costa Rica","CRI","Gini index","SI.POV.GINI",1961,NA,11
+"Ecuador","ECU","Gini index","SI.POV.GINI",1961,NA,9
+"Guatemala","GTM","Gini index","SI.POV.GINI",1961,NA,8.3
+"Honduras","HND","Gini index","SI.POV.GINI",1961,NA,0
+"Mexico","MEX","Gini index","SI.POV.GINI",1961,NA,2.1
+"Nicaragua","NIC","Gini index","SI.POV.GINI",1961,NA,3
+"Panama","PAN","Gini index","SI.POV.GINI",1961,NA,13.4
+"Peru","PER","Gini index","SI.POV.GINI",1961,NA,8.4
+"Paraguay","PRY","Gini index","SI.POV.GINI",1961,NA,0
+"El Salvador","SLV","Gini index","SI.POV.GINI",1961,NA,0
+"Uruguay","URY","Gini index","SI.POV.GINI",1961,NA,20.5
+"Argentina","ARG","Gini index","SI.POV.GINI",1962,NA,0
+"Brazil","BRA","Gini index","SI.POV.GINI",1962,NA,10
+"Chile","CHL","Gini index","SI.POV.GINI",1962,NA,11.6
+"Colombia","COL","Gini index","SI.POV.GINI",1962,NA,6.1
+"Costa Rica","CRI","Gini index","SI.POV.GINI",1962,NA,14.8
+"Ecuador","ECU","Gini index","SI.POV.GINI",1962,NA,9
+"Guatemala","GTM","Gini index","SI.POV.GINI",1962,NA,8.3
+"Honduras","HND","Gini index","SI.POV.GINI",1962,NA,0
+"Mexico","MEX","Gini index","SI.POV.GINI",1962,NA,2.1
+"Nicaragua","NIC","Gini index","SI.POV.GINI",1962,NA,3
+"Panama","PAN","Gini index","SI.POV.GINI",1962,NA,13.4
+"Peru","PER","Gini index","SI.POV.GINI",1962,NA,0
+"Paraguay","PRY","Gini index","SI.POV.GINI",1962,NA,0
+"El Salvador","SLV","Gini index","SI.POV.GINI",1962,NA,1.2
+"Uruguay","URY","Gini index","SI.POV.GINI",1962,NA,26.7
+"Argentina","ARG","Gini index","SI.POV.GINI",1963,NA,29.8
+"Brazil","BRA","Gini index","SI.POV.GINI",1963,NA,12.8
+"Chile","CHL","Gini index","SI.POV.GINI",1963,NA,11.6
+"Colombia","COL","Gini index","SI.POV.GINI",1963,NA,6.1
+"Costa Rica","CRI","Gini index","SI.POV.GINI",1963,NA,14.8
+"Ecuador","ECU","Gini index","SI.POV.GINI",1963,NA,0
+"Guatemala","GTM","Gini index","SI.POV.GINI",1963,NA,0
+"Honduras","HND","Gini index","SI.POV.GINI",1963,NA,0
+"Mexico","MEX","Gini index","SI.POV.GINI",1963,NA,2.1
+"Nicaragua","NIC","Gini index","SI.POV.GINI",1963,NA,2.8
+"Panama","PAN","Gini index","SI.POV.GINI",1963,NA,13.4
+"Peru","PER","Gini index","SI.POV.GINI",1963,NA,11.3
+"Paraguay","PRY","Gini index","SI.POV.GINI",1963,NA,2.5
+"El Salvador","SLV","Gini index","SI.POV.GINI",1963,NA,1.2
+"Uruguay","URY","Gini index","SI.POV.GINI",1963,NA,24
+"Argentina","ARG","Gini index","SI.POV.GINI",1964,NA,29.8
+"Brazil","BRA","Gini index","SI.POV.GINI",1964,NA,0
+"Chile","CHL","Gini index","SI.POV.GINI",1964,NA,13
+"Colombia","COL","Gini index","SI.POV.GINI",1964,NA,6.1
+"Costa Rica","CRI","Gini index","SI.POV.GINI",1964,NA,14.8
+"Ecuador","ECU","Gini index","SI.POV.GINI",1964,NA,0
+"Guatemala","GTM","Gini index","SI.POV.GINI",1964,NA,0
+"Honduras","HND","Gini index","SI.POV.GINI",1964,NA,0
+"Mexico","MEX","Gini index","SI.POV.GINI",1964,NA,2.6
+"Nicaragua","NIC","Gini index","SI.POV.GINI",1964,NA,2.8
+"Panama","PAN","Gini index","SI.POV.GINI",1964,NA,16
+"Peru","PER","Gini index","SI.POV.GINI",1964,NA,11.3
+"Paraguay","PRY","Gini index","SI.POV.GINI",1964,NA,2.5
+"El Salvador","SLV","Gini index","SI.POV.GINI",1964,NA,1.2
+"Uruguay","URY","Gini index","SI.POV.GINI",1964,NA,24
+"Argentina","ARG","Gini index","SI.POV.GINI",1965,NA,29.8
+"Brazil","BRA","Gini index","SI.POV.GINI",1965,NA,0
+"Chile","CHL","Gini index","SI.POV.GINI",1965,NA,13
+"Colombia","COL","Gini index","SI.POV.GINI",1965,NA,6.1
+"Costa Rica","CRI","Gini index","SI.POV.GINI",1965,NA,14.8
+"Ecuador","ECU","Gini index","SI.POV.GINI",1965,NA,0
+"Guatemala","GTM","Gini index","SI.POV.GINI",1965,NA,0
+"Honduras","HND","Gini index","SI.POV.GINI",1965,NA,0
+"Mexico","MEX","Gini index","SI.POV.GINI",1965,NA,2.6
+"Nicaragua","NIC","Gini index","SI.POV.GINI",1965,NA,2.8
+"Panama","PAN","Gini index","SI.POV.GINI",1965,NA,16
+"Peru","PER","Gini index","SI.POV.GINI",1965,NA,11.3
+"Paraguay","PRY","Gini index","SI.POV.GINI",1965,NA,2.5
+"El Salvador","SLV","Gini index","SI.POV.GINI",1965,NA,1.2
+"Uruguay","URY","Gini index","SI.POV.GINI",1965,NA,24
+"Argentina","ARG","Gini index","SI.POV.GINI",1966,NA,0
+"Brazil","BRA","Gini index","SI.POV.GINI",1966,NA,0
+"Chile","CHL","Gini index","SI.POV.GINI",1966,NA,13
+"Colombia","COL","Gini index","SI.POV.GINI",1966,NA,4.1
+"Costa Rica","CRI","Gini index","SI.POV.GINI",1966,NA,14.9
+"Ecuador","ECU","Gini index","SI.POV.GINI",1966,NA,0
+"Guatemala","GTM","Gini index","SI.POV.GINI",1966,NA,7
+"Honduras","HND","Gini index","SI.POV.GINI",1966,NA,0
+"Mexico","MEX","Gini index","SI.POV.GINI",1966,NA,2.6
+"Nicaragua","NIC","Gini index","SI.POV.GINI",1966,NA,2.8
+"Panama","PAN","Gini index","SI.POV.GINI",1966,NA,16
+"Peru","PER","Gini index","SI.POV.GINI",1966,NA,11.3
+"Paraguay","PRY","Gini index","SI.POV.GINI",1966,NA,2.5
+"El Salvador","SLV","Gini index","SI.POV.GINI",1966,NA,1.2
+"Uruguay","URY","Gini index","SI.POV.GINI",1966,NA,25.2
+"Argentina","ARG","Gini index","SI.POV.GINI",1967,NA,0
+"Brazil","BRA","Gini index","SI.POV.GINI",1967,NA,0
+"Chile","CHL","Gini index","SI.POV.GINI",1967,NA,13
+"Colombia","COL","Gini index","SI.POV.GINI",1967,NA,4.1
+"Costa Rica","CRI","Gini index","SI.POV.GINI",1967,NA,14.9
+"Ecuador","ECU","Gini index","SI.POV.GINI",1967,NA,0
+"Guatemala","GTM","Gini index","SI.POV.GINI",1967,NA,7
+"Honduras","HND","Gini index","SI.POV.GINI",1967,NA,0
+"Mexico","MEX","Gini index","SI.POV.GINI",1967,NA,2.6
+"Nicaragua","NIC","Gini index","SI.POV.GINI",1967,NA,9
+"Panama","PAN","Gini index","SI.POV.GINI",1967,NA,16
+"Peru","PER","Gini index","SI.POV.GINI",1967,NA,11.3
+"Paraguay","PRY","Gini index","SI.POV.GINI",1967,NA,2.5
+"El Salvador","SLV","Gini index","SI.POV.GINI",1967,NA,5.7
+"Uruguay","URY","Gini index","SI.POV.GINI",1967,NA,22.7
+"Argentina","ARG","Gini index","SI.POV.GINI",1968,NA,0
+"Brazil","BRA","Gini index","SI.POV.GINI",1968,NA,0
+"Chile","CHL","Gini index","SI.POV.GINI",1968,NA,13
+"Colombia","COL","Gini index","SI.POV.GINI",1968,NA,4.1
+"Costa Rica","CRI","Gini index","SI.POV.GINI",1968,NA,14.9
+"Ecuador","ECU","Gini index","SI.POV.GINI",1968,NA,10.1
+"Guatemala","GTM","Gini index","SI.POV.GINI",1968,NA,7
+"Honduras","HND","Gini index","SI.POV.GINI",1968,NA,0
+"Mexico","MEX","Gini index","SI.POV.GINI",1968,NA,2.6
+"Nicaragua","NIC","Gini index","SI.POV.GINI",1968,NA,9
+"Panama","PAN","Gini index","SI.POV.GINI",1968,NA,0
+"Peru","PER","Gini index","SI.POV.GINI",1968,NA,0
+"Paraguay","PRY","Gini index","SI.POV.GINI",1968,NA,8.4
+"El Salvador","SLV","Gini index","SI.POV.GINI",1968,NA,5.7
+"Uruguay","URY","Gini index","SI.POV.GINI",1968,NA,22.7
+"Argentina","ARG","Gini index","SI.POV.GINI",1969,NA,0
+"Brazil","BRA","Gini index","SI.POV.GINI",1969,NA,0
+"Chile","CHL","Gini index","SI.POV.GINI",1969,NA,13
+"Colombia","COL","Gini index","SI.POV.GINI",1969,NA,4.1
+"Costa Rica","CRI","Gini index","SI.POV.GINI",1969,NA,14.9
+"Ecuador","ECU","Gini index","SI.POV.GINI",1969,NA,10.1
+"Guatemala","GTM","Gini index","SI.POV.GINI",1969,NA,7
+"Honduras","HND","Gini index","SI.POV.GINI",1969,NA,0
+"Mexico","MEX","Gini index","SI.POV.GINI",1969,NA,2.6
+"Nicaragua","NIC","Gini index","SI.POV.GINI",1969,NA,9
+"Panama","PAN","Gini index","SI.POV.GINI",1969,NA,0
+"Peru","PER","Gini index","SI.POV.GINI",1969,NA,0
+"Paraguay","PRY","Gini index","SI.POV.GINI",1969,NA,8.4
+"El Salvador","SLV","Gini index","SI.POV.GINI",1969,NA,5.7
+"Uruguay","URY","Gini index","SI.POV.GINI",1969,NA,22.7
+"Argentina","ARG","Gini index","SI.POV.GINI",1970,NA,0
+"Brazil","BRA","Gini index","SI.POV.GINI",1970,NA,0
+"Chile","CHL","Gini index","SI.POV.GINI",1970,NA,19.8
+"Colombia","COL","Gini index","SI.POV.GINI",1970,NA,11.4
+"Costa Rica","CRI","Gini index","SI.POV.GINI",1970,NA,15.4
+"Ecuador","ECU","Gini index","SI.POV.GINI",1970,NA,0
+"Guatemala","GTM","Gini index","SI.POV.GINI",1970,NA,7.6
+"Honduras","HND","Gini index","SI.POV.GINI",1970,NA,0
+"Mexico","MEX","Gini index","SI.POV.GINI",1970,NA,3.9
+"Nicaragua","NIC","Gini index","SI.POV.GINI",1970,NA,9
+"Panama","PAN","Gini index","SI.POV.GINI",1970,NA,0
+"Peru","PER","Gini index","SI.POV.GINI",1970,NA,0
+"Paraguay","PRY","Gini index","SI.POV.GINI",1970,NA,8.4
+"El Salvador","SLV","Gini index","SI.POV.GINI",1970,NA,5.7
+"Uruguay","URY","Gini index","SI.POV.GINI",1970,NA,22.7
+"Argentina","ARG","Gini index","SI.POV.GINI",1971,NA,0
+"Brazil","BRA","Gini index","SI.POV.GINI",1971,NA,0
+"Chile","CHL","Gini index","SI.POV.GINI",1971,NA,19.8
+"Colombia","COL","Gini index","SI.POV.GINI",1971,NA,11.4
+"Costa Rica","CRI","Gini index","SI.POV.GINI",1971,NA,15.4
+"Ecuador","ECU","Gini index","SI.POV.GINI",1971,NA,0
+"Guatemala","GTM","Gini index","SI.POV.GINI",1971,NA,7.6
+"Honduras","HND","Gini index","SI.POV.GINI",1971,NA,9.9
+"Mexico","MEX","Gini index","SI.POV.GINI",1971,NA,3.9
+"Nicaragua","NIC","Gini index","SI.POV.GINI",1971,NA,9
+"Panama","PAN","Gini index","SI.POV.GINI",1971,NA,0
+"Peru","PER","Gini index","SI.POV.GINI",1971,NA,0
+"Paraguay","PRY","Gini index","SI.POV.GINI",1971,NA,8.4
+"El Salvador","SLV","Gini index","SI.POV.GINI",1971,NA,5.7
+"Uruguay","URY","Gini index","SI.POV.GINI",1971,NA,36.3
+"Argentina","ARG","Gini index","SI.POV.GINI",1972,NA,0
+"Brazil","BRA","Gini index","SI.POV.GINI",1972,NA,0
+"Chile","CHL","Gini index","SI.POV.GINI",1972,NA,19.8
+"Colombia","COL","Gini index","SI.POV.GINI",1972,NA,11.4
+"Costa Rica","CRI","Gini index","SI.POV.GINI",1972,NA,15.4
+"Ecuador","ECU","Gini index","SI.POV.GINI",1972,NA,0
+"Guatemala","GTM","Gini index","SI.POV.GINI",1972,NA,7.6
+"Honduras","HND","Gini index","SI.POV.GINI",1972,NA,0
+"Mexico","MEX","Gini index","SI.POV.GINI",1972,NA,3.9
+"Nicaragua","NIC","Gini index","SI.POV.GINI",1972,NA,0
+"Panama","PAN","Gini index","SI.POV.GINI",1972,NA,0
+"Peru","PER","Gini index","SI.POV.GINI",1972,NA,0
+"Paraguay","PRY","Gini index","SI.POV.GINI",1972,NA,8.4
+"El Salvador","SLV","Gini index","SI.POV.GINI",1972,NA,11.9
+"Uruguay","URY","Gini index","SI.POV.GINI",1972,NA,33.3
+"Argentina","ARG","Gini index","SI.POV.GINI",1973,NA,18.4
+"Brazil","BRA","Gini index","SI.POV.GINI",1973,NA,0
+"Chile","CHL","Gini index","SI.POV.GINI",1973,NA,0
+"Colombia","COL","Gini index","SI.POV.GINI",1973,NA,11.4
+"Costa Rica","CRI","Gini index","SI.POV.GINI",1973,NA,15.4
+"Ecuador","ECU","Gini index","SI.POV.GINI",1973,NA,0
+"Guatemala","GTM","Gini index","SI.POV.GINI",1973,NA,7.6
+"Honduras","HND","Gini index","SI.POV.GINI",1973,NA,0
+"Mexico","MEX","Gini index","SI.POV.GINI",1973,NA,3.9
+"Nicaragua","NIC","Gini index","SI.POV.GINI",1973,NA,0
+"Panama","PAN","Gini index","SI.POV.GINI",1973,NA,0
+"Peru","PER","Gini index","SI.POV.GINI",1973,NA,0
+"Paraguay","PRY","Gini index","SI.POV.GINI",1973,NA,5
+"El Salvador","SLV","Gini index","SI.POV.GINI",1973,NA,11.9
+"Uruguay","URY","Gini index","SI.POV.GINI",1973,NA,0
+"Argentina","ARG","Gini index","SI.POV.GINI",1974,NA,18.4
+"Brazil","BRA","Gini index","SI.POV.GINI",1974,NA,0
+"Chile","CHL","Gini index","SI.POV.GINI",1974,NA,0
+"Colombia","COL","Gini index","SI.POV.GINI",1974,NA,9.9
+"Costa Rica","CRI","Gini index","SI.POV.GINI",1974,NA,20.9
+"Ecuador","ECU","Gini index","SI.POV.GINI",1974,NA,0
+"Guatemala","GTM","Gini index","SI.POV.GINI",1974,NA,6.3
+"Honduras","HND","Gini index","SI.POV.GINI",1974,NA,0
+"Mexico","MEX","Gini index","SI.POV.GINI",1974,NA,3.9
+"Nicaragua","NIC","Gini index","SI.POV.GINI",1974,NA,3.2
+"Panama","PAN","Gini index","SI.POV.GINI",1974,NA,0
+"Peru","PER","Gini index","SI.POV.GINI",1974,NA,0
+"Paraguay","PRY","Gini index","SI.POV.GINI",1974,NA,5
+"El Salvador","SLV","Gini index","SI.POV.GINI",1974,NA,11.9
+"Uruguay","URY","Gini index","SI.POV.GINI",1974,NA,0
+"Argentina","ARG","Gini index","SI.POV.GINI",1975,NA,18.4
+"Brazil","BRA","Gini index","SI.POV.GINI",1975,NA,0
+"Chile","CHL","Gini index","SI.POV.GINI",1975,NA,0
+"Colombia","COL","Gini index","SI.POV.GINI",1975,NA,9.9
+"Costa Rica","CRI","Gini index","SI.POV.GINI",1975,NA,20.9
+"Ecuador","ECU","Gini index","SI.POV.GINI",1975,NA,0
+"Guatemala","GTM","Gini index","SI.POV.GINI",1975,NA,6.3
+"Honduras","HND","Gini index","SI.POV.GINI",1975,NA,0
+"Mexico","MEX","Gini index","SI.POV.GINI",1975,NA,3.9
+"Nicaragua","NIC","Gini index","SI.POV.GINI",1975,NA,3.2
+"Panama","PAN","Gini index","SI.POV.GINI",1975,NA,0
+"Peru","PER","Gini index","SI.POV.GINI",1975,NA,0
+"Paraguay","PRY","Gini index","SI.POV.GINI",1975,NA,5
+"El Salvador","SLV","Gini index","SI.POV.GINI",1975,NA,11.9
+"Uruguay","URY","Gini index","SI.POV.GINI",1975,NA,0
+"Argentina","ARG","Gini index","SI.POV.GINI",1976,NA,0
+"Brazil","BRA","Gini index","SI.POV.GINI",1976,NA,0
+"Chile","CHL","Gini index","SI.POV.GINI",1976,NA,0
+"Colombia","COL","Gini index","SI.POV.GINI",1976,NA,9.9
+"Costa Rica","CRI","Gini index","SI.POV.GINI",1976,NA,20.9
+"Ecuador","ECU","Gini index","SI.POV.GINI",1976,NA,0
+"Guatemala","GTM","Gini index","SI.POV.GINI",1976,NA,6.3
+"Honduras","HND","Gini index","SI.POV.GINI",1976,NA,0
+"Mexico","MEX","Gini index","SI.POV.GINI",1976,NA,1.7
+"Nicaragua","NIC","Gini index","SI.POV.GINI",1976,NA,3.2
+"Panama","PAN","Gini index","SI.POV.GINI",1976,NA,0
+"Peru","PER","Gini index","SI.POV.GINI",1976,NA,0
+"Paraguay","PRY","Gini index","SI.POV.GINI",1976,NA,5
+"El Salvador","SLV","Gini index","SI.POV.GINI",1976,NA,11.9
+"Uruguay","URY","Gini index","SI.POV.GINI",1976,NA,0
+"Argentina","ARG","Gini index","SI.POV.GINI",1977,NA,0
+"Brazil","BRA","Gini index","SI.POV.GINI",1977,NA,0
+"Chile","CHL","Gini index","SI.POV.GINI",1977,NA,0
+"Colombia","COL","Gini index","SI.POV.GINI",1977,NA,9.9
+"Costa Rica","CRI","Gini index","SI.POV.GINI",1977,NA,20.9
+"Ecuador","ECU","Gini index","SI.POV.GINI",1977,NA,0
+"Guatemala","GTM","Gini index","SI.POV.GINI",1977,NA,6.3
+"Honduras","HND","Gini index","SI.POV.GINI",1977,NA,0
+"Mexico","MEX","Gini index","SI.POV.GINI",1977,NA,1.7
+"Nicaragua","NIC","Gini index","SI.POV.GINI",1977,NA,3.2
+"Panama","PAN","Gini index","SI.POV.GINI",1977,NA,0
+"Peru","PER","Gini index","SI.POV.GINI",1977,NA,0
+"Paraguay","PRY","Gini index","SI.POV.GINI",1977,NA,5
+"El Salvador","SLV","Gini index","SI.POV.GINI",1977,NA,9.3
+"Uruguay","URY","Gini index","SI.POV.GINI",1977,NA,0
+"Argentina","ARG","Gini index","SI.POV.GINI",1978,NA,0
+"Brazil","BRA","Gini index","SI.POV.GINI",1978,NA,0
+"Chile","CHL","Gini index","SI.POV.GINI",1978,NA,0
+"Colombia","COL","Gini index","SI.POV.GINI",1978,NA,9.9
+"Costa Rica","CRI","Gini index","SI.POV.GINI",1978,NA,20.7
+"Ecuador","ECU","Gini index","SI.POV.GINI",1978,NA,0
+"Guatemala","GTM","Gini index","SI.POV.GINI",1978,NA,5.9
+"Honduras","HND","Gini index","SI.POV.GINI",1978,NA,0
+"Mexico","MEX","Gini index","SI.POV.GINI",1978,NA,1.7
+"Nicaragua","NIC","Gini index","SI.POV.GINI",1978,NA,3.2
+"Panama","PAN","Gini index","SI.POV.GINI",1978,NA,0
+"Peru","PER","Gini index","SI.POV.GINI",1978,NA,0
+"Paraguay","PRY","Gini index","SI.POV.GINI",1978,NA,3.6
+"El Salvador","SLV","Gini index","SI.POV.GINI",1978,NA,9.3
+"Uruguay","URY","Gini index","SI.POV.GINI",1978,NA,0
+"Argentina","ARG","Gini index","SI.POV.GINI",1979,NA,0
+"Brazil","BRA","Gini index","SI.POV.GINI",1979,NA,0
+"Chile","CHL","Gini index","SI.POV.GINI",1979,NA,0
+"Colombia","COL","Gini index","SI.POV.GINI",1979,NA,9.9
+"Costa Rica","CRI","Gini index","SI.POV.GINI",1979,NA,20.7
+"Ecuador","ECU","Gini index","SI.POV.GINI",1979,NA,5.8
+"Guatemala","GTM","Gini index","SI.POV.GINI",1979,NA,5.9
+"Honduras","HND","Gini index","SI.POV.GINI",1979,NA,0
+"Mexico","MEX","Gini index","SI.POV.GINI",1979,NA,1.7
+"Nicaragua","NIC","Gini index","SI.POV.GINI",1979,NA,0
+"Panama","PAN","Gini index","SI.POV.GINI",1979,48.7,0
+"Peru","PER","Gini index","SI.POV.GINI",1979,NA,0
+"Paraguay","PRY","Gini index","SI.POV.GINI",1979,NA,3.6
+"El Salvador","SLV","Gini index","SI.POV.GINI",1979,NA,0
+"Uruguay","URY","Gini index","SI.POV.GINI",1979,NA,0
+"Argentina","ARG","Gini index","SI.POV.GINI",1980,40.8,0
+"Brazil","BRA","Gini index","SI.POV.GINI",1980,NA,0
+"Chile","CHL","Gini index","SI.POV.GINI",1980,NA,0
+"Colombia","COL","Gini index","SI.POV.GINI",1980,55.1,9.9
+"Costa Rica","CRI","Gini index","SI.POV.GINI",1980,NA,20.7
+"Ecuador","ECU","Gini index","SI.POV.GINI",1980,NA,5.8
+"Guatemala","GTM","Gini index","SI.POV.GINI",1980,NA,5.9
+"Honduras","HND","Gini index","SI.POV.GINI",1980,NA,0
+"Mexico","MEX","Gini index","SI.POV.GINI",1980,NA,1.7
+"Nicaragua","NIC","Gini index","SI.POV.GINI",1980,NA,0
+"Panama","PAN","Gini index","SI.POV.GINI",1980,49.69,0
+"Peru","PER","Gini index","SI.POV.GINI",1980,NA,13
+"Paraguay","PRY","Gini index","SI.POV.GINI",1980,NA,3.6
+"El Salvador","SLV","Gini index","SI.POV.GINI",1980,NA,0
+"Uruguay","URY","Gini index","SI.POV.GINI",1980,NA,0
+"Argentina","ARG","Gini index","SI.POV.GINI",1981,41.1333333333333,0
+"Brazil","BRA","Gini index","SI.POV.GINI",1981,57.9,0
+"Chile","CHL","Gini index","SI.POV.GINI",1981,NA,0
+"Colombia","COL","Gini index","SI.POV.GINI",1981,54.85,9.9
+"Costa Rica","CRI","Gini index","SI.POV.GINI",1981,47.5,20.7
+"Ecuador","ECU","Gini index","SI.POV.GINI",1981,NA,5.8
+"Guatemala","GTM","Gini index","SI.POV.GINI",1981,NA,5.9
+"Honduras","HND","Gini index","SI.POV.GINI",1981,NA,14.2
+"Mexico","MEX","Gini index","SI.POV.GINI",1981,NA,1.7
+"Nicaragua","NIC","Gini index","SI.POV.GINI",1981,NA,0
+"Panama","PAN","Gini index","SI.POV.GINI",1981,50.68,0
+"Peru","PER","Gini index","SI.POV.GINI",1981,NA,13
+"Paraguay","PRY","Gini index","SI.POV.GINI",1981,NA,3.6
+"El Salvador","SLV","Gini index","SI.POV.GINI",1981,NA,0
+"Uruguay","URY","Gini index","SI.POV.GINI",1981,43.6,0
+"Argentina","ARG","Gini index","SI.POV.GINI",1982,41.4666666666667,0
+"Brazil","BRA","Gini index","SI.POV.GINI",1982,58.4,0
+"Chile","CHL","Gini index","SI.POV.GINI",1982,NA,0
+"Colombia","COL","Gini index","SI.POV.GINI",1982,54.6,13.5
+"Costa Rica","CRI","Gini index","SI.POV.GINI",1982,44.88,18.2
+"Ecuador","ECU","Gini index","SI.POV.GINI",1982,NA,5.8
+"Guatemala","GTM","Gini index","SI.POV.GINI",1982,NA,0
+"Honduras","HND","Gini index","SI.POV.GINI",1982,NA,14.2
+"Mexico","MEX","Gini index","SI.POV.GINI",1982,NA,7.9
+"Nicaragua","NIC","Gini index","SI.POV.GINI",1982,NA,0
+"Panama","PAN","Gini index","SI.POV.GINI",1982,51.67,0
+"Peru","PER","Gini index","SI.POV.GINI",1982,NA,13
+"Paraguay","PRY","Gini index","SI.POV.GINI",1982,NA,3.6
+"El Salvador","SLV","Gini index","SI.POV.GINI",1982,NA,0
+"Uruguay","URY","Gini index","SI.POV.GINI",1982,43.45,0
+"Argentina","ARG","Gini index","SI.POV.GINI",1983,41.8,25.1
+"Brazil","BRA","Gini index","SI.POV.GINI",1983,58.9,0
+"Chile","CHL","Gini index","SI.POV.GINI",1983,NA,0
+"Colombia","COL","Gini index","SI.POV.GINI",1983,54.35,13.5
+"Costa Rica","CRI","Gini index","SI.POV.GINI",1983,42.26,18.2
+"Ecuador","ECU","Gini index","SI.POV.GINI",1983,NA,5.8
+"Guatemala","GTM","Gini index","SI.POV.GINI",1983,NA,0
+"Honduras","HND","Gini index","SI.POV.GINI",1983,NA,14.2
+"Mexico","MEX","Gini index","SI.POV.GINI",1983,NA,7.9
+"Nicaragua","NIC","Gini index","SI.POV.GINI",1983,NA,0
+"Panama","PAN","Gini index","SI.POV.GINI",1983,52.66,0
+"Peru","PER","Gini index","SI.POV.GINI",1983,NA,13
+"Paraguay","PRY","Gini index","SI.POV.GINI",1983,NA,2.9
+"El Salvador","SLV","Gini index","SI.POV.GINI",1983,NA,0
+"Uruguay","URY","Gini index","SI.POV.GINI",1983,43.3,0
+"Argentina","ARG","Gini index","SI.POV.GINI",1984,42.1333333333333,27.7
+"Brazil","BRA","Gini index","SI.POV.GINI",1984,58.3,0
+"Chile","CHL","Gini index","SI.POV.GINI",1984,NA,0
+"Colombia","COL","Gini index","SI.POV.GINI",1984,54.1,13.5
+"Costa Rica","CRI","Gini index","SI.POV.GINI",1984,39.64,18.2
+"Ecuador","ECU","Gini index","SI.POV.GINI",1984,NA,12.8
+"Guatemala","GTM","Gini index","SI.POV.GINI",1984,NA,0
+"Honduras","HND","Gini index","SI.POV.GINI",1984,NA,14.2
+"Mexico","MEX","Gini index","SI.POV.GINI",1984,NA,7.9
+"Nicaragua","NIC","Gini index","SI.POV.GINI",1984,NA,11.5
+"Panama","PAN","Gini index","SI.POV.GINI",1984,53.65,16
+"Peru","PER","Gini index","SI.POV.GINI",1984,NA,13
+"Paraguay","PRY","Gini index","SI.POV.GINI",1984,NA,2.9
+"El Salvador","SLV","Gini index","SI.POV.GINI",1984,NA,13.6
+"Uruguay","URY","Gini index","SI.POV.GINI",1984,43.15,37.1
+"Argentina","ARG","Gini index","SI.POV.GINI",1985,42.4666666666667,25.1
+"Brazil","BRA","Gini index","SI.POV.GINI",1985,55.5,0
+"Chile","CHL","Gini index","SI.POV.GINI",1985,NA,0
+"Colombia","COL","Gini index","SI.POV.GINI",1985,53.85,13.5
+"Costa Rica","CRI","Gini index","SI.POV.GINI",1985,37.02,18.2
+"Ecuador","ECU","Gini index","SI.POV.GINI",1985,NA,12.8
+"Guatemala","GTM","Gini index","SI.POV.GINI",1985,NA,6.6
+"Honduras","HND","Gini index","SI.POV.GINI",1985,NA,17.2
+"Mexico","MEX","Gini index","SI.POV.GINI",1985,NA,7.9
+"Nicaragua","NIC","Gini index","SI.POV.GINI",1985,NA,11.5
+"Panama","PAN","Gini index","SI.POV.GINI",1985,54.64,16
+"Peru","PER","Gini index","SI.POV.GINI",1985,NA,15.5
+"Paraguay","PRY","Gini index","SI.POV.GINI",1985,NA,2.9
+"El Salvador","SLV","Gini index","SI.POV.GINI",1985,NA,13.6
+"Uruguay","URY","Gini index","SI.POV.GINI",1985,43,37.1
+"Argentina","ARG","Gini index","SI.POV.GINI",1986,42.8,25.1
+"Brazil","BRA","Gini index","SI.POV.GINI",1986,58.4,0
+"Chile","CHL","Gini index","SI.POV.GINI",1986,NA,0
+"Colombia","COL","Gini index","SI.POV.GINI",1986,53.6,10.3
+"Costa Rica","CRI","Gini index","SI.POV.GINI",1986,34.4,21.2
+"Ecuador","ECU","Gini index","SI.POV.GINI",1986,NA,15.2
+"Guatemala","GTM","Gini index","SI.POV.GINI",1986,54.1,6.6
+"Honduras","HND","Gini index","SI.POV.GINI",1986,NA,17.2
+"Mexico","MEX","Gini index","SI.POV.GINI",1986,NA,7.9
+"Nicaragua","NIC","Gini index","SI.POV.GINI",1986,NA,11.5
+"Panama","PAN","Gini index","SI.POV.GINI",1986,55.63,16
+"Peru","PER","Gini index","SI.POV.GINI",1986,NA,15.5
+"Paraguay","PRY","Gini index","SI.POV.GINI",1986,NA,2.9
+"El Salvador","SLV","Gini index","SI.POV.GINI",1986,NA,13.6
+"Uruguay","URY","Gini index","SI.POV.GINI",1986,42.85,37.1
+"Argentina","ARG","Gini index","SI.POV.GINI",1987,45.3,25.1
+"Brazil","BRA","Gini index","SI.POV.GINI",1987,59.6,0
+"Chile","CHL","Gini index","SI.POV.GINI",1987,56.2,0
+"Colombia","COL","Gini index","SI.POV.GINI",1987,53.35,10.3
+"Costa Rica","CRI","Gini index","SI.POV.GINI",1987,38.1,21.2
+"Ecuador","ECU","Gini index","SI.POV.GINI",1987,50.5,12.8
+"Guatemala","GTM","Gini index","SI.POV.GINI",1987,55.6666666666667,6.6
+"Honduras","HND","Gini index","SI.POV.GINI",1987,NA,17.2
+"Mexico","MEX","Gini index","SI.POV.GINI",1987,NA,7.9
+"Nicaragua","NIC","Gini index","SI.POV.GINI",1987,NA,11.5
+"Panama","PAN","Gini index","SI.POV.GINI",1987,56.62,16
+"Peru","PER","Gini index","SI.POV.GINI",1987,NA,15.5
+"Paraguay","PRY","Gini index","SI.POV.GINI",1987,NA,2.9
+"El Salvador","SLV","Gini index","SI.POV.GINI",1987,NA,13.6
+"Uruguay","URY","Gini index","SI.POV.GINI",1987,42.7,40
+"Argentina","ARG","Gini index","SI.POV.GINI",1988,45.675,25.1
+"Brazil","BRA","Gini index","SI.POV.GINI",1988,61.4,7.8
+"Chile","CHL","Gini index","SI.POV.GINI",1988,56.5333333333333,0
+"Colombia","COL","Gini index","SI.POV.GINI",1988,53.1,10.3
+"Costa Rica","CRI","Gini index","SI.POV.GINI",1988,41.8,21.2
+"Ecuador","ECU","Gini index","SI.POV.GINI",1988,50.9,14.8
+"Guatemala","GTM","Gini index","SI.POV.GINI",1988,57.2333333333333,6.6
+"Honduras","HND","Gini index","SI.POV.GINI",1988,NA,17.2
+"Mexico","MEX","Gini index","SI.POV.GINI",1988,NA,11.4
+"Nicaragua","NIC","Gini index","SI.POV.GINI",1988,NA,11.5
+"Panama","PAN","Gini index","SI.POV.GINI",1988,57.61,0
+"Peru","PER","Gini index","SI.POV.GINI",1988,NA,15.5
+"Paraguay","PRY","Gini index","SI.POV.GINI",1988,NA,3.5
+"El Salvador","SLV","Gini index","SI.POV.GINI",1988,NA,13.6
+"Uruguay","URY","Gini index","SI.POV.GINI",1988,42.55,37.1
+"Argentina","ARG","Gini index","SI.POV.GINI",1989,46.05,27.3
+"Brazil","BRA","Gini index","SI.POV.GINI",1989,63.2,20.8
+"Chile","CHL","Gini index","SI.POV.GINI",1989,56.8666666666667,26.5
+"Colombia","COL","Gini index","SI.POV.GINI",1989,52.8,10.3
+"Costa Rica","CRI","Gini index","SI.POV.GINI",1989,45.5,21.2
+"Ecuador","ECU","Gini index","SI.POV.GINI",1989,51.3,14.8
+"Guatemala","GTM","Gini index","SI.POV.GINI",1989,58.8,6.6
+"Honduras","HND","Gini index","SI.POV.GINI",1989,55.4,17.8
+"Mexico","MEX","Gini index","SI.POV.GINI",1989,50.1,11.4
+"Nicaragua","NIC","Gini index","SI.POV.GINI",1989,NA,11.5
+"Panama","PAN","Gini index","SI.POV.GINI",1989,58.6,17.2
+"Peru","PER","Gini index","SI.POV.GINI",1989,NA,15.5
+"Paraguay","PRY","Gini index","SI.POV.GINI",1989,NA,6.9
+"El Salvador","SLV","Gini index","SI.POV.GINI",1989,48.7,8.4
+"Uruguay","URY","Gini index","SI.POV.GINI",1989,42.4,43.5
+"Argentina","ARG","Gini index","SI.POV.GINI",1990,46.425,27.3
+"Brazil","BRA","Gini index","SI.POV.GINI",1990,60.4,21.8
+"Chile","CHL","Gini index","SI.POV.GINI",1990,57.2,24.2
+"Colombia","COL","Gini index","SI.POV.GINI",1990,52.05,12.3
+"Costa Rica","CRI","Gini index","SI.POV.GINI",1990,45.2,24
+"Ecuador","ECU","Gini index","SI.POV.GINI",1990,51.7,14.8
+"Guatemala","GTM","Gini index","SI.POV.GINI",1990,57.7555555555556,5.4
+"Honduras","HND","Gini index","SI.POV.GINI",1990,55.9,17.8
+"Mexico","MEX","Gini index","SI.POV.GINI",1990,50.8333333333333,11.4
+"Nicaragua","NIC","Gini index","SI.POV.GINI",1990,NA,16.6
+"Panama","PAN","Gini index","SI.POV.GINI",1990,58.3,17.2
+"Peru","PER","Gini index","SI.POV.GINI",1990,NA,12.6
+"Paraguay","PRY","Gini index","SI.POV.GINI",1990,40.8,6.9
+"El Salvador","SLV","Gini index","SI.POV.GINI",1990,51.25,8.4
+"Uruguay","URY","Gini index","SI.POV.GINI",1990,42.1,40.3
+"Argentina","ARG","Gini index","SI.POV.GINI",1991,46.8,27.3
+"Brazil","BRA","Gini index","SI.POV.GINI",1991,56.75,21.8
+"Chile","CHL","Gini index","SI.POV.GINI",1991,56,24.2
+"Colombia","COL","Gini index","SI.POV.GINI",1991,51.3,9.7
+"Costa Rica","CRI","Gini index","SI.POV.GINI",1991,46.6,24
+"Ecuador","ECU","Gini index","SI.POV.GINI",1991,52.1,14.8
+"Guatemala","GTM","Gini index","SI.POV.GINI",1991,56.7111111111111,5.4
+"Honduras","HND","Gini index","SI.POV.GINI",1991,51.8,17.8
+"Mexico","MEX","Gini index","SI.POV.GINI",1991,51.5666666666667,11.4
+"Nicaragua","NIC","Gini index","SI.POV.GINI",1991,NA,16.6
+"Panama","PAN","Gini index","SI.POV.GINI",1991,58,17.2
+"Peru","PER","Gini index","SI.POV.GINI",1991,NA,12.6
+"Paraguay","PRY","Gini index","SI.POV.GINI",1991,44.26,6.9
+"El Salvador","SLV","Gini index","SI.POV.GINI",1991,53.8,8.4
+"Uruguay","URY","Gini index","SI.POV.GINI",1991,41.8,40.3
+"Argentina","ARG","Gini index","SI.POV.GINI",1992,45.5,27.3
+"Brazil","BRA","Gini index","SI.POV.GINI",1992,53.1,21.8
+"Chile","CHL","Gini index","SI.POV.GINI",1992,54.8,24.2
+"Colombia","COL","Gini index","SI.POV.GINI",1992,51.4,9.7
+"Costa Rica","CRI","Gini index","SI.POV.GINI",1992,45.6,24
+"Ecuador","ECU","Gini index","SI.POV.GINI",1992,52.5,14.7
+"Guatemala","GTM","Gini index","SI.POV.GINI",1992,55.6666666666667,5.4
+"Honduras","HND","Gini index","SI.POV.GINI",1992,51.8,17.8
+"Mexico","MEX","Gini index","SI.POV.GINI",1992,52.3,11.4
+"Nicaragua","NIC","Gini index","SI.POV.GINI",1992,NA,16.6
+"Panama","PAN","Gini index","SI.POV.GINI",1992,57.925,17.2
+"Peru","PER","Gini index","SI.POV.GINI",1992,NA,12.6
+"Paraguay","PRY","Gini index","SI.POV.GINI",1992,47.72,6.9
+"El Salvador","SLV","Gini index","SI.POV.GINI",1992,52.8,8.4
+"Uruguay","URY","Gini index","SI.POV.GINI",1992,41.5,43.5
+"Argentina","ARG","Gini index","SI.POV.GINI",1993,44.8,27.3
+"Brazil","BRA","Gini index","SI.POV.GINI",1993,60.1,25
+"Chile","CHL","Gini index","SI.POV.GINI",1993,55.6,21.5
+"Colombia","COL","Gini index","SI.POV.GINI",1993,52.75,9.7
+"Costa Rica","CRI","Gini index","SI.POV.GINI",1993,45.9,24
+"Ecuador","ECU","Gini index","SI.POV.GINI",1993,52.9,14.7
+"Guatemala","GTM","Gini index","SI.POV.GINI",1993,54.6222222222222,0
+"Honduras","HND","Gini index","SI.POV.GINI",1993,53.4,14.4
+"Mexico","MEX","Gini index","SI.POV.GINI",1993,52.85,11.4
+"Nicaragua","NIC","Gini index","SI.POV.GINI",1993,57.1,16.6
+"Panama","PAN","Gini index","SI.POV.GINI",1993,57.85,17.2
+"Peru","PER","Gini index","SI.POV.GINI",1993,NA,14.4
+"Paraguay","PRY","Gini index","SI.POV.GINI",1993,51.18,10.9
+"El Salvador","SLV","Gini index","SI.POV.GINI",1993,51.8,8.4
+"Uruguay","URY","Gini index","SI.POV.GINI",1993,41.3,40.3
+"Argentina","ARG","Gini index","SI.POV.GINI",1994,45.9,27.3
+"Brazil","BRA","Gini index","SI.POV.GINI",1994,59.8,25.7
+"Chile","CHL","Gini index","SI.POV.GINI",1994,56.4,21.5
+"Colombia","COL","Gini index","SI.POV.GINI",1994,54.1,10.3
+"Costa Rica","CRI","Gini index","SI.POV.GINI",1994,46.7,25.6
+"Ecuador","ECU","Gini index","SI.POV.GINI",1994,53.3,14.7
+"Guatemala","GTM","Gini index","SI.POV.GINI",1994,53.5777777777778,0.4
+"Honduras","HND","Gini index","SI.POV.GINI",1994,55,14.4
+"Mexico","MEX","Gini index","SI.POV.GINI",1994,53.4,19.8
+"Nicaragua","NIC","Gini index","SI.POV.GINI",1994,56.56,16.6
+"Panama","PAN","Gini index","SI.POV.GINI",1994,57.775,28.5
+"Peru","PER","Gini index","SI.POV.GINI",1994,NA,12.6
+"Paraguay","PRY","Gini index","SI.POV.GINI",1994,54.64,10.9
+"El Salvador","SLV","Gini index","SI.POV.GINI",1994,50.8,9.7
+"Uruguay","URY","Gini index","SI.POV.GINI",1994,41.1,45.9
+"Argentina","ARG","Gini index","SI.POV.GINI",1995,48.9,25.3
+"Brazil","BRA","Gini index","SI.POV.GINI",1995,59.5,25.7
+"Chile","CHL","Gini index","SI.POV.GINI",1995,55.65,21.5
+"Colombia","COL","Gini index","SI.POV.GINI",1995,55.45,10.3
+"Costa Rica","CRI","Gini index","SI.POV.GINI",1995,45.7,25.6
+"Ecuador","ECU","Gini index","SI.POV.GINI",1995,50.8,16.8
+"Guatemala","GTM","Gini index","SI.POV.GINI",1995,52.5333333333333,0
+"Honduras","HND","Gini index","SI.POV.GINI",1995,55.5,14.4
+"Mexico","MEX","Gini index","SI.POV.GINI",1995,52.7,19.8
+"Nicaragua","NIC","Gini index","SI.POV.GINI",1995,56.02,16.6
+"Panama","PAN","Gini index","SI.POV.GINI",1995,57.7,28.5
+"Peru","PER","Gini index","SI.POV.GINI",1995,NA,11.2
+"Paraguay","PRY","Gini index","SI.POV.GINI",1995,58.1,10.9
+"El Salvador","SLV","Gini index","SI.POV.GINI",1995,49.8,9.7
+"Uruguay","URY","Gini index","SI.POV.GINI",1995,40.9,42.5
+"Argentina","ARG","Gini index","SI.POV.GINI",1996,49.5,25.3
+"Brazil","BRA","Gini index","SI.POV.GINI",1996,59.8,25.7
+"Chile","CHL","Gini index","SI.POV.GINI",1996,54.9,21.5
+"Colombia","COL","Gini index","SI.POV.GINI",1996,56.8,10.3
+"Costa Rica","CRI","Gini index","SI.POV.GINI",1996,46.5,25.6
+"Ecuador","ECU","Gini index","SI.POV.GINI",1996,50.4,16.5
+"Guatemala","GTM","Gini index","SI.POV.GINI",1996,51.4888888888889,5.9
+"Honduras","HND","Gini index","SI.POV.GINI",1996,55.7,14.4
+"Mexico","MEX","Gini index","SI.POV.GINI",1996,52,19.8
+"Nicaragua","NIC","Gini index","SI.POV.GINI",1996,55.48,18.5
+"Panama","PAN","Gini index","SI.POV.GINI",1996,57.9,28.5
+"Peru","PER","Gini index","SI.POV.GINI",1996,NA,11.2
+"Paraguay","PRY","Gini index","SI.POV.GINI",1996,56.5,10.9
+"El Salvador","SLV","Gini index","SI.POV.GINI",1996,51,9.7
+"Uruguay","URY","Gini index","SI.POV.GINI",1996,40.8,42.5
+"Argentina","ARG","Gini index","SI.POV.GINI",1997,49.1,25.3
+"Brazil","BRA","Gini index","SI.POV.GINI",1997,59.8,25.7
+"Chile","CHL","Gini index","SI.POV.GINI",1997,55.2,21.5
+"Colombia","COL","Gini index","SI.POV.GINI",1997,57.3666666666667,10.3
+"Costa Rica","CRI","Gini index","SI.POV.GINI",1997,45.6,25.6
+"Ecuador","ECU","Gini index","SI.POV.GINI",1997,50,18.7
+"Guatemala","GTM","Gini index","SI.POV.GINI",1997,50.4444444444444,5.9
+"Honduras","HND","Gini index","SI.POV.GINI",1997,52.7,15.6
+"Mexico","MEX","Gini index","SI.POV.GINI",1997,52.65,19.8
+"Nicaragua","NIC","Gini index","SI.POV.GINI",1997,54.94,18.9
+"Panama","PAN","Gini index","SI.POV.GINI",1997,58.1,28.5
+"Peru","PER","Gini index","SI.POV.GINI",1997,53.3,11.2
+"Paraguay","PRY","Gini index","SI.POV.GINI",1997,54.9,10.9
+"El Salvador","SLV","Gini index","SI.POV.GINI",1997,52.7,16.5
+"Uruguay","URY","Gini index","SI.POV.GINI",1997,41.5,42.5
+"Argentina","ARG","Gini index","SI.POV.GINI",1998,50.7,25.3
+"Brazil","BRA","Gini index","SI.POV.GINI",1998,59.6,27.4
+"Chile","CHL","Gini index","SI.POV.GINI",1998,55.5,21.5
+"Colombia","COL","Gini index","SI.POV.GINI",1998,57.9333333333333,17.2
+"Costa Rica","CRI","Gini index","SI.POV.GINI",1998,45.6,20.9
+"Ecuador","ECU","Gini index","SI.POV.GINI",1998,49.6,14.2
+"Guatemala","GTM","Gini index","SI.POV.GINI",1998,49.4,5.9
+"Honduras","HND","Gini index","SI.POV.GINI",1998,57.3,15.6
+"Mexico","MEX","Gini index","SI.POV.GINI",1998,53.3,19.8
+"Nicaragua","NIC","Gini index","SI.POV.GINI",1998,54.4,18.9
+"Panama","PAN","Gini index","SI.POV.GINI",1998,57.4,31.9
+"Peru","PER","Gini index","SI.POV.GINI",1998,55.1,11.2
+"Paraguay","PRY","Gini index","SI.POV.GINI",1998,54.75,14.1
+"El Salvador","SLV","Gini index","SI.POV.GINI",1998,54.4,16.5
+"Uruguay","URY","Gini index","SI.POV.GINI",1998,42.5,42.5
+"Argentina","ARG","Gini index","SI.POV.GINI",1999,49.8,26.1
+"Brazil","BRA","Gini index","SI.POV.GINI",1999,59,27.4
+"Chile","CHL","Gini index","SI.POV.GINI",1999,54.15,21.5
+"Colombia","COL","Gini index","SI.POV.GINI",1999,58.5,14.8
+"Costa Rica","CRI","Gini index","SI.POV.GINI",1999,47.6,20.9
+"Ecuador","ECU","Gini index","SI.POV.GINI",1999,58.6,14.2
+"Guatemala","GTM","Gini index","SI.POV.GINI",1999,51.8,7.7
+"Honduras","HND","Gini index","SI.POV.GINI",1999,55.2,15.6
+"Mexico","MEX","Gini index","SI.POV.GINI",1999,53.35,19.8
+"Nicaragua","NIC","Gini index","SI.POV.GINI",1999,53.9,18.9
+"Panama","PAN","Gini index","SI.POV.GINI",1999,56.4,25
+"Peru","PER","Gini index","SI.POV.GINI",1999,54.8,11.2
+"Paraguay","PRY","Gini index","SI.POV.GINI",1999,54.6,0
+"El Salvador","SLV","Gini index","SI.POV.GINI",1999,52.1,18.5
+"Uruguay","URY","Gini index","SI.POV.GINI",1999,42.7,30.8
+"Argentina","ARG","Gini index","SI.POV.GINI",2000,51,26.1
+"Brazil","BRA","Gini index","SI.POV.GINI",2000,58.7,27.4
+"Chile","CHL","Gini index","SI.POV.GINI",2000,52.8,23
+"Colombia","COL","Gini index","SI.POV.GINI",2000,58.4,14.8
+"Costa Rica","CRI","Gini index","SI.POV.GINI",2000,47.4,20.9
+"Ecuador","ECU","Gini index","SI.POV.GINI",2000,56.3,14.2
+"Guatemala","GTM","Gini index","SI.POV.GINI",2000,54.2,6.1
+"Honduras","HND","Gini index","SI.POV.GINI",2000,55.3,15.6
+"Mexico","MEX","Gini index","SI.POV.GINI",2000,53.4,21.2
+"Nicaragua","NIC","Gini index","SI.POV.GINI",2000,53.4,18.9
+"Panama","PAN","Gini index","SI.POV.GINI",2000,56.6,25
+"Peru","PER","Gini index","SI.POV.GINI",2000,49.1,8.5
+"Paraguay","PRY","Gini index","SI.POV.GINI",2000,54.6,11
+"El Salvador","SLV","Gini index","SI.POV.GINI",2000,51.5,10.7
+"Uruguay","URY","Gini index","SI.POV.GINI",2000,42.9,30.8
+"Argentina","ARG","Gini index","SI.POV.GINI",2001,53.3,26.1
+"Brazil","BRA","Gini index","SI.POV.GINI",2001,58.4,27.4
+"Chile","CHL","Gini index","SI.POV.GINI",2001,52.3666666666667,23
+"Colombia","COL","Gini index","SI.POV.GINI",2001,57.3,14.8
+"Costa Rica","CRI","Gini index","SI.POV.GINI",2001,51.5,20.9
+"Ecuador","ECU","Gini index","SI.POV.GINI",2001,55.3666666666667,14.2
+"Guatemala","GTM","Gini index","SI.POV.GINI",2001,54.2666666666667,6.1
+"Honduras","HND","Gini index","SI.POV.GINI",2001,55.4,15.3
+"Mexico","MEX","Gini index","SI.POV.GINI",2001,52,21.2
+"Nicaragua","NIC","Gini index","SI.POV.GINI",2001,52.9,18.2
+"Panama","PAN","Gini index","SI.POV.GINI",2001,56.7,25
+"Peru","PER","Gini index","SI.POV.GINI",2001,51.3,18.9
+"Paraguay","PRY","Gini index","SI.POV.GINI",2001,54.6,11
+"El Salvador","SLV","Gini index","SI.POV.GINI",2001,51.3,10.7
+"Uruguay","URY","Gini index","SI.POV.GINI",2001,45,30.8
+"Argentina","ARG","Gini index","SI.POV.GINI",2002,53.8,26.1
+"Brazil","BRA","Gini index","SI.POV.GINI",2002,58.1,27
+"Chile","CHL","Gini index","SI.POV.GINI",2002,51.9333333333333,23
+"Colombia","COL","Gini index","SI.POV.GINI",2002,56,12.1
+"Costa Rica","CRI","Gini index","SI.POV.GINI",2002,51.8,15.4
+"Ecuador","ECU","Gini index","SI.POV.GINI",2002,54.4333333333333,17.5
+"Guatemala","GTM","Gini index","SI.POV.GINI",2002,54.3333333333333,6.1
+"Honduras","HND","Gini index","SI.POV.GINI",2002,55.7,15.3
+"Mexico","MEX","Gini index","SI.POV.GINI",2002,50.6,21.2
+"Nicaragua","NIC","Gini index","SI.POV.GINI",2002,51.875,18.2
+"Panama","PAN","Gini index","SI.POV.GINI",2002,56.1,25
+"Peru","PER","Gini index","SI.POV.GINI",2002,53.6,18.9
+"Paraguay","PRY","Gini index","SI.POV.GINI",2002,57.3,11
+"El Salvador","SLV","Gini index","SI.POV.GINI",2002,51.9,10.7
+"Uruguay","URY","Gini index","SI.POV.GINI",2002,45.5,30.8
+"Argentina","ARG","Gini index","SI.POV.GINI",2003,51,35.8
+"Brazil","BRA","Gini index","SI.POV.GINI",2003,57.6,24.6
+"Chile","CHL","Gini index","SI.POV.GINI",2003,51.5,23
+"Colombia","COL","Gini index","SI.POV.GINI",2003,53.6,12.1
+"Costa Rica","CRI","Gini index","SI.POV.GINI",2003,49.3,15.4
+"Ecuador","ECU","Gini index","SI.POV.GINI",2003,53.5,17.5
+"Guatemala","GTM","Gini index","SI.POV.GINI",2003,54.4,8.3
+"Honduras","HND","Gini index","SI.POV.GINI",2003,58.1,15.3
+"Mexico","MEX","Gini index","SI.POV.GINI",2003,50.45,21.2
+"Nicaragua","NIC","Gini index","SI.POV.GINI",2003,50.85,18.2
+"Panama","PAN","Gini index","SI.POV.GINI",2003,55.7,25
+"Peru","PER","Gini index","SI.POV.GINI",2003,53.1,18.9
+"Paraguay","PRY","Gini index","SI.POV.GINI",2003,54.9,15.1
+"El Salvador","SLV","Gini index","SI.POV.GINI",2003,50.4,12
+"Uruguay","URY","Gini index","SI.POV.GINI",2003,45,30.8
+"Argentina","ARG","Gini index","SI.POV.GINI",2004,48.5,35.8
+"Brazil","BRA","Gini index","SI.POV.GINI",2004,56.5,24.6
+"Chile","CHL","Gini index","SI.POV.GINI",2004,50.2333333333333,23
+"Colombia","COL","Gini index","SI.POV.GINI",2004,55,12.1
+"Costa Rica","CRI","Gini index","SI.POV.GINI",2004,48.4,15.4
+"Ecuador","ECU","Gini index","SI.POV.GINI",2004,53.9,17.5
+"Guatemala","GTM","Gini index","SI.POV.GINI",2004,54.4666666666667,8.3
+"Honduras","HND","Gini index","SI.POV.GINI",2004,58.1,15.3
+"Mexico","MEX","Gini index","SI.POV.GINI",2004,50.3,21.2
+"Nicaragua","NIC","Gini index","SI.POV.GINI",2004,49.825,18.2
+"Panama","PAN","Gini index","SI.POV.GINI",2004,54.8,26.7
+"Peru","PER","Gini index","SI.POV.GINI",2004,49.9,18.9
+"Paraguay","PRY","Gini index","SI.POV.GINI",2004,52.3,15.1
+"El Salvador","SLV","Gini index","SI.POV.GINI",2004,47.8,17
+"Uruguay","URY","Gini index","SI.POV.GINI",2004,45.9,31.8
+"Argentina","ARG","Gini index","SI.POV.GINI",2005,47.8,35.8
+"Brazil","BRA","Gini index","SI.POV.GINI",2005,56.3,27.3
+"Chile","CHL","Gini index","SI.POV.GINI",2005,48.9666666666667,23
+"Colombia","COL","Gini index","SI.POV.GINI",2005,53.9,12.1
+"Costa Rica","CRI","Gini index","SI.POV.GINI",2005,47.5,15.4
+"Ecuador","ECU","Gini index","SI.POV.GINI",2005,53,17.5
+"Guatemala","GTM","Gini index","SI.POV.GINI",2005,54.5333333333333,8.3
+"Honduras","HND","Gini index","SI.POV.GINI",2005,59.5,13.2
+"Mexico","MEX","Gini index","SI.POV.GINI",2005,50.9,21.2
+"Nicaragua","NIC","Gini index","SI.POV.GINI",2005,48.8,18.2
+"Panama","PAN","Gini index","SI.POV.GINI",2005,53.8,26.7
+"Peru","PER","Gini index","SI.POV.GINI",2005,50.4,18.9
+"Paraguay","PRY","Gini index","SI.POV.GINI",2005,51.4,15.1
+"El Salvador","SLV","Gini index","SI.POV.GINI",2005,48.5,17
+"Uruguay","URY","Gini index","SI.POV.GINI",2005,44.7,31.8
+"Argentina","ARG","Gini index","SI.POV.GINI",2006,46.4,35.8
+"Brazil","BRA","Gini index","SI.POV.GINI",2006,55.6,28.1
+"Chile","CHL","Gini index","SI.POV.GINI",2006,47.7,19.7
+"Colombia","COL","Gini index","SI.POV.GINI",2006,54.3666666666667,9.9
+"Costa Rica","CRI","Gini index","SI.POV.GINI",2006,49.3,19.8
+"Ecuador","ECU","Gini index","SI.POV.GINI",2006,52.2,20
+"Guatemala","GTM","Gini index","SI.POV.GINI",2006,54.6,8.3
+"Honduras","HND","Gini index","SI.POV.GINI",2006,57.5,13.2
+"Mexico","MEX","Gini index","SI.POV.GINI",2006,49.7,23.1
+"Nicaragua","NIC","Gini index","SI.POV.GINI",2006,47.575,24.8
+"Panama","PAN","Gini index","SI.POV.GINI",2006,54.6,26.7
+"Peru","PER","Gini index","SI.POV.GINI",2006,50.3,22.8
+"Paraguay","PRY","Gini index","SI.POV.GINI",2006,53,15.1
+"El Salvador","SLV","Gini index","SI.POV.GINI",2006,45.7,18
+"Uruguay","URY","Gini index","SI.POV.GINI",2006,45.9,31.8
+"Argentina","ARG","Gini index","SI.POV.GINI",2007,46.3,24.8
+"Brazil","BRA","Gini index","SI.POV.GINI",2007,54.9,28.1
+"Chile","CHL","Gini index","SI.POV.GINI",2007,47.6,19.7
+"Colombia","COL","Gini index","SI.POV.GINI",2007,54.8333333333333,9.9
+"Costa Rica","CRI","Gini index","SI.POV.GINI",2007,49.3,22.7
+"Ecuador","ECU","Gini index","SI.POV.GINI",2007,53.4,22.2
+"Guatemala","GTM","Gini index","SI.POV.GINI",2007,53.8125,10
+"Honduras","HND","Gini index","SI.POV.GINI",2007,55.8,13.2
+"Mexico","MEX","Gini index","SI.POV.GINI",2007,50.25,23.1
+"Nicaragua","NIC","Gini index","SI.POV.GINI",2007,46.35,24.8
+"Panama","PAN","Gini index","SI.POV.GINI",2007,52.7,26.7
+"Peru","PER","Gini index","SI.POV.GINI",2007,50,22.8
+"Paraguay","PRY","Gini index","SI.POV.GINI",2007,53,15.1
+"El Salvador","SLV","Gini index","SI.POV.GINI",2007,45.2,18
+"Uruguay","URY","Gini index","SI.POV.GINI",2007,46.4,31.8
+"Argentina","ARG","Gini index","SI.POV.GINI",2008,45,24.8
+"Brazil","BRA","Gini index","SI.POV.GINI",2008,54,28.1
+"Chile","CHL","Gini index","SI.POV.GINI",2008,47.5,19.7
+"Colombia","COL","Gini index","SI.POV.GINI",2008,55.3,9.9
+"Costa Rica","CRI","Gini index","SI.POV.GINI",2008,48.6,19.8
+"Ecuador","ECU","Gini index","SI.POV.GINI",2008,49.8,22.2
+"Guatemala","GTM","Gini index","SI.POV.GINI",2008,53.025,10
+"Honduras","HND","Gini index","SI.POV.GINI",2008,55.5,13.2
+"Mexico","MEX","Gini index","SI.POV.GINI",2008,50.8,23.1
+"Nicaragua","NIC","Gini index","SI.POV.GINI",2008,45.125,24.8
+"Panama","PAN","Gini index","SI.POV.GINI",2008,52.7,26.7
+"Peru","PER","Gini index","SI.POV.GINI",2008,47.5,22.8
+"Paraguay","PRY","Gini index","SI.POV.GINI",2008,50.7,15
+"El Salvador","SLV","Gini index","SI.POV.GINI",2008,46.9,18
+"Uruguay","URY","Gini index","SI.POV.GINI",2008,45.1,31.8
+"Argentina","ARG","Gini index","SI.POV.GINI",2009,43.8,24.8
+"Brazil","BRA","Gini index","SI.POV.GINI",2009,53.7,28.1
+"Chile","CHL","Gini index","SI.POV.GINI",2009,47.4,19.7
+"Colombia","COL","Gini index","SI.POV.GINI",2009,54.3,9.9
+"Costa Rica","CRI","Gini index","SI.POV.GINI",2009,50.6,19.8
+"Ecuador","ECU","Gini index","SI.POV.GINI",2009,48.5,22.7
+"Guatemala","GTM","Gini index","SI.POV.GINI",2009,52.2375,10
+"Honduras","HND","Gini index","SI.POV.GINI",2009,51.3,11
+"Mexico","MEX","Gini index","SI.POV.GINI",2009,49.25,23.1
+"Nicaragua","NIC","Gini index","SI.POV.GINI",2009,43.9,24.8
+"Panama","PAN","Gini index","SI.POV.GINI",2009,51.8,18.9
+"Peru","PER","Gini index","SI.POV.GINI",2009,47,22.8
+"Paraguay","PRY","Gini index","SI.POV.GINI",2009,49.1,15
+"El Salvador","SLV","Gini index","SI.POV.GINI",2009,45.8,17.9
+"Uruguay","URY","Gini index","SI.POV.GINI",2009,45.5,33.1
+"Argentina","ARG","Gini index","SI.POV.GINI",2010,43.7,24.8
+"Brazil","BRA","Gini index","SI.POV.GINI",2010,53.3,31.7
+"Chile","CHL","Gini index","SI.POV.GINI",2010,47.15,20.1
+"Colombia","COL","Gini index","SI.POV.GINI",2010,54.6,8.1
+"Costa Rica","CRI","Gini index","SI.POV.GINI",2010,48,21.8
+"Ecuador","ECU","Gini index","SI.POV.GINI",2010,48.8,22.7
+"Guatemala","GTM","Gini index","SI.POV.GINI",2010,51.45,10
+"Honduras","HND","Gini index","SI.POV.GINI",2010,53.1,11
+"Mexico","MEX","Gini index","SI.POV.GINI",2010,47.7,23.1
+"Nicaragua","NIC","Gini index","SI.POV.GINI",2010,44.36,24.8
+"Panama","PAN","Gini index","SI.POV.GINI",2010,51.6,18.9
+"Peru","PER","Gini index","SI.POV.GINI",2010,45.5,22.8
+"Paraguay","PRY","Gini index","SI.POV.GINI",2010,51,15
+"El Salvador","SLV","Gini index","SI.POV.GINI",2010,43.5,17.9
+"Uruguay","URY","Gini index","SI.POV.GINI",2010,44.5,31.1
+"Argentina","ARG","Gini index","SI.POV.GINI",2011,42.7,25.22
+"Brazil","BRA","Gini index","SI.POV.GINI",2011,52.9,31.7
+"Chile","CHL","Gini index","SI.POV.GINI",2011,46.9,20.1
+"Colombia","COL","Gini index","SI.POV.GINI",2011,53.5,8.1
+"Costa Rica","CRI","Gini index","SI.POV.GINI",2011,48.8,21.8
+"Ecuador","ECU","Gini index","SI.POV.GINI",2011,45.9,22.7
+"Guatemala","GTM","Gini index","SI.POV.GINI",2011,50.6625,20.69
+"Honduras","HND","Gini index","SI.POV.GINI",2011,52.6,11
+"Mexico","MEX","Gini index","SI.POV.GINI",2011,48.65,23.1
+"Nicaragua","NIC","Gini index","SI.POV.GINI",2011,44.82,17.67
+"Panama","PAN","Gini index","SI.POV.GINI",2011,51.3,18.9
+"Peru","PER","Gini index","SI.POV.GINI",2011,44.7,34.94
+"Paraguay","PRY","Gini index","SI.POV.GINI",2011,52.3,15
+"El Salvador","SLV","Gini index","SI.POV.GINI",2011,42.3,17.9
+"Uruguay","URY","Gini index","SI.POV.GINI",2011,42.2,31.1
+"Argentina","ARG","Gini index","SI.POV.GINI",2012,41.4,25.22
+"Brazil","BRA","Gini index","SI.POV.GINI",2012,53.4,31.7
+"Chile","CHL","Gini index","SI.POV.GINI",2012,46.85,20.1
+"Colombia","COL","Gini index","SI.POV.GINI",2012,52.6,8.1
+"Costa Rica","CRI","Gini index","SI.POV.GINI",2012,48.4,21.8
+"Ecuador","ECU","Gini index","SI.POV.GINI",2012,46.1,22.7
+"Guatemala","GTM","Gini index","SI.POV.GINI",2012,49.875,20.69
+"Honduras","HND","Gini index","SI.POV.GINI",2012,53.4,11
+"Mexico","MEX","Gini index","SI.POV.GINI",2012,49.6,27.54
+"Nicaragua","NIC","Gini index","SI.POV.GINI",2012,45.28,17.67
+"Panama","PAN","Gini index","SI.POV.GINI",2012,51.7,18.9
+"Peru","PER","Gini index","SI.POV.GINI",2012,44.4,34.94
+"Paraguay","PRY","Gini index","SI.POV.GINI",2012,47.6,15
+"El Salvador","SLV","Gini index","SI.POV.GINI",2012,41.8,21.85
+"Uruguay","URY","Gini index","SI.POV.GINI",2012,39.9,31.1
+"Argentina","ARG","Gini index","SI.POV.GINI",2013,41.1,33.6
+"Brazil","BRA","Gini index","SI.POV.GINI",2013,52.7,31.7
+"Chile","CHL","Gini index","SI.POV.GINI",2013,46.8,17.65
+"Colombia","COL","Gini index","SI.POV.GINI",2013,52.6,8.09
+"Costa Rica","CRI","Gini index","SI.POV.GINI",2013,49.2,21.76
+"Ecuador","ECU","Gini index","SI.POV.GINI",2013,46.9,26.26
+"Guatemala","GTM","Gini index","SI.POV.GINI",2013,49.0875,14.95
+"Honduras","HND","Gini index","SI.POV.GINI",2013,50,23.45
+"Mexico","MEX","Gini index","SI.POV.GINI",2013,49.25,26.38
+"Nicaragua","NIC","Gini index","SI.POV.GINI",2013,45.74,17.67
+"Panama","PAN","Gini index","SI.POV.GINI",2013,51.5,18.88
+"Peru","PER","Gini index","SI.POV.GINI",2013,43.9,27.31
+"Paraguay","PRY","Gini index","SI.POV.GINI",2013,47.9,18.61
+"El Salvador","SLV","Gini index","SI.POV.GINI",2013,43.4,19.88
+"Uruguay","URY","Gini index","SI.POV.GINI",2013,40.5,31.13
+"Argentina","ARG","Gini index","SI.POV.GINI",2014,41.8,33.6
+"Brazil","BRA","Gini index","SI.POV.GINI",2014,52,37.75
+"Chile","CHL","Gini index","SI.POV.GINI",2014,46.05,17.65
+"Colombia","COL","Gini index","SI.POV.GINI",2014,52.5,16.75
+"Costa Rica","CRI","Gini index","SI.POV.GINI",2014,48.6,25.3
+"Ecuador","ECU","Gini index","SI.POV.GINI",2014,45,26.26
+"Guatemala","GTM","Gini index","SI.POV.GINI",2014,48.3,14.95
+"Honduras","HND","Gini index","SI.POV.GINI",2014,49.9,23.45
+"Mexico","MEX","Gini index","SI.POV.GINI",2014,48.9,26.38
+"Nicaragua","NIC","Gini index","SI.POV.GINI",2014,46.2,17.67
+"Panama","PAN","Gini index","SI.POV.GINI",2014,50.5,31.85
+"Peru","PER","Gini index","SI.POV.GINI",2014,43.1,27.31
+"Paraguay","PRY","Gini index","SI.POV.GINI",2014,50.7,18.61
+"El Salvador","SLV","Gini index","SI.POV.GINI",2014,41.6,23.63
+"Uruguay","URY","Gini index","SI.POV.GINI",2014,40.1,30.2
+"Argentina","ARG","Gini index","SI.POV.GINI",2015,42.05,38.51
+"Brazil","BRA","Gini index","SI.POV.GINI",2015,51.9,37.75
+"Chile","CHL","Gini index","SI.POV.GINI",2015,45.3,17.65
+"Colombia","COL","Gini index","SI.POV.GINI",2015,51,16.75
+"Costa Rica","CRI","Gini index","SI.POV.GINI",2015,48.4,25.3
+"Ecuador","ECU","Gini index","SI.POV.GINI",2015,46,26.26
+"Guatemala","GTM","Gini index","SI.POV.GINI",2015,NA,8.54
+"Honduras","HND","Gini index","SI.POV.GINI",2015,49.2,23.45
+"Mexico","MEX","Gini index","SI.POV.GINI",2015,47.9,26.38
+"Nicaragua","NIC","Gini index","SI.POV.GINI",2015,NA,17.67
+"Panama","PAN","Gini index","SI.POV.GINI",2015,50.8,31.85
+"Peru","PER","Gini index","SI.POV.GINI",2015,43.4,27.31
+"Paraguay","PRY","Gini index","SI.POV.GINI",2015,47.6,18.61
+"El Salvador","SLV","Gini index","SI.POV.GINI",2015,40.6,24.43
+"Uruguay","URY","Gini index","SI.POV.GINI",2015,40.1,30.2
+"Argentina","ARG","Gini index","SI.POV.GINI",2016,42.3,38.51
+"Brazil","BRA","Gini index","SI.POV.GINI",2016,53.4,37.75
+"Chile","CHL","Gini index","SI.POV.GINI",2016,45.3,17.65
+"Colombia","COL","Gini index","SI.POV.GINI",2016,50.6,19.2
+"Costa Rica","CRI","Gini index","SI.POV.GINI",2016,48.7,25.3
+"Ecuador","ECU","Gini index","SI.POV.GINI",2016,45,26.26
+"Guatemala","GTM","Gini index","SI.POV.GINI",2016,NA,8.54
+"Honduras","HND","Gini index","SI.POV.GINI",2016,49.8,23.45
+"Mexico","MEX","Gini index","SI.POV.GINI",2016,46.9,26.38
+"Nicaragua","NIC","Gini index","SI.POV.GINI",2016,NA,11.9
+"Panama","PAN","Gini index","SI.POV.GINI",2016,50.4,31.85
+"Peru","PER","Gini index","SI.POV.GINI",2016,43.6,28.78
+"Paraguay","PRY","Gini index","SI.POV.GINI",2016,47.9,18.61
+"El Salvador","SLV","Gini index","SI.POV.GINI",2016,40,24.43
+"Uruguay","URY","Gini index","SI.POV.GINI",2016,39.7,30.2
+"Argentina","ARG","Gini index","SI.POV.GINI",2017,41.4,38.51
+"Brazil","BRA","Gini index","SI.POV.GINI",2017,53.3,37.75
+"Chile","CHL","Gini index","SI.POV.GINI",2017,45.3,23.87
+"Colombia","COL","Gini index","SI.POV.GINI",2017,49.7,16.75
+"Costa Rica","CRI","Gini index","SI.POV.GINI",2017,48.3,25.3
+"Ecuador","ECU","Gini index","SI.POV.GINI",2017,44.7,33.67
+"Guatemala","GTM","Gini index","SI.POV.GINI",2017,NA,8.54
+"Honduras","HND","Gini index","SI.POV.GINI",2017,49.4,21.41
+"Mexico","MEX","Gini index","SI.POV.GINI",2017,46.45,26.38
+"Nicaragua","NIC","Gini index","SI.POV.GINI",2017,NA,11.9
+"Panama","PAN","Gini index","SI.POV.GINI",2017,49.9,31.85
+"Peru","PER","Gini index","SI.POV.GINI",2017,43.3,28.78
+"Paraguay","PRY","Gini index","SI.POV.GINI",2017,48.5,18.61
+"El Salvador","SLV","Gini index","SI.POV.GINI",2017,38,24.43
+"Uruguay","URY","Gini index","SI.POV.GINI",2017,39.5,30.2
+"Argentina","ARG","Gini index","SI.POV.GINI",2018,41.7,38.51
+"Brazil","BRA","Gini index","SI.POV.GINI",2018,53.9,36.85
+"Chile","CHL","Gini index","SI.POV.GINI",2018,45.8666666666667,23.87
+"Colombia","COL","Gini index","SI.POV.GINI",2018,50.4,18.3
+"Costa Rica","CRI","Gini index","SI.POV.GINI",2018,48,31.14
+"Ecuador","ECU","Gini index","SI.POV.GINI",2018,45.4,33.67
+"Guatemala","GTM","Gini index","SI.POV.GINI",2018,NA,10.17
+"Honduras","HND","Gini index","SI.POV.GINI",2018,48.9,21.41
+"Mexico","MEX","Gini index","SI.POV.GINI",2018,46,21.25
+"Nicaragua","NIC","Gini index","SI.POV.GINI",2018,NA,11.9
+"Panama","PAN","Gini index","SI.POV.GINI",2018,49.2,31.85
+"Peru","PER","Gini index","SI.POV.GINI",2018,42.4,28.78
+"Paraguay","PRY","Gini index","SI.POV.GINI",2018,46,19.47
+"El Salvador","SLV","Gini index","SI.POV.GINI",2018,38.6,24.43
+"Uruguay","URY","Gini index","SI.POV.GINI",2018,39.7,30.2
