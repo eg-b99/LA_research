@@ -371,6 +371,1582 @@ Returning the palette you asked for with that many colors</code></pre>
 <div class="sourceCode cell-code" id="cb24"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a><span class="fu">write.csv</span>(gini_latin_america_long_clean, <span class="st">"cleaned_interpolated_gini.csv"</span>, <span class="at">row.names =</span> <span class="cn">FALSE</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
+<section id="overview-of-income-inequality" class="level1">
+<h1><strong>Overview of Income Inequality</strong></h1>
+<p>The region’s average GINI Index differs greatly; Uruguay has the lowest mean inequality (42,4) and Brazil the highest one (56,4). This difference emphasizes the variety of income distribution trends found in Latin America. For most nations, median GINI values nearly match the means and indicate quite symmetric distributions. Standard deviations, which track change in inequality over time, range from 2,01 in Uruguay (showing stability) to 6,15 in Bolivia (indicating morefluctuations). The GINI Index of the area varies greatly. With a mean inequality of 42,4 Uruguay boasts the lowest and Brazil the greatest (56,4). This variation might highlight the range of income distribution patterns seen in Latin America. Generally speaking, median GINI values almost match the means and show rather symmetric distributions for most countries. Standard deviations range from 2,01 in Uruguay (showing stability) to 6,15 in Bolivia (indicating more oscillations). Track movement in inequality over time.</p>
+</section>
+<section id="key-observations" class="level1">
+<h1>KEY OBSERVATIONS</h1>
+<p>A few nations have regularly high degrees of inequality. Brazil, Colombia, Honduras, and Guatemala show consistently high average inequality with mean GINI values more than 53. Reflecting continued enormous disparity, Brazil likewise has the highest maximum GINI of 63,2. Conversely Uruguay (42,4) and Costa Rica (46,6) have the lowest average degrees of inequality. While Uruguay and Colombia show rather steady inequality levels over time (SD = 2,01 and SD = 2,12, respectively), Bolivia and El Salvador show substantial volatility (SD = 6,15 and SD = 5,39, respectively). The GINI Index’s skewness offers still another background for the income distribution’s asymmetry. Positive skewness in nations including Chile, Bolivia, and Argentina could point to sporadic cases of high inequality. Negative skewness in Mexico, the Dominican Republic, and Costa Rica points to periods of really dramatic inequality reduction. Countries with very negligible skewness, like Brazil and Panama, represent rather symmetric distributions. These results highlight the need of looking at the part income disparity plays in democratizing processes. Higher average inequality countries like Brazil and Honduras could find it difficult to build inclusive democratic systems since some academics might hypostatize. Likewise, based on the same reasoning, countries with great variation in inequality like Bolivia and El Salvador may undergo political unrest or major policy changes. The latter can also affect the variations in democratic degrees.</p>
+</section>
+<section id="democracy-level-overview" class="level1">
+<h1>DEMOCRACY LEVEL OVERVIEW</h1>
+<p>The descriptive statistics for democratization levels provide an insightful overview of political openness and institutional stability across different Latin American countries. These results underscore the varying trajectories of democratization in the region and set the stage for exploring the factors influencing political development.</p>
+<p><strong>Overview of Democratization Levels</strong></p>
+<p>The mean democratization degrees expose notable national differences. Uruguay stands out with the greatest average democratization score (24,9), while Guatemala (6,16) has the lowest, so indicating somewhat poor democracy level. With rather high mean democratization levels, Costa Rica (17,41) and Argentina (18,9) instead point to apparently constant political development. Reflecting very symmetric distributions, the median democratization values quite match the means of most countries. But in nations like Mexico (Mean=10.6, Median=7.9), variations might indicate considerable skewness or appreciable shift in democracy levels. The standard deviations reveal how steadily democratization is evolving with time. Showing the largest swings are Uruguay (SD=13,1) and Brazil (SD=13,1), suggesting moments of both democratic growth and backsliding. Though their average scores remain very low (SD = 4,26 and SD = 4,82, respectively), Guatemala (SD = 4,26) and Colombia (SD = 4,82 show rather consistent democratizing rates. For many countries, including Brazil, Chile, Guatemala, and Argentina, democratization scores of 0 indicate periods of autocratic control. Uruguay (Max = 45,9) and Argentina (Max = 38,5) had the best success in democratization. Available data suggests that although some countries experienced problems with democratization, and still remain at low stages of democracy, one can claim that Latin America has experienced a positive democratizing trend. To understand how, to that extend, and if at all this is connected to the income inequality, there is a need to firstly introduce control variables.</p>
+</section>
+<section id="descriptive-analysis-of-educational-spending-to-gdp-across-latin-america" class="level1">
+<h1>DESCRIPTIVE ANALYSIS OF EDUCATIONAL SPENDING TO GDP ACROSS LATIN AMERICA</h1>
+<p>Education expenditure varies from a minimum of 2,64% of GDP in Guatemala to a maximum of 5,58% in Costa Rica. Brazil demonstrates a substantial average expenditure of 5,19%, with a minimum of 3,75%. The average expenditures of 3,15% and 2,64%, respectively, suggest that nations like Paraguay and Guatemala have significantly lower investment levels.The fluctuations in educational spending indicate certain trends. Honduras exhibits the biggest standard deviation (SD = 1,9), signifying considerable variability in funding amounts over time. Panama demonstrates the lowest variability (SD = 0,46), signifying more solid financial practices. Analyzing the minimum and maximum levels of educational funding highlights existing inequities. El Salvador demonstrates the lowest minimum expenditure, indicative of years of little investment in education. In contrast, Honduras achieves a maximum of 5,90%. Countries such as Uruguay and Peru have a consistent, albeit not the highest, dedication to education, with maximum expenditures of 2,83% and 3,23%, respectively. The results highlight the inequalities in educational funding throughout the region. Countries like Brazil and Costa Rica, marked by continuously high spending, undoubtedly gain advantages by emphasizing education in their developmental objectives. Conversely, diminished investment in Guatemala and Paraguay may impede the rapid development of human capital, thereby affecting democratization results. Educational expenditure will serve as the principal control variable in assessing the influence of GINI on democratization in Latin America.</p>
+<p><strong>GDP PER CAPITA OVERVIEW</strong></p>
+<p>The average GDP across the countries varies from a low of 212 for El Salvador to a high of 5245 for Mexico. Costa Rica’s average GDP of 3770 is comparatively high, whereas countries such as El Salvador and Honduras exhibit significantly lower averages, highlighting a substantial discrepancy in economic performance. The median GDP, indicating the central value of the sorted dataset, has significant variability. For instance, El Salvador’s median GDP is 250, whereas Mexico and Uruguay exhibit far larger median values of 5434 and 3872, respectively, signifying a concentration of GDP at the upper end for those nations. SD is greatest in Brazil and Chile, with values of 3016 and 4284 respectively, signifying a broad spectrum of GDP estimates within these nations. In contrast, El Salvador possesses the lowest standard deviation at 107, signifying that its GDP figures are very stable. The minimum and highest GDP numbers underscore the disparity in economic performance, with El Salvador recording the lowest minimum GDP of 55,2 and Brazil attaining a maximum GDP of 9815, indicating substantial variations in economic progress. These figures offer a comprehensive summary of the GDP inequalities among the investigated countries.</p>
+</section>
+<section id="gini-and-democracy-level.-bivariate-analysis" class="level1">
+<h1>GINI AND DEMOCRACY LEVEL. BIVARIATE ANALYSIS</h1>
+<p>The bivariate analysis examines the relationship between income inequality, as measured by the GINI Index, and democratization levels across Latin American countries. Using Pearson’s correlation coefficient, this analysis quantifies the strength and direction of the relationship between these two variables within each country. Most of the countries show negative relationships, meaning that lower degrees of democratization are linked to more economic disparity. The following cases show the strongest negative associations. First Ecuador (r = -0,78) and El Salvador (r = -0,838), implying a strong inverse link between democratization and inequality. Further underlining the negative effect of inequality on democratic processes are Peru (r = -0,823) and Honduras (r = -0,610). The above suggests that these outcomes fit theoretical models that hold that strong income disparity compromises political inclusiveness, erodes democratic institutions, and promotes societaldivisions. Still, there are certain examples with somewhat distinct outcomes. For instance, nations with modest negative correlations include Guatemala (r = -0,504), Mexico (r = -0,525), and Nicaragua (r = -0,575). This could imply that although inequality has a major influence, other elements could also affect democratization degrees in different countries. Furthermore, there are nations where connection is negligible. Among these, one could highlight Chile (r = -0,0708), Colombia (r = -0,102), and Costa Rica (r = 0,0665). They exhibit positive correlations with r = 0,172 and r = 0,153 respectively. These unexpected findings may warrant further investigation into unique country-specific factors that could decouple democratization from inequality, and link democratization more with economic growth or education. The predominance of negative correlations supports the broader hypothesis that higher income inequality undermines democratization. This trend is particularly pronounced in countries with the strongest negative correlations, such as El Salvador, Peru, and Ecuador, where inequality appears to have a profound impact on democratic governance.</p>
+<p><strong>Regression Analysis for All of Latin America</strong></p>
+<p>The overall regression model for the whole Latin American region analyzes the correlation between income inequality (GINI Index) and degrees of democracy across the Latin American area. This thorough analysis offers a regional perspective on the effects of inequality on democratic government. The model reveals a statistically significant inverse relationship between the GINI index and levels of democracy. The slope coefficient for the GINI index is -0,755, indicating that for each one-unit increase in the GINI index, the level of democratization decreases by an average of 0,755 points. This effect is notably considerable, demonstrating a robust and consistent negative connection across the region. The residual standard error of 8,37 signifies moderate variability in democratization levels that is not accounted for by the GINI Index. The R^2 value of approximately 0,18 indicates that about 18,14% of the variance in democratization levels can be accounted for by the GINI Index. This suggests that while inequality is a vital predictor, additional factors outside this model substantially affect democratization results. The adjusted R^2 of 0,179 confirms the model’s dependability, given its simplicity. This model demonstrates a significant negative relationship between economic disparity and degrees of democratization in Latin America. The findings suggest that reducing inequality might greatly strengthen democratic governance across the region. Low R^2 value highlights the need for other variables, such as education, economic development, or institutional difficulties, in future investigations to better understand the complex nature of democratization. The bivariate study indicates a primarily negative correlation between economic inequality and democratization in Latin America. This tendency highlights, along with some research findings, the potential for inequality to undermine democratic norms by intensifying social divisions and restricting political inclusion. Nonetheless, the weak or positive correlations observed in certain nations indicate that the link is not consistent and may be influenced by country-specific variables. These findings establish a basis for investigating more intricate, multivariate models to enhance comprehension of how inequality interacts with other variables to influence democratization efforts throughout the area. Furthermore, to establish a more comprehensive conclusion, it is needed to incorporate control variables.</p>
+</section>
+<section id="multivariate-regression-analysis" class="level1">
+<h1>MULTIVARIATE REGRESSION ANALYSIS</h1>
+<p>This study examines the influence of income inequality, quantified by the GINI Index, on levels of democratization, while controlling for economic development (GDP per capita), educational investment, and temporal factors (measured in years). The findings are derived from two regression models: a simple regression concentrating just on the GINI Index and a multiple regression that includes control factors.</p>
+<p><strong>Simple Regression Model</strong></p>
+<p>The simple regression model indicates a statistically substantial negative correlation between the GINI Index and degrees of democracy. For each one-unit increase in the GINI Index, democratization levels decline by an average of 0,273 points (p = 0,048). This conclusion corresponds with theoretical expectations that increased income inequality may obstruct democratic advancement by exacerbating societal divisions and diminishing egalitarian political engagement. Nevertheless, the model accounts for merely 3,36% of the variance in democratization levels (R^2 = 0,0336), suggesting that inequality alone may be inadequate to explain the wider fluctuations in democracy.</p>
+<p><strong>Multiple Regression Model Results</strong></p>
+<p>The multiple regression model incorporates supplementary variables: Education Expenditure, GDP per capita, and Year. The inverse correlation between inequality and democratization lessens and becomes statistically insignificant (beta = -0,174, p = 0,201)2 upon the inclusion of control factors. This indicates that the impact of inequality on democracy may be modulated or confounded by additional factors, especially economic development. GDP per capita is identified as the sole statistically significant predictor in the model (beta = 0,00095, p = 0,005). For each $1 increase in GDP per capita, democratization levels rise by 0,00095 points, underscoring a significant correlation between wealth and democracy. This discovery may corroborate modernization theory, which asserts that increased economic development promotes the establishment of democratic institutions. Unexpectedly, education expenditure exhibits an insignificant and negative correlation with democratization (beta = -0,654, p = 0,387). This may illustrate the intricacy of education’s function in democratization, contingent upon the implementation of education systems and their capacity to foster civic engagement or cater to elite interests. The year variable, included to account for temporal trends, is not significant (beta = 0,033, p = 0,795). This indicates the absence of a consistent rising or negative trend in democratization levels over the investigated time period. The multiple regression model explains 15.27% of the variance in democratization levels (R^2 = 0.1527) and surpasses the basic model, yielding an adjusted R^2 of 12.24%. A significant percentage of the variance remains unaccounted for, suggesting that additional essential factors affecting democratization may be excluded from the model.</p>
+</section>
+<section id="acknolegements-and-limitations" class="level1">
+<h1>ACKNOLEGEMENTS AND LIMITATIONS</h1>
+<p>While the findings provide valuable insights into the dynamics between inequality and democratization, several potential limitations may be pointed out. For example, reliance on interpolated data for some variables (e.g., Democratization level) may introduce biases and reduce the precision of estimates. In addition, the dataset is limited to a specific set of countries and years, potentially reducing the generalizability of findings. Also, it would be insightful to conduct a cross-regional study to compare Latin America with other regions. It is intriguing because if the results for GINI influence on democracy is different in other regions, then there is maybe another variable which mitigates GINI effect on a regional level.</p>
+</section>
+<section id="conclusion" class="level1">
+<h1>CONCLUSION</h1>
+<p>This study highlights the nuanced relationship between inequality and democratization. While the GINI Index alone appears to negatively influence democratization levels, this relationship becomes insignificant when accounting for other factors, particularly economic development. GDP per capita emerges as the strongest predictor, emphasizing the role of economic modernization in fostering democratic institutions. The findings contribute to the broader understanding of democratization but also call for further research incorporating additional variables and alternative analytical approaches to address the study’s limitations. It can be said that when it comes to the explanation of rising democratization levels across many Latin American countries’ modernization theory has the strongest explanatory ability. The multivariate regression model shows that in contrast to the proposed theoretical approaches to the negative influence of high inequality on levels of democratization, this does not hold true. Although bivariate analysis may support the aforementioned approach, the statistical significance of GINI influence becomes little, when it comes to controlling for other variables.</p>
+</section>
+<section id="bibliography" class="level1">
+<h1>BIBLIOGRAPHY</h1>
+<p>Acemoglu, Daron, and James A. Robinson. <em>Economic origins of dictatorship and democracy</em>. Cambridge university press, 2006.</p>
+<p>Acemoglu, Daron, Simon Johnson, James A. Robinson, and Pierre Yared. “Income and democracy.” <em>American economic review</em> 98, no. 3 (2008): 808-842.</p>
+<p>Acemoglu, Daron, Simon Johnson, James A. Robinson, and Pierre Yared. “From education to democracy?.” <em>American Economic Review</em> 95, no. 2 (2005): 44-49.</p>
+<p>Alemán, Eduardo, and Yeaji Kim. “The democratizing effect of education.” <em>Research &amp; Politics</em> 2, no. 4 (2015): 2053168015613360. Ansell, Ben W., and David J. Samuels. “Inequality and Democratization.” <em>Available at SSRN 1144087</em> (2008).</p>
+<p>Burkhart, Ross. “Democracy, capitalism, and income inequality: Seeking causal directions.” <em>Comparative Sociology</em> 6, no. 4 (2007): 481-507.</p>
+<p>Friedman, Milton. <em>Capitalism and Freedom</em>. Chicago, University of Chicago Press, 1962.</p>
+<p>Gerring, John, Philip Bond, William T. Barndt, and Carola Moreno. “Democracy and economic growth: A historical perspective.” <em>World politics</em> 57, no. 3 (2005): 323-364.</p>
+<p>Hlavac, Marek (2022). stargazer: Well-Formatted Regression and Summary Statistics Tables</p>
+<p>Heo, Uk, and Alexander C. Tan. “Democracy and economic growth: A causal analysis.” <em>Comparative politics</em> (2001): 463-473.</p>
+<p>Krauss, Alexander. “The scientific limits of understanding the (potential) relationship betweencomplex social phenomena: the case of democracy and inequality.” <em>Journal of Economic Methodology</em> 23, no. 1 (2016): 97-109.</p>
+<p>Lipset, Seymour Martin. “Some social requisites of democracy: Economic development and political legitimacy.” <em>American political science review</em> 53, no. 1 (1959): 69-105.</p>
+<p>Treisman, Daniel. “Economic development and democracy: predispositions and triggers.” <em>Annual Review of Political Science</em> 23, no. 1 (2020): 241-257.</p>
+</section>
+<section id="code-appendix" class="level1">
+<h1>CODE APPENDIX</h1>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb25"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span>
+<span id="cb25-2"><a href="#cb25-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(gtsummary)</span>
+<span id="cb25-3"><a href="#cb25-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(gt)</span>
+<span id="cb25-4"><a href="#cb25-4" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(zoo)</span>
+<span id="cb25-5"><a href="#cb25-5" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(psych)</span>
+<span id="cb25-6"><a href="#cb25-6" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(flextable)</span>
+<span id="cb25-7"><a href="#cb25-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb25-8"><a href="#cb25-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb25-9"><a href="#cb25-9" aria-hidden="true" tabindex="-1"></a><span class="fu">setwd</span>(<span class="st">"/Users/macbookpro/Documents/Statistics project"</span>)</span>
+<span id="cb25-10"><a href="#cb25-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb25-11"><a href="#cb25-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb25-12"><a href="#cb25-12" aria-hidden="true" tabindex="-1"></a>data <span class="ot">&lt;-</span> <span class="fu">read.csv</span>(<span class="st">"gini_world.csv"</span>, <span class="at">header =</span> <span class="cn">TRUE</span>, <span class="at">skip =</span> <span class="dv">4</span>, <span class="at">sep =</span> <span class="st">","</span>)</span>
+<span id="cb25-13"><a href="#cb25-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb25-14"><a href="#cb25-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb25-15"><a href="#cb25-15" aria-hidden="true" tabindex="-1"></a><span class="fu">colnames</span>(data) <span class="ot">&lt;-</span> <span class="fu">make.names</span>(<span class="fu">colnames</span>(data), <span class="at">unique =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb25-16"><a href="#cb25-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb25-17"><a href="#cb25-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb25-18"><a href="#cb25-18" aria-hidden="true" tabindex="-1"></a>latin_america_countries <span class="ot">&lt;-</span> <span class="fu">c</span>(</span>
+<span id="cb25-19"><a href="#cb25-19" aria-hidden="true" tabindex="-1"></a>  <span class="st">"Argentina"</span>, <span class="st">"Bolivia"</span>, <span class="st">"Brazil"</span>, <span class="st">"Chile"</span>, <span class="st">"Colombia"</span>, <span class="st">"Costa Rica"</span>,</span>
+<span id="cb25-20"><a href="#cb25-20" aria-hidden="true" tabindex="-1"></a>  <span class="st">"Cuba"</span>, <span class="st">"Dominican Republic"</span>, <span class="st">"Ecuador"</span>, <span class="st">"El Salvador"</span>, <span class="st">"Guatemala"</span>,</span>
+<span id="cb25-21"><a href="#cb25-21" aria-hidden="true" tabindex="-1"></a>  <span class="st">"Honduras"</span>, <span class="st">"Mexico"</span>, <span class="st">"Nicaragua"</span>, <span class="st">"Panama"</span>, <span class="st">"Paraguay"</span>, <span class="st">"Peru"</span>,</span>
+<span id="cb25-22"><a href="#cb25-22" aria-hidden="true" tabindex="-1"></a>  <span class="st">"Uruguay"</span>, <span class="st">"Venezuela"</span></span>
+<span id="cb25-23"><a href="#cb25-23" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb25-24"><a href="#cb25-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb25-25"><a href="#cb25-25" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb25-26"><a href="#cb25-26" aria-hidden="true" tabindex="-1"></a>gini_latin_america <span class="ot">&lt;-</span> data <span class="sc">%&gt;%</span></span>
+<span id="cb25-27"><a href="#cb25-27" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(Country.Name <span class="sc">%in%</span> latin_america_countries)</span>
+<span id="cb25-28"><a href="#cb25-28" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb25-29"><a href="#cb25-29" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb25-30"><a href="#cb25-30" aria-hidden="true" tabindex="-1"></a>gini_latin_america_long <span class="ot">&lt;-</span> gini_latin_america <span class="sc">%&gt;%</span></span>
+<span id="cb25-31"><a href="#cb25-31" aria-hidden="true" tabindex="-1"></a>  <span class="fu">pivot_longer</span>(</span>
+<span id="cb25-32"><a href="#cb25-32" aria-hidden="true" tabindex="-1"></a>    <span class="at">cols =</span> <span class="fu">starts_with</span>(<span class="st">"X"</span>),</span>
+<span id="cb25-33"><a href="#cb25-33" aria-hidden="true" tabindex="-1"></a>    <span class="at">names_to =</span> <span class="st">"Year"</span>,</span>
+<span id="cb25-34"><a href="#cb25-34" aria-hidden="true" tabindex="-1"></a>    <span class="at">values_to =</span> <span class="st">"GINI_Index"</span></span>
+<span id="cb25-35"><a href="#cb25-35" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">%&gt;%</span></span>
+<span id="cb25-36"><a href="#cb25-36" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(</span>
+<span id="cb25-37"><a href="#cb25-37" aria-hidden="true" tabindex="-1"></a>    <span class="at">Year =</span> <span class="fu">as.numeric</span>(<span class="fu">gsub</span>(<span class="st">"X"</span>, <span class="st">""</span>, Year))  <span class="co"># Convert Year column to numeric</span></span>
+<span id="cb25-38"><a href="#cb25-38" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb25-39"><a href="#cb25-39" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb25-40"><a href="#cb25-40" aria-hidden="true" tabindex="-1"></a><span class="co"># Interpolating missing values</span></span>
+<span id="cb25-41"><a href="#cb25-41" aria-hidden="true" tabindex="-1"></a>gini_latin_america_long <span class="ot">&lt;-</span> gini_latin_america_long <span class="sc">%&gt;%</span></span>
+<span id="cb25-42"><a href="#cb25-42" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(Country.Name) <span class="sc">%&gt;%</span></span>
+<span id="cb25-43"><a href="#cb25-43" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(Year) <span class="sc">%&gt;%</span></span>
+<span id="cb25-44"><a href="#cb25-44" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">GINI_Index =</span> zoo<span class="sc">::</span><span class="fu">na.approx</span>(GINI_Index, <span class="at">na.rm =</span> <span class="cn">FALSE</span>))  </span>
+<span id="cb25-45"><a href="#cb25-45" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb25-46"><a href="#cb25-46" aria-hidden="true" tabindex="-1"></a><span class="co"># Excluding countries with no valid data</span></span>
+<span id="cb25-47"><a href="#cb25-47" aria-hidden="true" tabindex="-1"></a>gini_latin_america_long_clean <span class="ot">&lt;-</span> gini_latin_america_long <span class="sc">%&gt;%</span></span>
+<span id="cb25-48"><a href="#cb25-48" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(Country.Name) <span class="sc">%&gt;%</span></span>
+<span id="cb25-49"><a href="#cb25-49" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(<span class="fu">any</span>(<span class="sc">!</span><span class="fu">is.na</span>(GINI_Index)))</span>
+<span id="cb25-50"><a href="#cb25-50" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb25-51"><a href="#cb25-51" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb25-52"><a href="#cb25-52" aria-hidden="true" tabindex="-1"></a>descriptive_stats <span class="ot">&lt;-</span> gini_latin_america_long_clean <span class="sc">%&gt;%</span></span>
+<span id="cb25-53"><a href="#cb25-53" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise</span>(</span>
+<span id="cb25-54"><a href="#cb25-54" aria-hidden="true" tabindex="-1"></a>    <span class="at">Mean_GINI =</span> <span class="fu">mean</span>(GINI_Index, <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb25-55"><a href="#cb25-55" aria-hidden="true" tabindex="-1"></a>    <span class="at">Median_GINI =</span> <span class="fu">median</span>(GINI_Index, <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb25-56"><a href="#cb25-56" aria-hidden="true" tabindex="-1"></a>    <span class="at">SD_GINI =</span> <span class="fu">sd</span>(GINI_Index, <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb25-57"><a href="#cb25-57" aria-hidden="true" tabindex="-1"></a>    <span class="at">Min_GINI =</span> <span class="fu">min</span>(GINI_Index, <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb25-58"><a href="#cb25-58" aria-hidden="true" tabindex="-1"></a>    <span class="at">Max_GINI =</span> <span class="fu">max</span>(GINI_Index, <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb25-59"><a href="#cb25-59" aria-hidden="true" tabindex="-1"></a>    <span class="at">Skewness_GINI =</span> psych<span class="sc">::</span><span class="fu">skew</span>(GINI_Index, <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb25-60"><a href="#cb25-60" aria-hidden="true" tabindex="-1"></a>    <span class="at">Kurtosis_GINI =</span> psych<span class="sc">::</span><span class="fu">kurtosi</span>(GINI_Index, <span class="at">na.rm =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb25-61"><a href="#cb25-61" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb25-62"><a href="#cb25-62" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb25-63"><a href="#cb25-63" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb25-64"><a href="#cb25-64" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(descriptive_stats)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 17 × 8
+   Country.Name    Mean_GINI Median_GINI SD_GINI Min_GINI Max_GINI Skewness_GINI
+   &lt;chr&gt;               &lt;dbl&gt;       &lt;dbl&gt;   &lt;dbl&gt;    &lt;dbl&gt;    &lt;dbl&gt;         &lt;dbl&gt;
+ 1 Argentina            45.1        44.8    3.62     40.7     53.8        0.677 
+ 2 Bolivia              50.8        50      6.15     40.9     61.6        0.0315
+ 3 Brazil               56.4        56.6    3.27     48.9     63.2       -0.101 
+ 4 Chile                50.6        49.6    4.50     43       57.2        0.109 
+ 5 Colombia             54.0        54.1    2.12     49.7     58.5        0.183 
+ 6 Costa Rica           46.6        47.5    3.65     34.4     51.8       -1.57  
+ 7 Dominican Repu…      47.7        48.9    3.81     37       52.1       -1.20  
+ 8 Ecuador              49.9        50.4    3.74     44.6     58.6        0.180 
+ 9 El Salvador          46.5        47.3    5.39     38       54.4       -0.208 
+10 Guatemala            53.4        54.1    2.64     48.3     58.8       -0.0586
+11 Honduras             53.8        55      3.09     48.2     59.5       -0.170 
+12 Mexico               49.8        50.3    2.84     43.5     53.4       -0.598 
+13 Nicaragua            50.2        50.3    4.56     43.9     57.1        0.0354
+14 Panama               53.8        53.6    3.24     48.7     58.6        0.0455
+15 Paraguay             50.5        51      4.48     40.8     58.1       -0.267 
+16 Peru                 47.1        46.2    4.65     40.1     55.1        0.226 
+17 Uruguay              42.4        42.4    2.01     39.5     46.4        0.307 
+# ℹ 1 more variable: Kurtosis_GINI &lt;dbl&gt;</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb27"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(gini_latin_america_long_clean, <span class="fu">aes</span>(<span class="at">x =</span> Country.Name, <span class="at">y =</span> GINI_Index)) <span class="sc">+</span></span>
+<span id="cb27-2"><a href="#cb27-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_boxplot</span>(<span class="at">fill =</span> <span class="st">"blue"</span>, <span class="at">color =</span> <span class="st">"black"</span>) <span class="sc">+</span></span>
+<span id="cb27-3"><a href="#cb27-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>() <span class="sc">+</span></span>
+<span id="cb27-4"><a href="#cb27-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">coord_flip</span>() <span class="sc">+</span>  </span>
+<span id="cb27-5"><a href="#cb27-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"GINI Index by Country"</span>, <span class="at">x =</span> <span class="st">"Country"</span>, <span class="at">y =</span> <span class="st">"GINI Index"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Removed 496 rows containing non-finite outside the scale range
+(`stat_boxplot()`).</code></pre>
+</div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="Analysis_text_files/figure-html/unnamed-chunk-2-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+<div class="sourceCode cell-code" id="cb29"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(gini_latin_america_long_clean, <span class="fu">aes</span>(<span class="at">x =</span> GINI_Index)) <span class="sc">+</span></span>
+<span id="cb29-2"><a href="#cb29-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_density</span>(<span class="at">fill =</span> <span class="st">"lightblue"</span>, <span class="at">color =</span> <span class="st">"darkblue"</span>, <span class="at">alpha =</span> <span class="fl">0.7</span>) <span class="sc">+</span></span>
+<span id="cb29-3"><a href="#cb29-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>() <span class="sc">+</span></span>
+<span id="cb29-4"><a href="#cb29-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"Density Plot of GINI Index"</span>, <span class="at">x =</span> <span class="st">"GINI Index"</span>, <span class="at">y =</span> <span class="st">"Density"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Removed 496 rows containing non-finite outside the scale range
+(`stat_density()`).</code></pre>
+</div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="Analysis_text_files/figure-html/unnamed-chunk-2-2.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+<div class="sourceCode cell-code" id="cb31"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(gini_latin_america_long_clean, <span class="fu">aes</span>(<span class="at">x =</span> GINI_Index)) <span class="sc">+</span></span>
+<span id="cb31-2"><a href="#cb31-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_histogram</span>(<span class="at">binwidth =</span> <span class="dv">2</span>, <span class="at">fill =</span> <span class="st">"blue"</span>, <span class="at">color =</span> <span class="st">"black"</span>) <span class="sc">+</span></span>
+<span id="cb31-3"><a href="#cb31-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>() <span class="sc">+</span></span>
+<span id="cb31-4"><a href="#cb31-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">facet_wrap</span>(<span class="sc">~</span> Country.Name, <span class="at">scales =</span> <span class="st">"free_y"</span>) <span class="sc">+</span></span>
+<span id="cb31-5"><a href="#cb31-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"GINI Index Distribution by Country"</span>, <span class="at">x =</span> <span class="st">"GINI Index"</span>, <span class="at">y =</span> <span class="st">"Frequency"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Removed 496 rows containing non-finite outside the scale range
+(`stat_bin()`).</code></pre>
+</div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="Analysis_text_files/figure-html/unnamed-chunk-2-3.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+<div class="sourceCode cell-code" id="cb33"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb33-1"><a href="#cb33-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(gini_latin_america_long_clean, <span class="fu">aes</span>(<span class="at">x =</span> Year, <span class="at">y =</span> GINI_Index, <span class="at">color =</span> Country.Name, <span class="at">group =</span> Country.Name)) <span class="sc">+</span></span>
+<span id="cb33-2"><a href="#cb33-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_line</span>() <span class="sc">+</span></span>
+<span id="cb33-3"><a href="#cb33-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>() <span class="sc">+</span></span>
+<span id="cb33-4"><a href="#cb33-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"GINI Index Over Time by Country"</span>, <span class="at">x =</span> <span class="st">"Year"</span>, <span class="at">y =</span> <span class="st">"GINI Index"</span>) <span class="sc">+</span></span>
+<span id="cb33-5"><a href="#cb33-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">legend.position =</span> <span class="st">"bottom"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Removed 496 rows containing missing values or values outside the scale range
+(`geom_line()`).</code></pre>
+</div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="Analysis_text_files/figure-html/unnamed-chunk-2-4.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+<div class="sourceCode cell-code" id="cb35"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb35-1"><a href="#cb35-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(gini_latin_america_long_clean, <span class="fu">aes</span>(<span class="at">x =</span> Year, <span class="at">y =</span> GINI_Index, <span class="at">color =</span> Country.Name, <span class="at">group =</span> Country.Name)) <span class="sc">+</span></span>
+<span id="cb35-2"><a href="#cb35-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_line</span>(<span class="at">size =</span> <span class="fl">1.2</span>) <span class="sc">+</span>                             </span>
+<span id="cb35-3"><a href="#cb35-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>(<span class="at">size =</span> <span class="dv">2</span>, <span class="at">shape =</span> <span class="dv">21</span>, <span class="at">fill =</span> <span class="st">"white"</span>) <span class="sc">+</span>  </span>
+<span id="cb35-4"><a href="#cb35-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>() <span class="sc">+</span>                                   </span>
+<span id="cb35-5"><a href="#cb35-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(</span>
+<span id="cb35-6"><a href="#cb35-6" aria-hidden="true" tabindex="-1"></a>    <span class="at">title =</span> <span class="st">"Trends in GINI Index Across Latin American Countries"</span>,</span>
+<span id="cb35-7"><a href="#cb35-7" aria-hidden="true" tabindex="-1"></a>    <span class="at">subtitle =</span> <span class="st">"Data interpolated for missing years"</span>,</span>
+<span id="cb35-8"><a href="#cb35-8" aria-hidden="true" tabindex="-1"></a>    <span class="at">caption =</span> <span class="st">"Source: World Bank, GINI Index Dataset"</span>,</span>
+<span id="cb35-9"><a href="#cb35-9" aria-hidden="true" tabindex="-1"></a>    <span class="at">x =</span> <span class="st">"Year"</span>,</span>
+<span id="cb35-10"><a href="#cb35-10" aria-hidden="true" tabindex="-1"></a>    <span class="at">y =</span> <span class="st">"GINI Index"</span></span>
+<span id="cb35-11"><a href="#cb35-11" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span></span>
+<span id="cb35-12"><a href="#cb35-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_color_brewer</span>(<span class="at">palette =</span> <span class="st">"Dark2"</span>) <span class="sc">+</span>             </span>
+<span id="cb35-13"><a href="#cb35-13" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(</span>
+<span id="cb35-14"><a href="#cb35-14" aria-hidden="true" tabindex="-1"></a>    <span class="at">plot.title =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">16</span>, <span class="at">face =</span> <span class="st">"bold"</span>, <span class="at">hjust =</span> <span class="fl">0.5</span>), </span>
+<span id="cb35-15"><a href="#cb35-15" aria-hidden="true" tabindex="-1"></a>    <span class="at">plot.subtitle =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">12</span>, <span class="at">hjust =</span> <span class="fl">0.5</span>),            </span>
+<span id="cb35-16"><a href="#cb35-16" aria-hidden="true" tabindex="-1"></a>    <span class="at">plot.caption =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">10</span>, <span class="at">face =</span> <span class="st">"italic"</span>),         </span>
+<span id="cb35-17"><a href="#cb35-17" aria-hidden="true" tabindex="-1"></a>    <span class="at">legend.position =</span> <span class="st">"bottom"</span>,                                      </span>
+<span id="cb35-18"><a href="#cb35-18" aria-hidden="true" tabindex="-1"></a>    <span class="at">legend.title =</span> <span class="fu">element_blank</span>(),                                  </span>
+<span id="cb35-19"><a href="#cb35-19" aria-hidden="true" tabindex="-1"></a>    <span class="at">legend.text =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">10</span>),                           </span>
+<span id="cb35-20"><a href="#cb35-20" aria-hidden="true" tabindex="-1"></a>    <span class="at">axis.text.x =</span> <span class="fu">element_text</span>(<span class="at">angle =</span> <span class="dv">45</span>, <span class="at">hjust =</span> <span class="dv">1</span>),               </span>
+<span id="cb35-21"><a href="#cb35-21" aria-hidden="true" tabindex="-1"></a>    <span class="at">axis.title.x =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">12</span>, <span class="at">face =</span> <span class="st">"bold"</span>),           </span>
+<span id="cb35-22"><a href="#cb35-22" aria-hidden="true" tabindex="-1"></a>    <span class="at">axis.title.y =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">12</span>, <span class="at">face =</span> <span class="st">"bold"</span>),           </span>
+<span id="cb35-23"><a href="#cb35-23" aria-hidden="true" tabindex="-1"></a>    <span class="at">panel.grid.major =</span> <span class="fu">element_line</span>(<span class="at">color =</span> <span class="st">"gray90"</span>)                </span>
+<span id="cb35-24"><a href="#cb35-24" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span></span>
+<span id="cb35-25"><a href="#cb35-25" aria-hidden="true" tabindex="-1"></a>  <span class="fu">guides</span>(</span>
+<span id="cb35-26"><a href="#cb35-26" aria-hidden="true" tabindex="-1"></a>    <span class="at">color =</span> <span class="fu">guide_legend</span>(<span class="at">ncol =</span> <span class="dv">3</span>)                                   </span>
+<span id="cb35-27"><a href="#cb35-27" aria-hidden="true" tabindex="-1"></a>  )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning in RColorBrewer::brewer.pal(n, pal): n too large, allowed maximum for palette Dark2 is 8
+Returning the palette you asked for with that many colors</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Removed 792 rows containing missing values or values outside the scale range
+(`geom_line()`).</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Removed 792 rows containing missing values or values outside the scale range
+(`geom_point()`).</code></pre>
+</div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="Analysis_text_files/figure-html/unnamed-chunk-2-5.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+<div class="sourceCode cell-code" id="cb39"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb39-1"><a href="#cb39-1" aria-hidden="true" tabindex="-1"></a><span class="fu">write.csv</span>(gini_latin_america_long_clean, <span class="st">"cleaned_interpolated_gini.csv"</span>, <span class="at">row.names =</span> <span class="cn">FALSE</span>)</span>
+<span id="cb39-2"><a href="#cb39-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb39-3"><a href="#cb39-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb39-4"><a href="#cb39-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb39-5"><a href="#cb39-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb39-6"><a href="#cb39-6" aria-hidden="true" tabindex="-1"></a><span class="co"># DEMOCRATIZATION </span></span>
+<span id="cb39-7"><a href="#cb39-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb39-8"><a href="#cb39-8" aria-hidden="true" tabindex="-1"></a><span class="fu">setwd</span>(<span class="st">"/Users/macbookpro/Documents/Statistics project"</span>)</span>
+<span id="cb39-9"><a href="#cb39-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb39-10"><a href="#cb39-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb39-11"><a href="#cb39-11" aria-hidden="true" tabindex="-1"></a>democratization_data <span class="ot">&lt;-</span> <span class="fu">read.csv</span>(<span class="st">"index_democratization.csv"</span>, <span class="at">sep =</span> <span class="st">";"</span>, <span class="at">dec =</span> <span class="st">","</span>)</span>
+<span id="cb39-12"><a href="#cb39-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb39-13"><a href="#cb39-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb39-14"><a href="#cb39-14" aria-hidden="true" tabindex="-1"></a>democratization_countries <span class="ot">&lt;-</span> <span class="fu">c</span>(</span>
+<span id="cb39-15"><a href="#cb39-15" aria-hidden="true" tabindex="-1"></a>  <span class="st">"Argentina"</span>, <span class="st">"Bolivia"</span>, <span class="st">"Brazil"</span>, <span class="st">"Chile"</span>, <span class="st">"Colombia"</span>, <span class="st">"Costa Rica"</span>,</span>
+<span id="cb39-16"><a href="#cb39-16" aria-hidden="true" tabindex="-1"></a>  <span class="st">"Dominican Republic"</span>, <span class="st">"Ecuador"</span>, <span class="st">"El Salvador"</span>, <span class="st">"Guatemala"</span>,</span>
+<span id="cb39-17"><a href="#cb39-17" aria-hidden="true" tabindex="-1"></a>  <span class="st">"Honduras"</span>, <span class="st">"Mexico"</span>, <span class="st">"Nicaragua"</span>, <span class="st">"Panama"</span>, <span class="st">"Paraguay"</span>, <span class="st">"Peru"</span>,</span>
+<span id="cb39-18"><a href="#cb39-18" aria-hidden="true" tabindex="-1"></a>  <span class="st">"Uruguay"</span>, <span class="st">"Venezuela"</span></span>
+<span id="cb39-19"><a href="#cb39-19" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb39-20"><a href="#cb39-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb39-21"><a href="#cb39-21" aria-hidden="true" tabindex="-1"></a>democratization_filtered <span class="ot">&lt;-</span> democratization_data <span class="sc">%&gt;%</span></span>
+<span id="cb39-22"><a href="#cb39-22" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(cname <span class="sc">%in%</span> democratization_countries)</span>
+<span id="cb39-23"><a href="#cb39-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb39-24"><a href="#cb39-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb39-25"><a href="#cb39-25" aria-hidden="true" tabindex="-1"></a>democratization_long <span class="ot">&lt;-</span> democratization_filtered <span class="sc">%&gt;%</span></span>
+<span id="cb39-26"><a href="#cb39-26" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(cname, year, van_index) <span class="sc">%&gt;%</span></span>
+<span id="cb39-27"><a href="#cb39-27" aria-hidden="true" tabindex="-1"></a>  <span class="fu">rename</span>(<span class="at">Country.Name =</span> cname, <span class="at">Year =</span> year, <span class="at">Democratization_Index =</span> van_index) <span class="sc">%&gt;%</span></span>
+<span id="cb39-28"><a href="#cb39-28" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">Year =</span> <span class="fu">as.numeric</span>(Year))</span>
+<span id="cb39-29"><a href="#cb39-29" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb39-30"><a href="#cb39-30" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb39-31"><a href="#cb39-31" aria-hidden="true" tabindex="-1"></a>democratization_long_clean <span class="ot">&lt;-</span> democratization_long <span class="sc">%&gt;%</span></span>
+<span id="cb39-32"><a href="#cb39-32" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(Country.Name) <span class="sc">%&gt;%</span></span>
+<span id="cb39-33"><a href="#cb39-33" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(Year)</span>
+<span id="cb39-34"><a href="#cb39-34" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb39-35"><a href="#cb39-35" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb39-36"><a href="#cb39-36" aria-hidden="true" tabindex="-1"></a>democratization_stats <span class="ot">&lt;-</span> democratization_long_clean <span class="sc">%&gt;%</span></span>
+<span id="cb39-37"><a href="#cb39-37" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise</span>(</span>
+<span id="cb39-38"><a href="#cb39-38" aria-hidden="true" tabindex="-1"></a>    <span class="at">Mean_Index =</span> <span class="fu">mean</span>(Democratization_Index, <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb39-39"><a href="#cb39-39" aria-hidden="true" tabindex="-1"></a>    <span class="at">Median_Index =</span> <span class="fu">median</span>(Democratization_Index, <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb39-40"><a href="#cb39-40" aria-hidden="true" tabindex="-1"></a>    <span class="at">SD_Index =</span> <span class="fu">sd</span>(Democratization_Index, <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb39-41"><a href="#cb39-41" aria-hidden="true" tabindex="-1"></a>    <span class="at">Min_Index =</span> <span class="fu">min</span>(Democratization_Index, <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb39-42"><a href="#cb39-42" aria-hidden="true" tabindex="-1"></a>    <span class="at">Max_Index =</span> <span class="fu">max</span>(Democratization_Index, <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb39-43"><a href="#cb39-43" aria-hidden="true" tabindex="-1"></a>    <span class="at">Skewness_Index =</span> psych<span class="sc">::</span><span class="fu">skew</span>(Democratization_Index, <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb39-44"><a href="#cb39-44" aria-hidden="true" tabindex="-1"></a>    <span class="at">Kurtosis_Index =</span> psych<span class="sc">::</span><span class="fu">kurtosi</span>(Democratization_Index, <span class="at">na.rm =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb39-45"><a href="#cb39-45" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb39-46"><a href="#cb39-46" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb39-47"><a href="#cb39-47" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb39-48"><a href="#cb39-48" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(democratization_stats)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 15 × 8
+   Country.Name Mean_Index Median_Index SD_Index Min_Index Max_Index
+   &lt;chr&gt;             &lt;dbl&gt;        &lt;dbl&gt;    &lt;dbl&gt;     &lt;dbl&gt;     &lt;dbl&gt;
+ 1 Argentina         18.9          24.9    12.9        0        38.5
+ 2 Brazil            14.0          10      13.1        0        37.8
+ 3 Chile             12.7          13       8.89       0        26.5
+ 4 Colombia           8.95          9.9     4.82       0        19.2
+ 5 Costa Rica        17.4          19.8     6.47       0        31.1
+ 6 Ecuador           11.4          11.1     8.82       0        33.7
+ 7 El Salvador        9.48          9.7     7.69       0        24.4
+ 8 Guatemala          6.16          6.3     4.26       0        20.7
+ 9 Honduras           8.51         11       8.42       0        23.4
+10 Mexico            10.6           7.9     9.21       1.7      27.5
+11 Nicaragua          9.86          9       7.92       0        24.8
+12 Panama            14.6          16      10.7        0        31.9
+13 Paraguay           6.96          5       6.26       0        19.5
+14 Peru              11.4          11.3     9.71       0        34.9
+15 Uruguay           24.9          30.2    13.1        0        45.9
+# ℹ 2 more variables: Skewness_Index &lt;dbl&gt;, Kurtosis_Index &lt;dbl&gt;</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb41"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb41-1"><a href="#cb41-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(democratization_long_clean, <span class="fu">aes</span>(<span class="at">x =</span> Country.Name, <span class="at">y =</span> Democratization_Index)) <span class="sc">+</span></span>
+<span id="cb41-2"><a href="#cb41-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_boxplot</span>(<span class="at">fill =</span> <span class="st">"blue"</span>, <span class="at">color =</span> <span class="st">"black"</span>) <span class="sc">+</span></span>
+<span id="cb41-3"><a href="#cb41-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>() <span class="sc">+</span></span>
+<span id="cb41-4"><a href="#cb41-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">coord_flip</span>() <span class="sc">+</span></span>
+<span id="cb41-5"><a href="#cb41-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"Democratization Index by Country"</span>, <span class="at">x =</span> <span class="st">"Country"</span>, <span class="at">y =</span> <span class="st">"Democratization Index"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="Analysis_text_files/figure-html/unnamed-chunk-2-6.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+<div class="sourceCode cell-code" id="cb42"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb42-1"><a href="#cb42-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(democratization_long_clean, <span class="fu">aes</span>(<span class="at">x =</span> Democratization_Index)) <span class="sc">+</span></span>
+<span id="cb42-2"><a href="#cb42-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_density</span>(<span class="at">fill =</span> <span class="st">"lightblue"</span>, <span class="at">color =</span> <span class="st">"darkblue"</span>, <span class="at">alpha =</span> <span class="fl">0.7</span>) <span class="sc">+</span></span>
+<span id="cb42-3"><a href="#cb42-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>() <span class="sc">+</span></span>
+<span id="cb42-4"><a href="#cb42-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"Density Plot of Democratization Index"</span>, <span class="at">x =</span> <span class="st">"Democratization Index"</span>, <span class="at">y =</span> <span class="st">"Density"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="Analysis_text_files/figure-html/unnamed-chunk-2-7.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+<div class="sourceCode cell-code" id="cb43"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb43-1"><a href="#cb43-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(democratization_long_clean, <span class="fu">aes</span>(<span class="at">x =</span> Democratization_Index)) <span class="sc">+</span></span>
+<span id="cb43-2"><a href="#cb43-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_histogram</span>(<span class="at">binwidth =</span> <span class="fl">0.5</span>, <span class="at">fill =</span> <span class="st">"blue"</span>, <span class="at">color =</span> <span class="st">"black"</span>) <span class="sc">+</span></span>
+<span id="cb43-3"><a href="#cb43-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>() <span class="sc">+</span></span>
+<span id="cb43-4"><a href="#cb43-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">facet_wrap</span>(<span class="sc">~</span> Country.Name, <span class="at">scales =</span> <span class="st">"free_y"</span>) <span class="sc">+</span></span>
+<span id="cb43-5"><a href="#cb43-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"Democratization Index Distribution by Country"</span>, <span class="at">x =</span> <span class="st">"Democratization Index"</span>, <span class="at">y =</span> <span class="st">"Frequency"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="Analysis_text_files/figure-html/unnamed-chunk-2-8.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+<div class="sourceCode cell-code" id="cb44"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb44-1"><a href="#cb44-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(democratization_long_clean, <span class="fu">aes</span>(<span class="at">x =</span> Year, <span class="at">y =</span> Democratization_Index, <span class="at">color =</span> Country.Name, <span class="at">group =</span> Country.Name)) <span class="sc">+</span></span>
+<span id="cb44-2"><a href="#cb44-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_line</span>(<span class="at">size =</span> <span class="dv">1</span>) <span class="sc">+</span>                             </span>
+<span id="cb44-3"><a href="#cb44-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>(<span class="at">size =</span> <span class="dv">3</span>, <span class="at">shape =</span> <span class="dv">22</span>, <span class="at">fill =</span> <span class="st">"yellow"</span>, <span class="at">color =</span> <span class="st">"black"</span>) <span class="sc">+</span>  </span>
+<span id="cb44-4"><a href="#cb44-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>() <span class="sc">+</span>                                 </span>
+<span id="cb44-5"><a href="#cb44-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(</span>
+<span id="cb44-6"><a href="#cb44-6" aria-hidden="true" tabindex="-1"></a>    <span class="at">title =</span> <span class="st">"Trends in Democratization Index Across Latin American Countries"</span>,</span>
+<span id="cb44-7"><a href="#cb44-7" aria-hidden="true" tabindex="-1"></a>    <span class="at">subtitle =</span> <span class="st">"Detailed yearly trends"</span>,</span>
+<span id="cb44-8"><a href="#cb44-8" aria-hidden="true" tabindex="-1"></a>    <span class="at">caption =</span> <span class="st">"Source: Democratization Dataset"</span>,</span>
+<span id="cb44-9"><a href="#cb44-9" aria-hidden="true" tabindex="-1"></a>    <span class="at">x =</span> <span class="st">"Year"</span>,</span>
+<span id="cb44-10"><a href="#cb44-10" aria-hidden="true" tabindex="-1"></a>    <span class="at">y =</span> <span class="st">"Democratization Index"</span></span>
+<span id="cb44-11"><a href="#cb44-11" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span></span>
+<span id="cb44-12"><a href="#cb44-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_color_manual</span>(<span class="at">values =</span> <span class="fu">rainbow</span>(<span class="fu">length</span>(<span class="fu">unique</span>(democratization_long_clean<span class="sc">$</span>Country.Name)))) <span class="sc">+</span>  </span>
+<span id="cb44-13"><a href="#cb44-13" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(</span>
+<span id="cb44-14"><a href="#cb44-14" aria-hidden="true" tabindex="-1"></a>    <span class="at">plot.title =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">16</span>, <span class="at">face =</span> <span class="st">"bold"</span>, <span class="at">hjust =</span> <span class="fl">0.5</span>), </span>
+<span id="cb44-15"><a href="#cb44-15" aria-hidden="true" tabindex="-1"></a>    <span class="at">plot.subtitle =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">12</span>, <span class="at">hjust =</span> <span class="fl">0.5</span>),             </span>
+<span id="cb44-16"><a href="#cb44-16" aria-hidden="true" tabindex="-1"></a>    <span class="at">plot.caption =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">10</span>, <span class="at">face =</span> <span class="st">"italic"</span>),          </span>
+<span id="cb44-17"><a href="#cb44-17" aria-hidden="true" tabindex="-1"></a>    <span class="at">legend.position =</span> <span class="st">"right"</span>,                                       </span>
+<span id="cb44-18"><a href="#cb44-18" aria-hidden="true" tabindex="-1"></a>    <span class="at">legend.title =</span> <span class="fu">element_blank</span>(),                                   </span>
+<span id="cb44-19"><a href="#cb44-19" aria-hidden="true" tabindex="-1"></a>    <span class="at">legend.text =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">8</span>),                             </span>
+<span id="cb44-20"><a href="#cb44-20" aria-hidden="true" tabindex="-1"></a>    <span class="at">axis.text.x =</span> <span class="fu">element_text</span>(<span class="at">angle =</span> <span class="dv">45</span>, <span class="at">hjust =</span> <span class="dv">1</span>, <span class="at">size =</span> <span class="dv">10</span>),     </span>
+<span id="cb44-21"><a href="#cb44-21" aria-hidden="true" tabindex="-1"></a>    <span class="at">axis.text.y =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">10</span>),                            </span>
+<span id="cb44-22"><a href="#cb44-22" aria-hidden="true" tabindex="-1"></a>    <span class="at">axis.title.x =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">12</span>, <span class="at">face =</span> <span class="st">"bold"</span>),            </span>
+<span id="cb44-23"><a href="#cb44-23" aria-hidden="true" tabindex="-1"></a>    <span class="at">axis.title.y =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">12</span>, <span class="at">face =</span> <span class="st">"bold"</span>),            </span>
+<span id="cb44-24"><a href="#cb44-24" aria-hidden="true" tabindex="-1"></a>    <span class="at">panel.grid.major =</span> <span class="fu">element_line</span>(<span class="at">color =</span> <span class="st">"gray90"</span>)                 </span>
+<span id="cb44-25"><a href="#cb44-25" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span></span>
+<span id="cb44-26"><a href="#cb44-26" aria-hidden="true" tabindex="-1"></a>  <span class="fu">guides</span>(</span>
+<span id="cb44-27"><a href="#cb44-27" aria-hidden="true" tabindex="-1"></a>    <span class="at">color =</span> <span class="fu">guide_legend</span>(<span class="at">ncol =</span> <span class="dv">2</span>)                                    </span>
+<span id="cb44-28"><a href="#cb44-28" aria-hidden="true" tabindex="-1"></a>  )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="Analysis_text_files/figure-html/unnamed-chunk-2-9.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+<div class="sourceCode cell-code" id="cb45"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb45-1"><a href="#cb45-1" aria-hidden="true" tabindex="-1"></a><span class="fu">write.csv</span>(democratization_long_clean, <span class="st">"cleaned_democratization.csv"</span>, <span class="at">row.names =</span> <span class="cn">FALSE</span>)</span>
+<span id="cb45-2"><a href="#cb45-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb45-3"><a href="#cb45-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb45-4"><a href="#cb45-4" aria-hidden="true" tabindex="-1"></a><span class="co">#EDUCATION SPENDINGS AS GDP PERCENTAGE</span></span>
+<span id="cb45-5"><a href="#cb45-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb45-6"><a href="#cb45-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb45-7"><a href="#cb45-7" aria-hidden="true" tabindex="-1"></a>education_data <span class="ot">&lt;-</span> <span class="fu">read.csv</span>(<span class="st">"Education_expenditure_pGDP.csv"</span>, <span class="at">sep =</span> <span class="st">";"</span>, <span class="at">dec =</span> <span class="st">","</span>)</span>
+<span id="cb45-8"><a href="#cb45-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb45-9"><a href="#cb45-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb45-10"><a href="#cb45-10" aria-hidden="true" tabindex="-1"></a>latin_america_countries <span class="ot">&lt;-</span> <span class="fu">c</span>(</span>
+<span id="cb45-11"><a href="#cb45-11" aria-hidden="true" tabindex="-1"></a>  <span class="st">"Argentina"</span>, <span class="st">"Bolivia"</span>, <span class="st">"Brazil"</span>, <span class="st">"Chile"</span>, <span class="st">"Colombia"</span>, <span class="st">"Costa Rica"</span>,</span>
+<span id="cb45-12"><a href="#cb45-12" aria-hidden="true" tabindex="-1"></a>  <span class="st">"Dominican Republic"</span>, <span class="st">"Ecuador"</span>, <span class="st">"El Salvador"</span>, <span class="st">"Guatemala"</span>,</span>
+<span id="cb45-13"><a href="#cb45-13" aria-hidden="true" tabindex="-1"></a>  <span class="st">"Honduras"</span>, <span class="st">"Mexico"</span>, <span class="st">"Nicaragua"</span>, <span class="st">"Panama"</span>, <span class="st">"Paraguay"</span>, <span class="st">"Peru"</span>,</span>
+<span id="cb45-14"><a href="#cb45-14" aria-hidden="true" tabindex="-1"></a>  <span class="st">"Uruguay"</span>, <span class="st">"Venezuela"</span></span>
+<span id="cb45-15"><a href="#cb45-15" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb45-16"><a href="#cb45-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb45-17"><a href="#cb45-17" aria-hidden="true" tabindex="-1"></a>education_latin_america <span class="ot">&lt;-</span> education_data <span class="sc">%&gt;%</span></span>
+<span id="cb45-18"><a href="#cb45-18" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(cname <span class="sc">%in%</span> latin_america_countries) <span class="sc">%&gt;%</span></span>
+<span id="cb45-19"><a href="#cb45-19" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(cname, year, wdi_expedu) <span class="sc">%&gt;%</span></span>
+<span id="cb45-20"><a href="#cb45-20" aria-hidden="true" tabindex="-1"></a>  <span class="fu">rename</span>(<span class="at">Country =</span> cname, <span class="at">Year =</span> year, <span class="at">Education_Expenditure =</span> wdi_expedu)</span>
+<span id="cb45-21"><a href="#cb45-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb45-22"><a href="#cb45-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb45-23"><a href="#cb45-23" aria-hidden="true" tabindex="-1"></a>descriptive_stats <span class="ot">&lt;-</span> education_latin_america <span class="sc">%&gt;%</span></span>
+<span id="cb45-24"><a href="#cb45-24" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(Country) <span class="sc">%&gt;%</span></span>
+<span id="cb45-25"><a href="#cb45-25" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise</span>(</span>
+<span id="cb45-26"><a href="#cb45-26" aria-hidden="true" tabindex="-1"></a>    <span class="at">Mean_Expenditure =</span> <span class="fu">mean</span>(Education_Expenditure, <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb45-27"><a href="#cb45-27" aria-hidden="true" tabindex="-1"></a>    <span class="at">Median_Expenditure =</span> <span class="fu">median</span>(Education_Expenditure, <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb45-28"><a href="#cb45-28" aria-hidden="true" tabindex="-1"></a>    <span class="at">SD_Expenditure =</span> <span class="fu">sd</span>(Education_Expenditure, <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb45-29"><a href="#cb45-29" aria-hidden="true" tabindex="-1"></a>    <span class="at">Min_Expenditure =</span> <span class="fu">min</span>(Education_Expenditure, <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb45-30"><a href="#cb45-30" aria-hidden="true" tabindex="-1"></a>    <span class="at">Max_Expenditure =</span> <span class="fu">max</span>(Education_Expenditure, <span class="at">na.rm =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb45-31"><a href="#cb45-31" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb45-32"><a href="#cb45-32" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb45-33"><a href="#cb45-33" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb45-34"><a href="#cb45-34" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(descriptive_stats)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 15 × 6
+   Country    Mean_Expenditure Median_Expenditure SD_Expenditure Min_Expenditure
+   &lt;chr&gt;                 &lt;dbl&gt;              &lt;dbl&gt;          &lt;dbl&gt;           &lt;dbl&gt;
+ 1 Argentina              3.46               3.86          1.63             1.05
+ 2 Brazil                 5.19               5.46          0.892            3.75
+ 3 Chile                  3.88               3.76          0.969            2.25
+ 4 Colombia               3.95               4.27          0.902            1.73
+ 5 Costa Rica             5.58               5.27          1.14             3.35
+ 6 Ecuador                3.84               4.28          1.44             1.15
+ 7 El Salvad…             3.50               3.64          0.772            0.9 
+ 8 Guatemala              2.64               2.97          0.664            1.44
+ 9 Honduras               4.89               5.9           1.90             1.94
+10 Mexico                 4.29               4.66          0.904            2.28
+11 Nicaragua              3.66               3.94          1.07             2.04
+12 Panama                 3.66               3.58          0.464            2.82
+13 Paraguay               3.15               3.38          0.818            1.04
+14 Peru                   3.30               3.23          0.482            2.63
+15 Uruguay                3.23               2.83          0.969            1.99
+# ℹ 1 more variable: Max_Expenditure &lt;dbl&gt;</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb47"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb47-1"><a href="#cb47-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(education_latin_america, <span class="fu">aes</span>(<span class="at">x =</span> Country, <span class="at">y =</span> Education_Expenditure)) <span class="sc">+</span></span>
+<span id="cb47-2"><a href="#cb47-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_boxplot</span>(<span class="at">fill =</span> <span class="st">"blue"</span>, <span class="at">color =</span> <span class="st">"black"</span>) <span class="sc">+</span></span>
+<span id="cb47-3"><a href="#cb47-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>() <span class="sc">+</span></span>
+<span id="cb47-4"><a href="#cb47-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">coord_flip</span>() <span class="sc">+</span></span>
+<span id="cb47-5"><a href="#cb47-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"Education Expenditure by Country"</span>, <span class="at">x =</span> <span class="st">"Country"</span>, <span class="at">y =</span> <span class="st">"Education Expenditure (% of GDP)"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="Analysis_text_files/figure-html/unnamed-chunk-2-10.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+<div class="sourceCode cell-code" id="cb48"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb48-1"><a href="#cb48-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(education_latin_america, <span class="fu">aes</span>(<span class="at">x =</span> Education_Expenditure)) <span class="sc">+</span></span>
+<span id="cb48-2"><a href="#cb48-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_density</span>(<span class="at">fill =</span> <span class="st">"lightblue"</span>, <span class="at">color =</span> <span class="st">"darkblue"</span>, <span class="at">alpha =</span> <span class="fl">0.7</span>) <span class="sc">+</span></span>
+<span id="cb48-3"><a href="#cb48-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>() <span class="sc">+</span></span>
+<span id="cb48-4"><a href="#cb48-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"Density Plot of Education Expenditure"</span>, <span class="at">x =</span> <span class="st">"Education Expenditure (% of GDP)"</span>, <span class="at">y =</span> <span class="st">"Density"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="Analysis_text_files/figure-html/unnamed-chunk-2-11.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+<div class="sourceCode cell-code" id="cb49"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb49-1"><a href="#cb49-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(education_latin_america, <span class="fu">aes</span>(<span class="at">x =</span> Education_Expenditure)) <span class="sc">+</span></span>
+<span id="cb49-2"><a href="#cb49-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_histogram</span>(<span class="at">binwidth =</span> <span class="fl">0.5</span>, <span class="at">fill =</span> <span class="st">"blue"</span>, <span class="at">color =</span> <span class="st">"black"</span>) <span class="sc">+</span></span>
+<span id="cb49-3"><a href="#cb49-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>() <span class="sc">+</span></span>
+<span id="cb49-4"><a href="#cb49-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">facet_wrap</span>(<span class="sc">~</span> Country, <span class="at">scales =</span> <span class="st">"free_y"</span>) <span class="sc">+</span></span>
+<span id="cb49-5"><a href="#cb49-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"Education Expenditure Distribution by Country"</span>, <span class="at">x =</span> <span class="st">"Education Expenditure (% of GDP)"</span>, <span class="at">y =</span> <span class="st">"Frequency"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="Analysis_text_files/figure-html/unnamed-chunk-2-12.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+<div class="sourceCode cell-code" id="cb50"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb50-1"><a href="#cb50-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(education_latin_america, <span class="fu">aes</span>(<span class="at">x =</span> Year, <span class="at">y =</span> Education_Expenditure, <span class="at">color =</span> Country, <span class="at">group =</span> Country)) <span class="sc">+</span></span>
+<span id="cb50-2"><a href="#cb50-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_line</span>(<span class="at">size =</span> <span class="dv">1</span>) <span class="sc">+</span>                             </span>
+<span id="cb50-3"><a href="#cb50-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>(<span class="at">size =</span> <span class="dv">3</span>, <span class="at">shape =</span> <span class="dv">22</span>, <span class="at">fill =</span> <span class="st">"yellow"</span>, <span class="at">color =</span> <span class="st">"black"</span>) <span class="sc">+</span>  </span>
+<span id="cb50-4"><a href="#cb50-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>() <span class="sc">+</span>                                 </span>
+<span id="cb50-5"><a href="#cb50-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(</span>
+<span id="cb50-6"><a href="#cb50-6" aria-hidden="true" tabindex="-1"></a>    <span class="at">title =</span> <span class="st">"Trends in Education Expenditure Across Latin American Countries"</span>,</span>
+<span id="cb50-7"><a href="#cb50-7" aria-hidden="true" tabindex="-1"></a>    <span class="at">subtitle =</span> <span class="st">"Detailed yearly trends"</span>,</span>
+<span id="cb50-8"><a href="#cb50-8" aria-hidden="true" tabindex="-1"></a>    <span class="at">caption =</span> <span class="st">"Source: Education Expenditure Dataset"</span>,</span>
+<span id="cb50-9"><a href="#cb50-9" aria-hidden="true" tabindex="-1"></a>    <span class="at">x =</span> <span class="st">"Year"</span>,</span>
+<span id="cb50-10"><a href="#cb50-10" aria-hidden="true" tabindex="-1"></a>    <span class="at">y =</span> <span class="st">"Education Expenditure (% of GDP)"</span></span>
+<span id="cb50-11"><a href="#cb50-11" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span></span>
+<span id="cb50-12"><a href="#cb50-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_color_manual</span>(<span class="at">values =</span> <span class="fu">rainbow</span>(<span class="fu">length</span>(<span class="fu">unique</span>(education_latin_america<span class="sc">$</span>Country)))) <span class="sc">+</span>  </span>
+<span id="cb50-13"><a href="#cb50-13" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(</span>
+<span id="cb50-14"><a href="#cb50-14" aria-hidden="true" tabindex="-1"></a>    <span class="at">plot.title =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">16</span>, <span class="at">face =</span> <span class="st">"bold"</span>, <span class="at">hjust =</span> <span class="fl">0.5</span>), </span>
+<span id="cb50-15"><a href="#cb50-15" aria-hidden="true" tabindex="-1"></a>    <span class="at">plot.subtitle =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">12</span>, <span class="at">hjust =</span> <span class="fl">0.5</span>),             </span>
+<span id="cb50-16"><a href="#cb50-16" aria-hidden="true" tabindex="-1"></a>    <span class="at">plot.caption =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">10</span>, <span class="at">face =</span> <span class="st">"italic"</span>),          </span>
+<span id="cb50-17"><a href="#cb50-17" aria-hidden="true" tabindex="-1"></a>    <span class="at">legend.position =</span> <span class="st">"right"</span>,                                       </span>
+<span id="cb50-18"><a href="#cb50-18" aria-hidden="true" tabindex="-1"></a>    <span class="at">legend.title =</span> <span class="fu">element_blank</span>(),                                   </span>
+<span id="cb50-19"><a href="#cb50-19" aria-hidden="true" tabindex="-1"></a>    <span class="at">legend.text =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">8</span>),                             </span>
+<span id="cb50-20"><a href="#cb50-20" aria-hidden="true" tabindex="-1"></a>    <span class="at">axis.text.x =</span> <span class="fu">element_text</span>(<span class="at">angle =</span> <span class="dv">45</span>, <span class="at">hjust =</span> <span class="dv">1</span>, <span class="at">size =</span> <span class="dv">10</span>),     </span>
+<span id="cb50-21"><a href="#cb50-21" aria-hidden="true" tabindex="-1"></a>    <span class="at">axis.text.y =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">10</span>),                            </span>
+<span id="cb50-22"><a href="#cb50-22" aria-hidden="true" tabindex="-1"></a>    <span class="at">axis.title.x =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">12</span>, <span class="at">face =</span> <span class="st">"bold"</span>),            </span>
+<span id="cb50-23"><a href="#cb50-23" aria-hidden="true" tabindex="-1"></a>    <span class="at">axis.title.y =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">12</span>, <span class="at">face =</span> <span class="st">"bold"</span>),            </span>
+<span id="cb50-24"><a href="#cb50-24" aria-hidden="true" tabindex="-1"></a>    <span class="at">panel.grid.major =</span> <span class="fu">element_line</span>(<span class="at">color =</span> <span class="st">"gray90"</span>)                 </span>
+<span id="cb50-25"><a href="#cb50-25" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span></span>
+<span id="cb50-26"><a href="#cb50-26" aria-hidden="true" tabindex="-1"></a>  <span class="fu">guides</span>(</span>
+<span id="cb50-27"><a href="#cb50-27" aria-hidden="true" tabindex="-1"></a>    <span class="at">color =</span> <span class="fu">guide_legend</span>(<span class="at">ncol =</span> <span class="dv">2</span>)                                    </span>
+<span id="cb50-28"><a href="#cb50-28" aria-hidden="true" tabindex="-1"></a>  )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="Analysis_text_files/figure-html/unnamed-chunk-2-13.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+<div class="sourceCode cell-code" id="cb51"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb51-1"><a href="#cb51-1" aria-hidden="true" tabindex="-1"></a>custom_colors <span class="ot">&lt;-</span> <span class="fu">c</span>(</span>
+<span id="cb51-2"><a href="#cb51-2" aria-hidden="true" tabindex="-1"></a>  <span class="st">"Argentina"</span> <span class="ot">=</span> <span class="st">"#1f77b4"</span>, <span class="st">"Bolivia"</span> <span class="ot">=</span> <span class="st">"#ff7f0e"</span>, <span class="st">"Brazil"</span> <span class="ot">=</span> <span class="st">"#2ca02c"</span>,</span>
+<span id="cb51-3"><a href="#cb51-3" aria-hidden="true" tabindex="-1"></a>  <span class="st">"Chile"</span> <span class="ot">=</span> <span class="st">"#d62728"</span>, <span class="st">"Colombia"</span> <span class="ot">=</span> <span class="st">"#9467bd"</span>, <span class="st">"Costa Rica"</span> <span class="ot">=</span> <span class="st">"#8c564b"</span>,</span>
+<span id="cb51-4"><a href="#cb51-4" aria-hidden="true" tabindex="-1"></a>  <span class="st">"Dominican Republic"</span> <span class="ot">=</span> <span class="st">"#e377c2"</span>, <span class="st">"Ecuador"</span> <span class="ot">=</span> <span class="st">"#7f7f7f"</span>,</span>
+<span id="cb51-5"><a href="#cb51-5" aria-hidden="true" tabindex="-1"></a>  <span class="st">"El Salvador"</span> <span class="ot">=</span> <span class="st">"#bcbd22"</span>, <span class="st">"Guatemala"</span> <span class="ot">=</span> <span class="st">"#17becf"</span>,</span>
+<span id="cb51-6"><a href="#cb51-6" aria-hidden="true" tabindex="-1"></a>  <span class="st">"Honduras"</span> <span class="ot">=</span> <span class="st">"#393b79"</span>, <span class="st">"Mexico"</span> <span class="ot">=</span> <span class="st">"#637939"</span>, <span class="st">"Nicaragua"</span> <span class="ot">=</span> <span class="st">"#8c6d31"</span>,</span>
+<span id="cb51-7"><a href="#cb51-7" aria-hidden="true" tabindex="-1"></a>  <span class="st">"Panama"</span> <span class="ot">=</span> <span class="st">"#843c39"</span>, <span class="st">"Paraguay"</span> <span class="ot">=</span> <span class="st">"#ad494a"</span>, <span class="st">"Peru"</span> <span class="ot">=</span> <span class="st">"#d6616b"</span>,</span>
+<span id="cb51-8"><a href="#cb51-8" aria-hidden="true" tabindex="-1"></a>  <span class="st">"Uruguay"</span> <span class="ot">=</span> <span class="st">"#6b6ecf"</span>, <span class="st">"Venezuela"</span> <span class="ot">=</span> <span class="st">"#ce6dbd"</span></span>
+<span id="cb51-9"><a href="#cb51-9" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb51-10"><a href="#cb51-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb51-11"><a href="#cb51-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb51-12"><a href="#cb51-12" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(education_latin_america, <span class="fu">aes</span>(<span class="at">x =</span> Year, <span class="at">y =</span> Education_Expenditure, <span class="at">color =</span> Country, <span class="at">group =</span> Country)) <span class="sc">+</span></span>
+<span id="cb51-13"><a href="#cb51-13" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_line</span>(<span class="at">size =</span> <span class="dv">1</span>) <span class="sc">+</span></span>
+<span id="cb51-14"><a href="#cb51-14" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>(<span class="at">size =</span> <span class="dv">3</span>, <span class="at">shape =</span> <span class="dv">22</span>, <span class="at">fill =</span> <span class="st">"yellow"</span>, <span class="at">color =</span> <span class="st">"black"</span>) <span class="sc">+</span></span>
+<span id="cb51-15"><a href="#cb51-15" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>() <span class="sc">+</span></span>
+<span id="cb51-16"><a href="#cb51-16" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(</span>
+<span id="cb51-17"><a href="#cb51-17" aria-hidden="true" tabindex="-1"></a>    <span class="at">title =</span> <span class="st">"Trends in Education Expenditure Across Latin American Countries"</span>,</span>
+<span id="cb51-18"><a href="#cb51-18" aria-hidden="true" tabindex="-1"></a>    <span class="at">subtitle =</span> <span class="st">"Detailed yearly trends"</span>,</span>
+<span id="cb51-19"><a href="#cb51-19" aria-hidden="true" tabindex="-1"></a>    <span class="at">caption =</span> <span class="st">"Source: Education Expenditure Dataset"</span>,</span>
+<span id="cb51-20"><a href="#cb51-20" aria-hidden="true" tabindex="-1"></a>    <span class="at">x =</span> <span class="st">"Year"</span>,</span>
+<span id="cb51-21"><a href="#cb51-21" aria-hidden="true" tabindex="-1"></a>    <span class="at">y =</span> <span class="st">"Education Expenditure (% of GDP)"</span></span>
+<span id="cb51-22"><a href="#cb51-22" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span></span>
+<span id="cb51-23"><a href="#cb51-23" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_color_manual</span>(<span class="at">values =</span> custom_colors) <span class="sc">+</span>  </span>
+<span id="cb51-24"><a href="#cb51-24" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(</span>
+<span id="cb51-25"><a href="#cb51-25" aria-hidden="true" tabindex="-1"></a>    <span class="at">plot.title =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">16</span>, <span class="at">face =</span> <span class="st">"bold"</span>, <span class="at">hjust =</span> <span class="fl">0.5</span>),</span>
+<span id="cb51-26"><a href="#cb51-26" aria-hidden="true" tabindex="-1"></a>    <span class="at">plot.subtitle =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">12</span>, <span class="at">hjust =</span> <span class="fl">0.5</span>),</span>
+<span id="cb51-27"><a href="#cb51-27" aria-hidden="true" tabindex="-1"></a>    <span class="at">plot.caption =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">10</span>, <span class="at">face =</span> <span class="st">"italic"</span>),</span>
+<span id="cb51-28"><a href="#cb51-28" aria-hidden="true" tabindex="-1"></a>    <span class="at">legend.position =</span> <span class="st">"right"</span>,</span>
+<span id="cb51-29"><a href="#cb51-29" aria-hidden="true" tabindex="-1"></a>    <span class="at">legend.title =</span> <span class="fu">element_blank</span>(),</span>
+<span id="cb51-30"><a href="#cb51-30" aria-hidden="true" tabindex="-1"></a>    <span class="at">legend.text =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">8</span>),</span>
+<span id="cb51-31"><a href="#cb51-31" aria-hidden="true" tabindex="-1"></a>    <span class="at">axis.text.x =</span> <span class="fu">element_text</span>(<span class="at">angle =</span> <span class="dv">45</span>, <span class="at">hjust =</span> <span class="dv">1</span>, <span class="at">size =</span> <span class="dv">10</span>),</span>
+<span id="cb51-32"><a href="#cb51-32" aria-hidden="true" tabindex="-1"></a>    <span class="at">axis.text.y =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">10</span>),</span>
+<span id="cb51-33"><a href="#cb51-33" aria-hidden="true" tabindex="-1"></a>    <span class="at">axis.title.x =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">12</span>, <span class="at">face =</span> <span class="st">"bold"</span>),</span>
+<span id="cb51-34"><a href="#cb51-34" aria-hidden="true" tabindex="-1"></a>    <span class="at">axis.title.y =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">12</span>, <span class="at">face =</span> <span class="st">"bold"</span>),</span>
+<span id="cb51-35"><a href="#cb51-35" aria-hidden="true" tabindex="-1"></a>    <span class="at">panel.grid.major =</span> <span class="fu">element_line</span>(<span class="at">color =</span> <span class="st">"gray90"</span>)</span>
+<span id="cb51-36"><a href="#cb51-36" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span></span>
+<span id="cb51-37"><a href="#cb51-37" aria-hidden="true" tabindex="-1"></a>  <span class="fu">guides</span>(</span>
+<span id="cb51-38"><a href="#cb51-38" aria-hidden="true" tabindex="-1"></a>    <span class="at">color =</span> <span class="fu">guide_legend</span>(<span class="at">ncol =</span> <span class="dv">2</span>)</span>
+<span id="cb51-39"><a href="#cb51-39" aria-hidden="true" tabindex="-1"></a>  )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="Analysis_text_files/figure-html/unnamed-chunk-2-14.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+<div class="sourceCode cell-code" id="cb52"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb52-1"><a href="#cb52-1" aria-hidden="true" tabindex="-1"></a><span class="fu">write.csv</span>(education_latin_america, <span class="st">"cleaned_education_expenditure_new.csv"</span>, <span class="at">row.names =</span> <span class="cn">FALSE</span>)</span>
+<span id="cb52-2"><a href="#cb52-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb52-3"><a href="#cb52-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb52-4"><a href="#cb52-4" aria-hidden="true" tabindex="-1"></a><span class="co">#GDP PER CAPITA</span></span>
+<span id="cb52-5"><a href="#cb52-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb52-6"><a href="#cb52-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb52-7"><a href="#cb52-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb52-8"><a href="#cb52-8" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span>
+<span id="cb52-9"><a href="#cb52-9" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(gtsummary)</span>
+<span id="cb52-10"><a href="#cb52-10" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(gt)</span>
+<span id="cb52-11"><a href="#cb52-11" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(zoo)</span>
+<span id="cb52-12"><a href="#cb52-12" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(psych)</span>
+<span id="cb52-13"><a href="#cb52-13" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(flextable)</span>
+<span id="cb52-14"><a href="#cb52-14" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggplot2)</span>
+<span id="cb52-15"><a href="#cb52-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb52-16"><a href="#cb52-16" aria-hidden="true" tabindex="-1"></a><span class="fu">setwd</span>(<span class="st">"/Users/macbookpro/Documents/Statistics project"</span>)</span>
+<span id="cb52-17"><a href="#cb52-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb52-18"><a href="#cb52-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb52-19"><a href="#cb52-19" aria-hidden="true" tabindex="-1"></a>gdp_data <span class="ot">&lt;-</span> <span class="fu">read.csv</span>(<span class="st">"GDP_per_Capita_current_prices.csv"</span>, <span class="at">sep =</span> <span class="st">";"</span>, <span class="at">dec =</span> <span class="st">","</span>)</span>
+<span id="cb52-20"><a href="#cb52-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb52-21"><a href="#cb52-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb52-22"><a href="#cb52-22" aria-hidden="true" tabindex="-1"></a>latin_america_countries <span class="ot">&lt;-</span> <span class="fu">c</span>(</span>
+<span id="cb52-23"><a href="#cb52-23" aria-hidden="true" tabindex="-1"></a>  <span class="st">"Argentina"</span>, <span class="st">"Bolivia"</span>, <span class="st">"Brazil"</span>, <span class="st">"Chile"</span>, <span class="st">"Colombia"</span>, <span class="st">"Costa Rica"</span>,</span>
+<span id="cb52-24"><a href="#cb52-24" aria-hidden="true" tabindex="-1"></a>  <span class="st">"Dominican Republic"</span>, <span class="st">"Ecuador"</span>, <span class="st">"El Salvador"</span>, <span class="st">"Guatemala"</span>,</span>
+<span id="cb52-25"><a href="#cb52-25" aria-hidden="true" tabindex="-1"></a>  <span class="st">"Honduras"</span>, <span class="st">"Mexico"</span>, <span class="st">"Nicaragua"</span>, <span class="st">"Panama"</span>, <span class="st">"Paraguay"</span>, <span class="st">"Peru"</span>,</span>
+<span id="cb52-26"><a href="#cb52-26" aria-hidden="true" tabindex="-1"></a>  <span class="st">"Uruguay"</span>, <span class="st">"Venezuela"</span></span>
+<span id="cb52-27"><a href="#cb52-27" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb52-28"><a href="#cb52-28" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb52-29"><a href="#cb52-29" aria-hidden="true" tabindex="-1"></a>gdp_latin_america <span class="ot">&lt;-</span> gdp_data <span class="sc">%&gt;%</span></span>
+<span id="cb52-30"><a href="#cb52-30" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(cname <span class="sc">%in%</span> latin_america_countries) <span class="sc">%&gt;%</span></span>
+<span id="cb52-31"><a href="#cb52-31" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(cname, year, gle_cgdpc) <span class="sc">%&gt;%</span></span>
+<span id="cb52-32"><a href="#cb52-32" aria-hidden="true" tabindex="-1"></a>  <span class="fu">rename</span>(<span class="at">Country =</span> cname, <span class="at">Year =</span> year, <span class="at">GDP_per_Capita =</span> gle_cgdpc)</span>
+<span id="cb52-33"><a href="#cb52-33" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb52-34"><a href="#cb52-34" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb52-35"><a href="#cb52-35" aria-hidden="true" tabindex="-1"></a>descriptive_stats <span class="ot">&lt;-</span> gdp_latin_america <span class="sc">%&gt;%</span></span>
+<span id="cb52-36"><a href="#cb52-36" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(Country) <span class="sc">%&gt;%</span></span>
+<span id="cb52-37"><a href="#cb52-37" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise</span>(</span>
+<span id="cb52-38"><a href="#cb52-38" aria-hidden="true" tabindex="-1"></a>    <span class="at">Mean_GDP =</span> <span class="fu">mean</span>(GDP_per_Capita, <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb52-39"><a href="#cb52-39" aria-hidden="true" tabindex="-1"></a>    <span class="at">Median_GDP =</span> <span class="fu">median</span>(GDP_per_Capita, <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb52-40"><a href="#cb52-40" aria-hidden="true" tabindex="-1"></a>    <span class="at">SD_GDP =</span> <span class="fu">sd</span>(GDP_per_Capita, <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb52-41"><a href="#cb52-41" aria-hidden="true" tabindex="-1"></a>    <span class="at">Min_GDP =</span> <span class="fu">min</span>(GDP_per_Capita, <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb52-42"><a href="#cb52-42" aria-hidden="true" tabindex="-1"></a>    <span class="at">Max_GDP =</span> <span class="fu">max</span>(GDP_per_Capita, <span class="at">na.rm =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb52-43"><a href="#cb52-43" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb52-44"><a href="#cb52-44" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb52-45"><a href="#cb52-45" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb52-46"><a href="#cb52-46" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(descriptive_stats)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 15 × 6
+   Country     Mean_GDP Median_GDP SD_GDP Min_GDP Max_GDP
+   &lt;chr&gt;          &lt;dbl&gt;      &lt;dbl&gt;  &lt;dbl&gt;   &lt;dbl&gt;   &lt;dbl&gt;
+ 1 Argentina      3909.      1625.  4311.   313.   15103.
+ 2 Brazil         3269.      2422.  3016.   191.    9815.
+ 3 Chile          4531.      3016.  4284.   578.   15519.
+ 4 Colombia       3288.      3313.  2474.   450.    8761.
+ 5 Costa Rica     3770.      3371.  2908.   446.    9486.
+ 6 Ecuador        2433.      2305.  1952.   284.    7260.
+ 7 El Salvador     212.       250.   107.    55.2    431.
+ 8 Guatemala      1794.      1743.  1332.   298.    4438 
+ 9 Honduras       1368.      1241.   978.   292.    3303.
+10 Mexico         5245.      5434.  4066.   612.   13609.
+11 Nicaragua      1338.      1434.   669.   274.    2576.
+12 Panama         3896.      2759.  3879.   255.   15137.
+13 Paraguay       1741.      1615.  1420.   235.    4813.
+14 Peru           2405.      1806.  2256.   296.    9227.
+15 Uruguay        4521.      3872.  3412.   798.   12805.</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb54"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb54-1"><a href="#cb54-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(gdp_latin_america, <span class="fu">aes</span>(<span class="at">x =</span> Country, <span class="at">y =</span> GDP_per_Capita)) <span class="sc">+</span></span>
+<span id="cb54-2"><a href="#cb54-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_boxplot</span>(<span class="at">fill =</span> <span class="st">"blue"</span>, <span class="at">color =</span> <span class="st">"black"</span>) <span class="sc">+</span></span>
+<span id="cb54-3"><a href="#cb54-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>() <span class="sc">+</span></span>
+<span id="cb54-4"><a href="#cb54-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">coord_flip</span>() <span class="sc">+</span></span>
+<span id="cb54-5"><a href="#cb54-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"GDP per Capita by Country"</span>, <span class="at">x =</span> <span class="st">"Country"</span>, <span class="at">y =</span> <span class="st">"GDP per Capita (Current Prices)"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="Analysis_text_files/figure-html/unnamed-chunk-2-15.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+<div class="sourceCode cell-code" id="cb55"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb55-1"><a href="#cb55-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(gdp_latin_america, <span class="fu">aes</span>(<span class="at">x =</span> GDP_per_Capita)) <span class="sc">+</span></span>
+<span id="cb55-2"><a href="#cb55-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_density</span>(<span class="at">fill =</span> <span class="st">"lightblue"</span>, <span class="at">color =</span> <span class="st">"darkblue"</span>, <span class="at">alpha =</span> <span class="fl">0.7</span>) <span class="sc">+</span></span>
+<span id="cb55-3"><a href="#cb55-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>() <span class="sc">+</span></span>
+<span id="cb55-4"><a href="#cb55-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"Density Plot of GDP per Capita"</span>, <span class="at">x =</span> <span class="st">"GDP per Capita (Current Prices)"</span>, <span class="at">y =</span> <span class="st">"Density"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="Analysis_text_files/figure-html/unnamed-chunk-2-16.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+<div class="sourceCode cell-code" id="cb56"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb56-1"><a href="#cb56-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(gdp_latin_america, <span class="fu">aes</span>(<span class="at">x =</span> GDP_per_Capita)) <span class="sc">+</span></span>
+<span id="cb56-2"><a href="#cb56-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_histogram</span>(<span class="at">binwidth =</span> <span class="dv">500</span>, <span class="at">fill =</span> <span class="st">"blue"</span>, <span class="at">color =</span> <span class="st">"black"</span>) <span class="sc">+</span></span>
+<span id="cb56-3"><a href="#cb56-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>() <span class="sc">+</span></span>
+<span id="cb56-4"><a href="#cb56-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">facet_wrap</span>(<span class="sc">~</span> Country, <span class="at">scales =</span> <span class="st">"free_y"</span>) <span class="sc">+</span></span>
+<span id="cb56-5"><a href="#cb56-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"GDP per Capita Distribution by Country"</span>, <span class="at">x =</span> <span class="st">"GDP per Capita (Current Prices)"</span>, <span class="at">y =</span> <span class="st">"Frequency"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="Analysis_text_files/figure-html/unnamed-chunk-2-17.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+<div class="sourceCode cell-code" id="cb57"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb57-1"><a href="#cb57-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(gdp_latin_america, <span class="fu">aes</span>(<span class="at">x =</span> Year, <span class="at">y =</span> GDP_per_Capita, <span class="at">color =</span> Country, <span class="at">group =</span> Country)) <span class="sc">+</span></span>
+<span id="cb57-2"><a href="#cb57-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_line</span>(<span class="at">size =</span> <span class="dv">1</span>) <span class="sc">+</span>   </span>
+<span id="cb57-3"><a href="#cb57-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>(<span class="at">size =</span> <span class="dv">3</span>, <span class="at">shape =</span> <span class="dv">22</span>, <span class="at">fill =</span> <span class="st">"yellow"</span>, <span class="at">color =</span> <span class="st">"black"</span>) <span class="sc">+</span></span>
+<span id="cb57-4"><a href="#cb57-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>() <span class="sc">+</span>                                 </span>
+<span id="cb57-5"><a href="#cb57-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(</span>
+<span id="cb57-6"><a href="#cb57-6" aria-hidden="true" tabindex="-1"></a>    <span class="at">title =</span> <span class="st">"Trends in GDP per Capita Across Latin American Countries"</span>,</span>
+<span id="cb57-7"><a href="#cb57-7" aria-hidden="true" tabindex="-1"></a>    <span class="at">subtitle =</span> <span class="st">"Detailed yearly trends"</span>,</span>
+<span id="cb57-8"><a href="#cb57-8" aria-hidden="true" tabindex="-1"></a>    <span class="at">caption =</span> <span class="st">"Source: GDP per Capita Dataset"</span>,</span>
+<span id="cb57-9"><a href="#cb57-9" aria-hidden="true" tabindex="-1"></a>    <span class="at">x =</span> <span class="st">"Year"</span>,</span>
+<span id="cb57-10"><a href="#cb57-10" aria-hidden="true" tabindex="-1"></a>    <span class="at">y =</span> <span class="st">"GDP per Capita (Current Prices)"</span></span>
+<span id="cb57-11"><a href="#cb57-11" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span></span>
+<span id="cb57-12"><a href="#cb57-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_color_manual</span>(<span class="at">values =</span> <span class="fu">rainbow</span>(<span class="fu">length</span>(<span class="fu">unique</span>(gdp_latin_america<span class="sc">$</span>Country)))) <span class="sc">+</span> </span>
+<span id="cb57-13"><a href="#cb57-13" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(</span>
+<span id="cb57-14"><a href="#cb57-14" aria-hidden="true" tabindex="-1"></a>    <span class="at">plot.title =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">16</span>, <span class="at">face =</span> <span class="st">"bold"</span>, <span class="at">hjust =</span> <span class="fl">0.5</span>), </span>
+<span id="cb57-15"><a href="#cb57-15" aria-hidden="true" tabindex="-1"></a>    <span class="at">plot.subtitle =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">12</span>, <span class="at">hjust =</span> <span class="fl">0.5</span>),       </span>
+<span id="cb57-16"><a href="#cb57-16" aria-hidden="true" tabindex="-1"></a>    <span class="at">plot.caption =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">10</span>, <span class="at">face =</span> <span class="st">"italic"</span>),        </span>
+<span id="cb57-17"><a href="#cb57-17" aria-hidden="true" tabindex="-1"></a>    <span class="at">legend.position =</span> <span class="st">"right"</span>,                          </span>
+<span id="cb57-18"><a href="#cb57-18" aria-hidden="true" tabindex="-1"></a>    <span class="at">legend.title =</span> <span class="fu">element_blank</span>(),                           </span>
+<span id="cb57-19"><a href="#cb57-19" aria-hidden="true" tabindex="-1"></a>    <span class="at">legend.text =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">8</span>),                          </span>
+<span id="cb57-20"><a href="#cb57-20" aria-hidden="true" tabindex="-1"></a>    <span class="at">axis.text.x =</span> <span class="fu">element_text</span>(<span class="at">angle =</span> <span class="dv">45</span>, <span class="at">hjust =</span> <span class="dv">1</span>, <span class="at">size =</span> <span class="dv">10</span>),    </span>
+<span id="cb57-21"><a href="#cb57-21" aria-hidden="true" tabindex="-1"></a>    <span class="at">axis.text.y =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">10</span>),                  </span>
+<span id="cb57-22"><a href="#cb57-22" aria-hidden="true" tabindex="-1"></a>    <span class="at">axis.title.x =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">12</span>, <span class="at">face =</span> <span class="st">"bold"</span>),</span>
+<span id="cb57-23"><a href="#cb57-23" aria-hidden="true" tabindex="-1"></a>    <span class="at">axis.title.y =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">12</span>, <span class="at">face =</span> <span class="st">"bold"</span>),</span>
+<span id="cb57-24"><a href="#cb57-24" aria-hidden="true" tabindex="-1"></a>    <span class="at">panel.grid.major =</span> <span class="fu">element_line</span>(<span class="at">color =</span> <span class="st">"gray90"</span>)</span>
+<span id="cb57-25"><a href="#cb57-25" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span></span>
+<span id="cb57-26"><a href="#cb57-26" aria-hidden="true" tabindex="-1"></a>  <span class="fu">guides</span>(</span>
+<span id="cb57-27"><a href="#cb57-27" aria-hidden="true" tabindex="-1"></a>    <span class="at">color =</span> <span class="fu">guide_legend</span>(<span class="at">ncol =</span> <span class="dv">2</span>)                                    </span>
+<span id="cb57-28"><a href="#cb57-28" aria-hidden="true" tabindex="-1"></a>  )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="Analysis_text_files/figure-html/unnamed-chunk-2-18.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+<div class="sourceCode cell-code" id="cb58"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb58-1"><a href="#cb58-1" aria-hidden="true" tabindex="-1"></a><span class="fu">write.csv</span>(gdp_latin_america, <span class="st">"cleaned_gdp_per_capita.csv"</span>, <span class="at">row.names =</span> <span class="cn">FALSE</span>)</span>
+<span id="cb58-2"><a href="#cb58-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb58-3"><a href="#cb58-3" aria-hidden="true" tabindex="-1"></a><span class="co"># BIVARIATE ANALYSIS</span></span>
+<span id="cb58-4"><a href="#cb58-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb58-5"><a href="#cb58-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb58-6"><a href="#cb58-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb58-7"><a href="#cb58-7" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span>
+<span id="cb58-8"><a href="#cb58-8" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(gtsummary)</span>
+<span id="cb58-9"><a href="#cb58-9" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(gt)</span>
+<span id="cb58-10"><a href="#cb58-10" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(zoo)</span>
+<span id="cb58-11"><a href="#cb58-11" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(psych)</span>
+<span id="cb58-12"><a href="#cb58-12" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(flextable)</span>
+<span id="cb58-13"><a href="#cb58-13" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(GGally)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Registered S3 method overwritten by 'GGally':
+  method from   
+  +.gg   ggplot2</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb60"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb60-1"><a href="#cb60-1" aria-hidden="true" tabindex="-1"></a><span class="fu">setwd</span>(<span class="st">"/Users/macbookpro/Documents/Statistics project"</span>)</span>
+<span id="cb60-2"><a href="#cb60-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb60-3"><a href="#cb60-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb60-4"><a href="#cb60-4" aria-hidden="true" tabindex="-1"></a>gini_data <span class="ot">&lt;-</span> <span class="fu">read.csv</span>(<span class="st">"cleaned_interpolated_gini.csv"</span>)</span>
+<span id="cb60-5"><a href="#cb60-5" aria-hidden="true" tabindex="-1"></a>democratization_data <span class="ot">&lt;-</span> <span class="fu">read.csv</span>(<span class="st">"cleaned_democratization.csv"</span>)</span>
+<span id="cb60-6"><a href="#cb60-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb60-7"><a href="#cb60-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb60-8"><a href="#cb60-8" aria-hidden="true" tabindex="-1"></a>bivariate_data <span class="ot">&lt;-</span> <span class="fu">inner_join</span>(gini_data, democratization_data, <span class="at">by =</span> <span class="fu">c</span>(<span class="st">"Country.Name"</span> <span class="ot">=</span> <span class="st">"Country.Name"</span>, <span class="st">"Year"</span> <span class="ot">=</span> <span class="st">"Year"</span>))</span>
+<span id="cb60-9"><a href="#cb60-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb60-10"><a href="#cb60-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb60-11"><a href="#cb60-11" aria-hidden="true" tabindex="-1"></a>bivariate_data <span class="ot">&lt;-</span> bivariate_data <span class="sc">%&gt;%</span></span>
+<span id="cb60-12"><a href="#cb60-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">rename</span>(</span>
+<span id="cb60-13"><a href="#cb60-13" aria-hidden="true" tabindex="-1"></a>    <span class="at">GINI_Index =</span> GINI_Index,</span>
+<span id="cb60-14"><a href="#cb60-14" aria-hidden="true" tabindex="-1"></a>    <span class="at">Democratization_Index =</span> Democratization_Index</span>
+<span id="cb60-15"><a href="#cb60-15" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb60-16"><a href="#cb60-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb60-17"><a href="#cb60-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb60-18"><a href="#cb60-18" aria-hidden="true" tabindex="-1"></a><span class="co"># Removing rows with N/A values</span></span>
+<span id="cb60-19"><a href="#cb60-19" aria-hidden="true" tabindex="-1"></a>bivariate_data <span class="ot">&lt;-</span> bivariate_data <span class="sc">%&gt;%</span> <span class="fu">drop_na</span>(GINI_Index, Democratization_Index)</span>
+<span id="cb60-20"><a href="#cb60-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb60-21"><a href="#cb60-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb60-22"><a href="#cb60-22" aria-hidden="true" tabindex="-1"></a>correlations_by_country <span class="ot">&lt;-</span> bivariate_data <span class="sc">%&gt;%</span></span>
+<span id="cb60-23"><a href="#cb60-23" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(Country.Name) <span class="sc">%&gt;%</span></span>
+<span id="cb60-24"><a href="#cb60-24" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise</span>(</span>
+<span id="cb60-25"><a href="#cb60-25" aria-hidden="true" tabindex="-1"></a>    <span class="at">Correlation =</span> <span class="fu">cor</span>(GINI_Index, Democratization_Index, <span class="at">use =</span> <span class="st">"complete.obs"</span>, <span class="at">method =</span> <span class="st">"pearson"</span>)</span>
+<span id="cb60-26"><a href="#cb60-26" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb60-27"><a href="#cb60-27" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(correlations_by_country)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 15 × 2
+   Country.Name Correlation
+   &lt;chr&gt;              &lt;dbl&gt;
+ 1 Argentina         0.172 
+ 2 Brazil           -0.498 
+ 3 Chile            -0.0708
+ 4 Colombia         -0.102 
+ 5 Costa Rica        0.0665
+ 6 Ecuador          -0.780 
+ 7 El Salvador      -0.838 
+ 8 Guatemala        -0.504 
+ 9 Honduras         -0.610 
+10 Mexico           -0.525 
+11 Nicaragua        -0.575 
+12 Panama            0.153 
+13 Paraguay         -0.162 
+14 Peru             -0.823 
+15 Uruguay          -0.206 </code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb62"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb62-1"><a href="#cb62-1" aria-hidden="true" tabindex="-1"></a>regression_results <span class="ot">&lt;-</span> bivariate_data <span class="sc">%&gt;%</span></span>
+<span id="cb62-2"><a href="#cb62-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(Country.Name) <span class="sc">%&gt;%</span></span>
+<span id="cb62-3"><a href="#cb62-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise</span>(<span class="at">Model =</span> <span class="fu">list</span>(<span class="fu">lm</span>(Democratization_Index <span class="sc">~</span> GINI_Index, <span class="at">data =</span> .)))</span>
+<span id="cb62-4"><a href="#cb62-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb62-5"><a href="#cb62-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb62-6"><a href="#cb62-6" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> (i <span class="cf">in</span> <span class="fu">seq_along</span>(regression_results<span class="sc">$</span>Country.Name)) {</span>
+<span id="cb62-7"><a href="#cb62-7" aria-hidden="true" tabindex="-1"></a>  country <span class="ot">&lt;-</span> regression_results<span class="sc">$</span>Country.Name[i]</span>
+<span id="cb62-8"><a href="#cb62-8" aria-hidden="true" tabindex="-1"></a>  model <span class="ot">&lt;-</span> regression_results<span class="sc">$</span>Model[[i]]</span>
+<span id="cb62-9"><a href="#cb62-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">cat</span>(<span class="st">"</span><span class="sc">\n</span><span class="st">---"</span>, country, <span class="st">"---</span><span class="sc">\n</span><span class="st">"</span>)</span>
+<span id="cb62-10"><a href="#cb62-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">print</span>(<span class="fu">summary</span>(model))</span>
+<span id="cb62-11"><a href="#cb62-11" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+--- Argentina ---
+
+Call:
+lm(formula = Democratization_Index ~ GINI_Index, data = .)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-26.969  -5.275   0.200   4.295  20.294 
+
+Coefficients:
+            Estimate Std. Error t value Pr(&gt;|t|)    
+(Intercept) 57.77298    3.68814   15.66   &lt;2e-16 ***
+GINI_Index  -0.75501    0.07275  -10.38   &lt;2e-16 ***
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Residual standard error: 8.365 on 486 degrees of freedom
+Multiple R-squared:  0.1814,    Adjusted R-squared:  0.1797 
+F-statistic: 107.7 on 1 and 486 DF,  p-value: &lt; 2.2e-16
+
+
+--- Brazil ---
+
+Call:
+lm(formula = Democratization_Index ~ GINI_Index, data = .)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-26.969  -5.275   0.200   4.295  20.294 
+
+Coefficients:
+            Estimate Std. Error t value Pr(&gt;|t|)    
+(Intercept) 57.77298    3.68814   15.66   &lt;2e-16 ***
+GINI_Index  -0.75501    0.07275  -10.38   &lt;2e-16 ***
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Residual standard error: 8.365 on 486 degrees of freedom
+Multiple R-squared:  0.1814,    Adjusted R-squared:  0.1797 
+F-statistic: 107.7 on 1 and 486 DF,  p-value: &lt; 2.2e-16
+
+
+--- Chile ---
+
+Call:
+lm(formula = Democratization_Index ~ GINI_Index, data = .)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-26.969  -5.275   0.200   4.295  20.294 
+
+Coefficients:
+            Estimate Std. Error t value Pr(&gt;|t|)    
+(Intercept) 57.77298    3.68814   15.66   &lt;2e-16 ***
+GINI_Index  -0.75501    0.07275  -10.38   &lt;2e-16 ***
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Residual standard error: 8.365 on 486 degrees of freedom
+Multiple R-squared:  0.1814,    Adjusted R-squared:  0.1797 
+F-statistic: 107.7 on 1 and 486 DF,  p-value: &lt; 2.2e-16
+
+
+--- Colombia ---
+
+Call:
+lm(formula = Democratization_Index ~ GINI_Index, data = .)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-26.969  -5.275   0.200   4.295  20.294 
+
+Coefficients:
+            Estimate Std. Error t value Pr(&gt;|t|)    
+(Intercept) 57.77298    3.68814   15.66   &lt;2e-16 ***
+GINI_Index  -0.75501    0.07275  -10.38   &lt;2e-16 ***
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Residual standard error: 8.365 on 486 degrees of freedom
+Multiple R-squared:  0.1814,    Adjusted R-squared:  0.1797 
+F-statistic: 107.7 on 1 and 486 DF,  p-value: &lt; 2.2e-16
+
+
+--- Costa Rica ---
+
+Call:
+lm(formula = Democratization_Index ~ GINI_Index, data = .)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-26.969  -5.275   0.200   4.295  20.294 
+
+Coefficients:
+            Estimate Std. Error t value Pr(&gt;|t|)    
+(Intercept) 57.77298    3.68814   15.66   &lt;2e-16 ***
+GINI_Index  -0.75501    0.07275  -10.38   &lt;2e-16 ***
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Residual standard error: 8.365 on 486 degrees of freedom
+Multiple R-squared:  0.1814,    Adjusted R-squared:  0.1797 
+F-statistic: 107.7 on 1 and 486 DF,  p-value: &lt; 2.2e-16
+
+
+--- Ecuador ---
+
+Call:
+lm(formula = Democratization_Index ~ GINI_Index, data = .)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-26.969  -5.275   0.200   4.295  20.294 
+
+Coefficients:
+            Estimate Std. Error t value Pr(&gt;|t|)    
+(Intercept) 57.77298    3.68814   15.66   &lt;2e-16 ***
+GINI_Index  -0.75501    0.07275  -10.38   &lt;2e-16 ***
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Residual standard error: 8.365 on 486 degrees of freedom
+Multiple R-squared:  0.1814,    Adjusted R-squared:  0.1797 
+F-statistic: 107.7 on 1 and 486 DF,  p-value: &lt; 2.2e-16
+
+
+--- El Salvador ---
+
+Call:
+lm(formula = Democratization_Index ~ GINI_Index, data = .)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-26.969  -5.275   0.200   4.295  20.294 
+
+Coefficients:
+            Estimate Std. Error t value Pr(&gt;|t|)    
+(Intercept) 57.77298    3.68814   15.66   &lt;2e-16 ***
+GINI_Index  -0.75501    0.07275  -10.38   &lt;2e-16 ***
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Residual standard error: 8.365 on 486 degrees of freedom
+Multiple R-squared:  0.1814,    Adjusted R-squared:  0.1797 
+F-statistic: 107.7 on 1 and 486 DF,  p-value: &lt; 2.2e-16
+
+
+--- Guatemala ---
+
+Call:
+lm(formula = Democratization_Index ~ GINI_Index, data = .)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-26.969  -5.275   0.200   4.295  20.294 
+
+Coefficients:
+            Estimate Std. Error t value Pr(&gt;|t|)    
+(Intercept) 57.77298    3.68814   15.66   &lt;2e-16 ***
+GINI_Index  -0.75501    0.07275  -10.38   &lt;2e-16 ***
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Residual standard error: 8.365 on 486 degrees of freedom
+Multiple R-squared:  0.1814,    Adjusted R-squared:  0.1797 
+F-statistic: 107.7 on 1 and 486 DF,  p-value: &lt; 2.2e-16
+
+
+--- Honduras ---
+
+Call:
+lm(formula = Democratization_Index ~ GINI_Index, data = .)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-26.969  -5.275   0.200   4.295  20.294 
+
+Coefficients:
+            Estimate Std. Error t value Pr(&gt;|t|)    
+(Intercept) 57.77298    3.68814   15.66   &lt;2e-16 ***
+GINI_Index  -0.75501    0.07275  -10.38   &lt;2e-16 ***
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Residual standard error: 8.365 on 486 degrees of freedom
+Multiple R-squared:  0.1814,    Adjusted R-squared:  0.1797 
+F-statistic: 107.7 on 1 and 486 DF,  p-value: &lt; 2.2e-16
+
+
+--- Mexico ---
+
+Call:
+lm(formula = Democratization_Index ~ GINI_Index, data = .)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-26.969  -5.275   0.200   4.295  20.294 
+
+Coefficients:
+            Estimate Std. Error t value Pr(&gt;|t|)    
+(Intercept) 57.77298    3.68814   15.66   &lt;2e-16 ***
+GINI_Index  -0.75501    0.07275  -10.38   &lt;2e-16 ***
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Residual standard error: 8.365 on 486 degrees of freedom
+Multiple R-squared:  0.1814,    Adjusted R-squared:  0.1797 
+F-statistic: 107.7 on 1 and 486 DF,  p-value: &lt; 2.2e-16
+
+
+--- Nicaragua ---
+
+Call:
+lm(formula = Democratization_Index ~ GINI_Index, data = .)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-26.969  -5.275   0.200   4.295  20.294 
+
+Coefficients:
+            Estimate Std. Error t value Pr(&gt;|t|)    
+(Intercept) 57.77298    3.68814   15.66   &lt;2e-16 ***
+GINI_Index  -0.75501    0.07275  -10.38   &lt;2e-16 ***
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Residual standard error: 8.365 on 486 degrees of freedom
+Multiple R-squared:  0.1814,    Adjusted R-squared:  0.1797 
+F-statistic: 107.7 on 1 and 486 DF,  p-value: &lt; 2.2e-16
+
+
+--- Panama ---
+
+Call:
+lm(formula = Democratization_Index ~ GINI_Index, data = .)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-26.969  -5.275   0.200   4.295  20.294 
+
+Coefficients:
+            Estimate Std. Error t value Pr(&gt;|t|)    
+(Intercept) 57.77298    3.68814   15.66   &lt;2e-16 ***
+GINI_Index  -0.75501    0.07275  -10.38   &lt;2e-16 ***
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Residual standard error: 8.365 on 486 degrees of freedom
+Multiple R-squared:  0.1814,    Adjusted R-squared:  0.1797 
+F-statistic: 107.7 on 1 and 486 DF,  p-value: &lt; 2.2e-16
+
+
+--- Paraguay ---
+
+Call:
+lm(formula = Democratization_Index ~ GINI_Index, data = .)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-26.969  -5.275   0.200   4.295  20.294 
+
+Coefficients:
+            Estimate Std. Error t value Pr(&gt;|t|)    
+(Intercept) 57.77298    3.68814   15.66   &lt;2e-16 ***
+GINI_Index  -0.75501    0.07275  -10.38   &lt;2e-16 ***
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Residual standard error: 8.365 on 486 degrees of freedom
+Multiple R-squared:  0.1814,    Adjusted R-squared:  0.1797 
+F-statistic: 107.7 on 1 and 486 DF,  p-value: &lt; 2.2e-16
+
+
+--- Peru ---
+
+Call:
+lm(formula = Democratization_Index ~ GINI_Index, data = .)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-26.969  -5.275   0.200   4.295  20.294 
+
+Coefficients:
+            Estimate Std. Error t value Pr(&gt;|t|)    
+(Intercept) 57.77298    3.68814   15.66   &lt;2e-16 ***
+GINI_Index  -0.75501    0.07275  -10.38   &lt;2e-16 ***
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Residual standard error: 8.365 on 486 degrees of freedom
+Multiple R-squared:  0.1814,    Adjusted R-squared:  0.1797 
+F-statistic: 107.7 on 1 and 486 DF,  p-value: &lt; 2.2e-16
+
+
+--- Uruguay ---
+
+Call:
+lm(formula = Democratization_Index ~ GINI_Index, data = .)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-26.969  -5.275   0.200   4.295  20.294 
+
+Coefficients:
+            Estimate Std. Error t value Pr(&gt;|t|)    
+(Intercept) 57.77298    3.68814   15.66   &lt;2e-16 ***
+GINI_Index  -0.75501    0.07275  -10.38   &lt;2e-16 ***
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Residual standard error: 8.365 on 486 degrees of freedom
+Multiple R-squared:  0.1814,    Adjusted R-squared:  0.1797 
+F-statistic: 107.7 on 1 and 486 DF,  p-value: &lt; 2.2e-16</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb64"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb64-1"><a href="#cb64-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(bivariate_data, <span class="fu">aes</span>(<span class="at">x =</span> GINI_Index, <span class="at">y =</span> Democratization_Index)) <span class="sc">+</span></span>
+<span id="cb64-2"><a href="#cb64-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>(<span class="at">color =</span> <span class="st">"blue"</span>, <span class="at">alpha =</span> <span class="fl">0.7</span>) <span class="sc">+</span></span>
+<span id="cb64-3"><a href="#cb64-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_smooth</span>(<span class="at">method =</span> <span class="st">"lm"</span>, <span class="at">color =</span> <span class="st">"red"</span>, <span class="at">se =</span> <span class="cn">TRUE</span>) <span class="sc">+</span></span>
+<span id="cb64-4"><a href="#cb64-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>() <span class="sc">+</span></span>
+<span id="cb64-5"><a href="#cb64-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">facet_wrap</span>(<span class="sc">~</span> Country.Name) <span class="sc">+</span></span>
+<span id="cb64-6"><a href="#cb64-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(</span>
+<span id="cb64-7"><a href="#cb64-7" aria-hidden="true" tabindex="-1"></a>    <span class="at">title =</span> <span class="st">"Relationship between GINI Index and Democratization Index by Country"</span>,</span>
+<span id="cb64-8"><a href="#cb64-8" aria-hidden="true" tabindex="-1"></a>    <span class="at">x =</span> <span class="st">"GINI Index"</span>,</span>
+<span id="cb64-9"><a href="#cb64-9" aria-hidden="true" tabindex="-1"></a>    <span class="at">y =</span> <span class="st">"Democratization Index"</span></span>
+<span id="cb64-10"><a href="#cb64-10" aria-hidden="true" tabindex="-1"></a>  )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>`geom_smooth()` using formula = 'y ~ x'</code></pre>
+</div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="Analysis_text_files/figure-html/unnamed-chunk-2-19.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+<div class="sourceCode cell-code" id="cb66"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb66-1"><a href="#cb66-1" aria-hidden="true" tabindex="-1"></a>overall_correlation <span class="ot">&lt;-</span> <span class="fu">cor</span>(bivariate_data<span class="sc">$</span>GINI_Index, bivariate_data<span class="sc">$</span>Democratization_Index, <span class="at">use =</span> <span class="st">"complete.obs"</span>, <span class="at">method =</span> <span class="st">"pearson"</span>)</span>
+<span id="cb66-2"><a href="#cb66-2" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(<span class="fu">paste</span>(<span class="st">"Overall Pearson correlation for Latin America: "</span>, <span class="fu">round</span>(overall_correlation, <span class="dv">2</span>)))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Overall Pearson correlation for Latin America:  -0.43"</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb68"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb68-1"><a href="#cb68-1" aria-hidden="true" tabindex="-1"></a>overall_model <span class="ot">&lt;-</span> <span class="fu">lm</span>(Democratization_Index <span class="sc">~</span> GINI_Index, <span class="at">data =</span> bivariate_data)</span>
+<span id="cb68-2"><a href="#cb68-2" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(overall_model)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+Call:
+lm(formula = Democratization_Index ~ GINI_Index, data = bivariate_data)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-26.969  -5.275   0.200   4.295  20.294 
+
+Coefficients:
+            Estimate Std. Error t value Pr(&gt;|t|)    
+(Intercept) 57.77298    3.68814   15.66   &lt;2e-16 ***
+GINI_Index  -0.75501    0.07275  -10.38   &lt;2e-16 ***
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Residual standard error: 8.365 on 486 degrees of freedom
+Multiple R-squared:  0.1814,    Adjusted R-squared:  0.1797 
+F-statistic: 107.7 on 1 and 486 DF,  p-value: &lt; 2.2e-16</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb70"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb70-1"><a href="#cb70-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(bivariate_data, <span class="fu">aes</span>(<span class="at">x =</span> GINI_Index, <span class="at">y =</span> Democratization_Index)) <span class="sc">+</span></span>
+<span id="cb70-2"><a href="#cb70-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>(<span class="at">color =</span> <span class="st">"blue"</span>, <span class="at">alpha =</span> <span class="fl">0.7</span>) <span class="sc">+</span></span>
+<span id="cb70-3"><a href="#cb70-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_smooth</span>(<span class="at">method =</span> <span class="st">"lm"</span>, <span class="at">color =</span> <span class="st">"red"</span>, <span class="at">se =</span> <span class="cn">TRUE</span>) <span class="sc">+</span></span>
+<span id="cb70-4"><a href="#cb70-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>() <span class="sc">+</span></span>
+<span id="cb70-5"><a href="#cb70-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(</span>
+<span id="cb70-6"><a href="#cb70-6" aria-hidden="true" tabindex="-1"></a>    <span class="at">title =</span> <span class="st">"Relationship between GINI Index and Democratization Index in Latin America"</span>,</span>
+<span id="cb70-7"><a href="#cb70-7" aria-hidden="true" tabindex="-1"></a>    <span class="at">x =</span> <span class="st">"GINI Index"</span>,</span>
+<span id="cb70-8"><a href="#cb70-8" aria-hidden="true" tabindex="-1"></a>    <span class="at">y =</span> <span class="st">"Democratization Index"</span></span>
+<span id="cb70-9"><a href="#cb70-9" aria-hidden="true" tabindex="-1"></a>  )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>`geom_smooth()` using formula = 'y ~ x'</code></pre>
+</div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="Analysis_text_files/figure-html/unnamed-chunk-2-20.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+<div class="sourceCode cell-code" id="cb72"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb72-1"><a href="#cb72-1" aria-hidden="true" tabindex="-1"></a><span class="fu">par</span>(<span class="at">mfrow =</span> <span class="fu">c</span>(<span class="dv">2</span>, <span class="dv">2</span>))  </span>
+<span id="cb72-2"><a href="#cb72-2" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(overall_model, <span class="at">main =</span> <span class="st">"Diagnostics for Overall Model"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="Analysis_text_files/figure-html/unnamed-chunk-2-21.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+<div class="sourceCode cell-code" id="cb73"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb73-1"><a href="#cb73-1" aria-hidden="true" tabindex="-1"></a><span class="fu">par</span>(<span class="at">mfrow =</span> <span class="fu">c</span>(<span class="dv">1</span>, <span class="dv">1</span>))  </span>
+<span id="cb73-2"><a href="#cb73-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb73-3"><a href="#cb73-3" aria-hidden="true" tabindex="-1"></a><span class="fu">write.csv</span>(bivariate_data, <span class="st">"bivariate_gini_democratization_cleaned.csv"</span>, <span class="at">row.names =</span> <span class="cn">FALSE</span>)</span>
+<span id="cb73-4"><a href="#cb73-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb73-5"><a href="#cb73-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb73-6"><a href="#cb73-6" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span>
+<span id="cb73-7"><a href="#cb73-7" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(zoo)</span>
+<span id="cb73-8"><a href="#cb73-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb73-9"><a href="#cb73-9" aria-hidden="true" tabindex="-1"></a><span class="fu">setwd</span>(<span class="st">"/Users/macbookpro/Documents/Statistics project"</span>)</span>
+<span id="cb73-10"><a href="#cb73-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb73-11"><a href="#cb73-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb73-12"><a href="#cb73-12" aria-hidden="true" tabindex="-1"></a><span class="co"># MULTIVARIATE REGRESSION ANALYSIS</span></span>
+<span id="cb73-13"><a href="#cb73-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb73-14"><a href="#cb73-14" aria-hidden="true" tabindex="-1"></a>gini <span class="ot">&lt;-</span> <span class="fu">read.csv</span>(<span class="st">"interpolated_gini_latin_america.csv"</span>)  </span>
+<span id="cb73-15"><a href="#cb73-15" aria-hidden="true" tabindex="-1"></a>democratization <span class="ot">&lt;-</span> <span class="fu">read.csv</span>(<span class="st">"cleaned_interpolated_democratization.csv"</span>) </span>
+<span id="cb73-16"><a href="#cb73-16" aria-hidden="true" tabindex="-1"></a>education <span class="ot">&lt;-</span> <span class="fu">read.csv</span>(<span class="st">"cleaned_education_expenditure_new.csv"</span>) </span>
+<span id="cb73-17"><a href="#cb73-17" aria-hidden="true" tabindex="-1"></a>gdp <span class="ot">&lt;-</span> <span class="fu">read.csv</span>(<span class="st">"cleaned_gdp_per_capita.csv"</span>)  </span>
+<span id="cb73-18"><a href="#cb73-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb73-19"><a href="#cb73-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb73-20"><a href="#cb73-20" aria-hidden="true" tabindex="-1"></a>gini <span class="ot">&lt;-</span> gini <span class="sc">%&gt;%</span> <span class="fu">select</span>(<span class="sc">-</span><span class="dv">2</span>)  </span>
+<span id="cb73-21"><a href="#cb73-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb73-22"><a href="#cb73-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb73-23"><a href="#cb73-23" aria-hidden="true" tabindex="-1"></a><span class="fu">colnames</span>(gini) <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"Country"</span>, <span class="st">"Year"</span>, <span class="st">"GINI_Index"</span>)</span>
+<span id="cb73-24"><a href="#cb73-24" aria-hidden="true" tabindex="-1"></a><span class="fu">colnames</span>(democratization) <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"Country"</span>, <span class="st">"Year"</span>, <span class="st">"Democratization_Level"</span>)</span>
+<span id="cb73-25"><a href="#cb73-25" aria-hidden="true" tabindex="-1"></a><span class="fu">colnames</span>(education) <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"Country"</span>, <span class="st">"Year"</span>, <span class="st">"Education_Expenditure"</span>)</span>
+<span id="cb73-26"><a href="#cb73-26" aria-hidden="true" tabindex="-1"></a><span class="fu">colnames</span>(gdp) <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"Country"</span>, <span class="st">"Year"</span>, <span class="st">"GDP_per_Capita"</span>)</span>
+<span id="cb73-27"><a href="#cb73-27" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb73-28"><a href="#cb73-28" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb73-29"><a href="#cb73-29" aria-hidden="true" tabindex="-1"></a>gini <span class="ot">&lt;-</span> gini <span class="sc">%&gt;%</span> <span class="fu">mutate</span>(<span class="at">Year =</span> <span class="fu">as.numeric</span>(<span class="fu">gsub</span>(<span class="st">"[^0-9]"</span>, <span class="st">""</span>, Year)))</span>
+<span id="cb73-30"><a href="#cb73-30" aria-hidden="true" tabindex="-1"></a>democratization <span class="ot">&lt;-</span> democratization <span class="sc">%&gt;%</span> <span class="fu">mutate</span>(<span class="at">Year =</span> <span class="fu">as.numeric</span>(Year))</span>
+<span id="cb73-31"><a href="#cb73-31" aria-hidden="true" tabindex="-1"></a>education <span class="ot">&lt;-</span> education <span class="sc">%&gt;%</span> <span class="fu">mutate</span>(<span class="at">Year =</span> <span class="fu">as.numeric</span>(Year))</span>
+<span id="cb73-32"><a href="#cb73-32" aria-hidden="true" tabindex="-1"></a>gdp <span class="ot">&lt;-</span> gdp <span class="sc">%&gt;%</span> <span class="fu">mutate</span>(<span class="at">Year =</span> <span class="fu">as.numeric</span>(Year))</span>
+<span id="cb73-33"><a href="#cb73-33" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb73-34"><a href="#cb73-34" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb73-35"><a href="#cb73-35" aria-hidden="true" tabindex="-1"></a>common_years <span class="ot">&lt;-</span> <span class="fu">intersect</span>(<span class="fu">intersect</span>(<span class="fu">unique</span>(gini<span class="sc">$</span>Year), <span class="fu">unique</span>(democratization<span class="sc">$</span>Year)),</span>
+<span id="cb73-36"><a href="#cb73-36" aria-hidden="true" tabindex="-1"></a>                          <span class="fu">intersect</span>(<span class="fu">unique</span>(education<span class="sc">$</span>Year), <span class="fu">unique</span>(gdp<span class="sc">$</span>Year)))</span>
+<span id="cb73-37"><a href="#cb73-37" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb73-38"><a href="#cb73-38" aria-hidden="true" tabindex="-1"></a>gini <span class="ot">&lt;-</span> gini <span class="sc">%&gt;%</span> <span class="fu">filter</span>(Year <span class="sc">%in%</span> common_years)</span>
+<span id="cb73-39"><a href="#cb73-39" aria-hidden="true" tabindex="-1"></a>democratization <span class="ot">&lt;-</span> democratization <span class="sc">%&gt;%</span> <span class="fu">filter</span>(Year <span class="sc">%in%</span> common_years)</span>
+<span id="cb73-40"><a href="#cb73-40" aria-hidden="true" tabindex="-1"></a>education <span class="ot">&lt;-</span> education <span class="sc">%&gt;%</span> <span class="fu">filter</span>(Year <span class="sc">%in%</span> common_years)</span>
+<span id="cb73-41"><a href="#cb73-41" aria-hidden="true" tabindex="-1"></a>gdp <span class="ot">&lt;-</span> gdp <span class="sc">%&gt;%</span> <span class="fu">filter</span>(Year <span class="sc">%in%</span> common_years)</span>
+<span id="cb73-42"><a href="#cb73-42" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb73-43"><a href="#cb73-43" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb73-44"><a href="#cb73-44" aria-hidden="true" tabindex="-1"></a>merged_data <span class="ot">&lt;-</span> gini <span class="sc">%&gt;%</span></span>
+<span id="cb73-45"><a href="#cb73-45" aria-hidden="true" tabindex="-1"></a>  <span class="fu">left_join</span>(democratization, <span class="at">by =</span> <span class="fu">c</span>(<span class="st">"Country"</span>, <span class="st">"Year"</span>)) <span class="sc">%&gt;%</span></span>
+<span id="cb73-46"><a href="#cb73-46" aria-hidden="true" tabindex="-1"></a>  <span class="fu">left_join</span>(education, <span class="at">by =</span> <span class="fu">c</span>(<span class="st">"Country"</span>, <span class="st">"Year"</span>)) <span class="sc">%&gt;%</span></span>
+<span id="cb73-47"><a href="#cb73-47" aria-hidden="true" tabindex="-1"></a>  <span class="fu">left_join</span>(gdp, <span class="at">by =</span> <span class="fu">c</span>(<span class="st">"Country"</span>, <span class="st">"Year"</span>))</span>
+<span id="cb73-48"><a href="#cb73-48" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb73-49"><a href="#cb73-49" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb73-50"><a href="#cb73-50" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb73-51"><a href="#cb73-51" aria-hidden="true" tabindex="-1"></a>merged_data <span class="ot">&lt;-</span> merged_data <span class="sc">%&gt;%</span></span>
+<span id="cb73-52"><a href="#cb73-52" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">GINI_Index =</span> <span class="fu">ifelse</span>(GINI_Index <span class="sc">==</span> <span class="dv">0</span>, <span class="cn">NA</span>, GINI_Index))</span>
+<span id="cb73-53"><a href="#cb73-53" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb73-54"><a href="#cb73-54" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb73-55"><a href="#cb73-55" aria-hidden="true" tabindex="-1"></a>merged_data <span class="ot">&lt;-</span> merged_data <span class="sc">%&gt;%</span></span>
+<span id="cb73-56"><a href="#cb73-56" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(Country) <span class="sc">%&gt;%</span></span>
+<span id="cb73-57"><a href="#cb73-57" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(</span>
+<span id="cb73-58"><a href="#cb73-58" aria-hidden="true" tabindex="-1"></a>    <span class="at">GINI_Index =</span> zoo<span class="sc">::</span><span class="fu">na.approx</span>(GINI_Index, <span class="at">na.rm =</span> <span class="cn">FALSE</span>),</span>
+<span id="cb73-59"><a href="#cb73-59" aria-hidden="true" tabindex="-1"></a>    <span class="at">Education_Expenditure =</span> zoo<span class="sc">::</span><span class="fu">na.approx</span>(Education_Expenditure, <span class="at">na.rm =</span> <span class="cn">FALSE</span>),</span>
+<span id="cb73-60"><a href="#cb73-60" aria-hidden="true" tabindex="-1"></a>    <span class="at">GDP_per_Capita =</span> zoo<span class="sc">::</span><span class="fu">na.approx</span>(GDP_per_Capita, <span class="at">na.rm =</span> <span class="cn">FALSE</span>)</span>
+<span id="cb73-61"><a href="#cb73-61" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">%&gt;%</span></span>
+<span id="cb73-62"><a href="#cb73-62" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ungroup</span>()</span>
+<span id="cb73-63"><a href="#cb73-63" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb73-64"><a href="#cb73-64" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb73-65"><a href="#cb73-65" aria-hidden="true" tabindex="-1"></a>merged_data <span class="ot">&lt;-</span> merged_data <span class="sc">%&gt;%</span></span>
+<span id="cb73-66"><a href="#cb73-66" aria-hidden="true" tabindex="-1"></a>  <span class="fu">drop_na</span>(GINI_Index, Education_Expenditure, GDP_per_Capita)</span>
+<span id="cb73-67"><a href="#cb73-67" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb73-68"><a href="#cb73-68" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb73-69"><a href="#cb73-69" aria-hidden="true" tabindex="-1"></a><span class="fu">write.csv</span>(merged_data, <span class="st">"final_merged_dataset.csv"</span>, <span class="at">row.names =</span> <span class="cn">FALSE</span>)</span>
+<span id="cb73-70"><a href="#cb73-70" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb73-71"><a href="#cb73-71" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb73-72"><a href="#cb73-72" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(merged_data)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>   Country               Year        GINI_Index    Democratization_Level
+ Length:117         Min.   :1980   Min.   :34.40   Min.   : 0.0         
+ Class :character   1st Qu.:1996   1st Qu.:47.40   1st Qu.:18.9         
+ Mode  :character   Median :2001   Median :50.70   Median :22.8         
+                    Mean   :2000   Mean   :50.85   Mean   :21.1         
+                    3rd Qu.:2006   3rd Qu.:54.30   3rd Qu.:25.6         
+                    Max.   :2011   Max.   :59.80   Max.   :35.8         
+ Education_Expenditure GDP_per_Capita 
+ Min.   :1.260         Min.   : 1555  
+ 1st Qu.:3.143         1st Qu.: 5659  
+ Median :3.940         Median : 7287  
+ Mean   :3.901         Mean   : 7526  
+ 3rd Qu.:4.697         3rd Qu.: 8794  
+ Max.   :6.570         Max.   :15519  </code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb75"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb75-1"><a href="#cb75-1" aria-hidden="true" tabindex="-1"></a><span class="fu">head</span>(merged_data)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 6 × 6
+  Country     Year GINI_Index Democratization_Level Education_Expenditure
+  &lt;chr&gt;      &lt;dbl&gt;      &lt;dbl&gt;                 &lt;dbl&gt;                 &lt;dbl&gt;
+1 Argentina   1980       40.8                   0                    2.61
+2 Colombia    1980       55.1                   9.9                  1.73
+3 Argentina   1986       42.8                  25.1                  1.26
+4 Costa Rica  1986       34.4                  21.2                  4.42
+5 Argentina   1987       45.3                  25.1                  1.28
+6 Chile       1987       56.2                   0                    2.82
+# ℹ 1 more variable: GDP_per_Capita &lt;dbl&gt;</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb77"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb77-1"><a href="#cb77-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(car)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Loading required package: carData</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>
+Attaching package: 'car'</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>The following object is masked from 'package:psych':
+
+    logit</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>The following object is masked from 'package:dplyr':
+
+    recode</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>The following object is masked from 'package:purrr':
+
+    some</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb83"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb83-1"><a href="#cb83-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span>
+<span id="cb83-2"><a href="#cb83-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(car)</span>
+<span id="cb83-3"><a href="#cb83-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggplot2)</span>
+<span id="cb83-4"><a href="#cb83-4" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(broom)</span>
+<span id="cb83-5"><a href="#cb83-5" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggiraphExtra)</span>
+<span id="cb83-6"><a href="#cb83-6" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(stargazer)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>
+Please cite as: </code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code> Hlavac, Marek (2022). stargazer: Well-Formatted Regression and Summary Statistics Tables.</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code> R package version 5.2.3. https://CRAN.R-project.org/package=stargazer </code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb87"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb87-1"><a href="#cb87-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(lmtest)</span>
+<span id="cb87-2"><a href="#cb87-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(corrplot)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>corrplot 0.95 loaded</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb89"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb89-1"><a href="#cb89-1" aria-hidden="true" tabindex="-1"></a>merged_data <span class="ot">&lt;-</span> <span class="fu">read.csv</span>(<span class="st">"final_merged_dataset.csv"</span>)</span>
+<span id="cb89-2"><a href="#cb89-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb89-3"><a href="#cb89-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb89-4"><a href="#cb89-4" aria-hidden="true" tabindex="-1"></a>merged_data <span class="ot">&lt;-</span> merged_data <span class="sc">%&gt;%</span></span>
+<span id="cb89-5"><a href="#cb89-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(</span>
+<span id="cb89-6"><a href="#cb89-6" aria-hidden="true" tabindex="-1"></a>    <span class="at">GINI_Index =</span> <span class="fu">as.numeric</span>(GINI_Index),</span>
+<span id="cb89-7"><a href="#cb89-7" aria-hidden="true" tabindex="-1"></a>    <span class="at">Democratization_Level =</span> <span class="fu">as.numeric</span>(Democratization_Level),</span>
+<span id="cb89-8"><a href="#cb89-8" aria-hidden="true" tabindex="-1"></a>    <span class="at">Education_Expenditure =</span> <span class="fu">as.numeric</span>(Education_Expenditure),</span>
+<span id="cb89-9"><a href="#cb89-9" aria-hidden="true" tabindex="-1"></a>    <span class="at">GDP_per_Capita =</span> <span class="fu">as.numeric</span>(GDP_per_Capita),</span>
+<span id="cb89-10"><a href="#cb89-10" aria-hidden="true" tabindex="-1"></a>    <span class="at">Year =</span> <span class="fu">as.numeric</span>(Year)</span>
+<span id="cb89-11"><a href="#cb89-11" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb89-12"><a href="#cb89-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb89-13"><a href="#cb89-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb89-14"><a href="#cb89-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb89-15"><a href="#cb89-15" aria-hidden="true" tabindex="-1"></a><span class="co"># Null Model</span></span>
+<span id="cb89-16"><a href="#cb89-16" aria-hidden="true" tabindex="-1"></a>null_model <span class="ot">&lt;-</span> <span class="fu">lm</span>(Democratization_Level <span class="sc">~</span> <span class="dv">1</span>, <span class="at">data =</span> merged_data)</span>
+<span id="cb89-17"><a href="#cb89-17" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(null_model)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+Call:
+lm(formula = Democratization_Level ~ 1, data = merged_data)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-21.105  -2.205   1.695   4.495  14.695 
+
+Coefficients:
+            Estimate Std. Error t value Pr(&gt;|t|)    
+(Intercept)  21.1048     0.6432   32.81   &lt;2e-16 ***
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Residual standard error: 6.957 on 116 degrees of freedom</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb91"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb91-1"><a href="#cb91-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(merged_data, <span class="fu">aes</span>(<span class="at">x =</span> Country, <span class="at">y =</span> Democratization_Level)) <span class="sc">+</span></span>
+<span id="cb91-2"><a href="#cb91-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_segment</span>(<span class="fu">aes</span>(<span class="at">xend =</span> Country, <span class="at">yend =</span> <span class="fu">mean</span>(Democratization_Level)), <span class="at">color =</span> <span class="st">"darkgray"</span>) <span class="sc">+</span></span>
+<span id="cb91-3"><a href="#cb91-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>() <span class="sc">+</span></span>
+<span id="cb91-4"><a href="#cb91-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_hline</span>(<span class="fu">aes</span>(<span class="at">yintercept =</span> <span class="fu">mean</span>(Democratization_Level)), <span class="at">color =</span> <span class="st">"deeppink"</span>) <span class="sc">+</span></span>
+<span id="cb91-5"><a href="#cb91-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"Null Model Intercept and Prediction Error"</span>,</span>
+<span id="cb91-6"><a href="#cb91-6" aria-hidden="true" tabindex="-1"></a>       <span class="at">x =</span> <span class="cn">NULL</span>,</span>
+<span id="cb91-7"><a href="#cb91-7" aria-hidden="true" tabindex="-1"></a>       <span class="at">y =</span> <span class="st">"Democratization Level"</span>) <span class="sc">+</span></span>
+<span id="cb91-8"><a href="#cb91-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">axis.text.x =</span> <span class="fu">element_text</span>(<span class="at">angle =</span> <span class="dv">45</span>, <span class="at">hjust =</span> <span class="dv">1</span>, <span class="at">size =</span> <span class="dv">6</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="Analysis_text_files/figure-html/unnamed-chunk-2-22.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+<div class="sourceCode cell-code" id="cb92"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb92-1"><a href="#cb92-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Simple Model</span></span>
+<span id="cb92-2"><a href="#cb92-2" aria-hidden="true" tabindex="-1"></a>simple_model <span class="ot">&lt;-</span> <span class="fu">lm</span>(Democratization_Level <span class="sc">~</span> GINI_Index, <span class="at">data =</span> merged_data)</span>
+<span id="cb92-3"><a href="#cb92-3" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(simple_model)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+Call:
+lm(formula = Democratization_Level ~ GINI_Index, data = merged_data)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-23.848  -2.464   1.172   4.174  14.736 
+
+Coefficients:
+            Estimate Std. Error t value Pr(&gt;|t|)    
+(Intercept)  34.9861     6.9700    5.02 1.91e-06 ***
+GINI_Index   -0.2730     0.1365   -2.00   0.0479 *  
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Residual standard error: 6.869 on 115 degrees of freedom
+Multiple R-squared:  0.03361,   Adjusted R-squared:  0.02521 
+F-statistic:     4 on 1 and 115 DF,  p-value: 0.04787</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb94"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb94-1"><a href="#cb94-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(merged_data, <span class="fu">aes</span>(<span class="at">x =</span> GINI_Index, <span class="at">y =</span> Democratization_Level)) <span class="sc">+</span></span>
+<span id="cb94-2"><a href="#cb94-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_segment</span>(<span class="fu">aes</span>(<span class="at">xend =</span> GINI_Index, <span class="at">yend =</span> <span class="fu">predict</span>(simple_model)), <span class="at">color =</span> <span class="st">"darkgray"</span>) <span class="sc">+</span></span>
+<span id="cb94-3"><a href="#cb94-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>() <span class="sc">+</span></span>
+<span id="cb94-4"><a href="#cb94-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_smooth</span>(<span class="at">method =</span> <span class="st">"lm"</span>, <span class="at">color =</span> <span class="st">"blue"</span>) <span class="sc">+</span></span>
+<span id="cb94-5"><a href="#cb94-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"Simple Regression Model"</span>,</span>
+<span id="cb94-6"><a href="#cb94-6" aria-hidden="true" tabindex="-1"></a>       <span class="at">x =</span> <span class="st">"GINI Index"</span>,</span>
+<span id="cb94-7"><a href="#cb94-7" aria-hidden="true" tabindex="-1"></a>       <span class="at">y =</span> <span class="st">"Democratization Level"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>`geom_smooth()` using formula = 'y ~ x'</code></pre>
+</div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="Analysis_text_files/figure-html/unnamed-chunk-2-23.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+<div class="sourceCode cell-code" id="cb96"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb96-1"><a href="#cb96-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Multivariatye Regression Model</span></span>
+<span id="cb96-2"><a href="#cb96-2" aria-hidden="true" tabindex="-1"></a>multiple_model <span class="ot">&lt;-</span> <span class="fu">lm</span>(Democratization_Level <span class="sc">~</span> GINI_Index <span class="sc">+</span> Education_Expenditure <span class="sc">+</span> GDP_per_Capita <span class="sc">+</span> Year, </span>
+<span id="cb96-3"><a href="#cb96-3" aria-hidden="true" tabindex="-1"></a>                     <span class="at">data =</span> merged_data)</span>
+<span id="cb96-4"><a href="#cb96-4" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(multiple_model)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+Call:
+lm(formula = Democratization_Level ~ GINI_Index + Education_Expenditure + 
+    GDP_per_Capita + Year, data = merged_data)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-17.3435  -3.6242   0.2004   5.0847  13.8825 
+
+Coefficients:
+                        Estimate Std. Error t value Pr(&gt;|t|)   
+(Intercept)           -4.038e+01  2.485e+02  -0.163  0.87118   
+GINI_Index            -1.745e-01  1.357e-01  -1.286  0.20114   
+Education_Expenditure -6.539e-01  7.532e-01  -0.868  0.38713   
+GDP_per_Capita         9.528e-04  3.334e-04   2.858  0.00509 **
+Year                   3.286e-02  1.260e-01   0.261  0.79470   
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Residual standard error: 6.517 on 112 degrees of freedom
+Multiple R-squared:  0.1527,    Adjusted R-squared:  0.1224 
+F-statistic: 5.046 on 4 and 112 DF,  p-value: 0.0008923</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb98"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb98-1"><a href="#cb98-1" aria-hidden="true" tabindex="-1"></a>vif_values <span class="ot">&lt;-</span> <span class="fu">vif</span>(multiple_model)</span>
+<span id="cb98-2"><a href="#cb98-2" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(vif_values)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>           GINI_Index Education_Expenditure        GDP_per_Capita 
+             1.097664              1.658993              2.256993 
+                 Year 
+             2.276589 </code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb100"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb100-1"><a href="#cb100-1" aria-hidden="true" tabindex="-1"></a><span class="fu">par</span>(<span class="at">mfrow =</span> <span class="fu">c</span>(<span class="dv">2</span>, <span class="dv">2</span>))</span>
+<span id="cb100-2"><a href="#cb100-2" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(multiple_model)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="Analysis_text_files/figure-html/unnamed-chunk-2-24.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+<div class="sourceCode cell-code" id="cb101"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb101-1"><a href="#cb101-1" aria-hidden="true" tabindex="-1"></a>bp_test <span class="ot">&lt;-</span> <span class="fu">bptest</span>(multiple_model)</span>
+<span id="cb101-2"><a href="#cb101-2" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(bp_test)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+    studentized Breusch-Pagan test
+
+data:  multiple_model
+BP = 4.2719, df = 4, p-value = 0.3705</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb103"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb103-1"><a href="#cb103-1" aria-hidden="true" tabindex="-1"></a>shapiro_test <span class="ot">&lt;-</span> <span class="fu">shapiro.test</span>(<span class="fu">residuals</span>(multiple_model))</span>
+<span id="cb103-2"><a href="#cb103-2" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(shapiro_test)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+    Shapiro-Wilk normality test
+
+data:  residuals(multiple_model)
+W = 0.98646, p-value = 0.293</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb105"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb105-1"><a href="#cb105-1" aria-hidden="true" tabindex="-1"></a>cooks_distance <span class="ot">&lt;-</span> <span class="fu">cooks.distance</span>(multiple_model)</span>
+<span id="cb105-2"><a href="#cb105-2" aria-hidden="true" tabindex="-1"></a>merged_data<span class="sc">$</span>cooksd <span class="ot">&lt;-</span> cooks_distance</span>
+<span id="cb105-3"><a href="#cb105-3" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(merged_data, <span class="fu">aes</span>(<span class="at">x =</span> <span class="fu">seq_along</span>(cooksd), <span class="at">y =</span> cooksd)) <span class="sc">+</span></span>
+<span id="cb105-4"><a href="#cb105-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_col</span>() <span class="sc">+</span></span>
+<span id="cb105-5"><a href="#cb105-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_hline</span>(<span class="at">yintercept =</span> <span class="dv">4</span> <span class="sc">/</span> <span class="fu">nrow</span>(merged_data), <span class="at">color =</span> <span class="st">"deeppink"</span>, <span class="at">linetype =</span> <span class="st">"dashed"</span>) <span class="sc">+</span></span>
+<span id="cb105-6"><a href="#cb105-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"Cook's Distance for Multiple Regression"</span>,</span>
+<span id="cb105-7"><a href="#cb105-7" aria-hidden="true" tabindex="-1"></a>       <span class="at">x =</span> <span class="st">"Index"</span>, <span class="at">y =</span> <span class="st">"Cook's Distance"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="Analysis_text_files/figure-html/unnamed-chunk-2-25.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+<div class="sourceCode cell-code" id="cb106"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb106-1"><a href="#cb106-1" aria-hidden="true" tabindex="-1"></a><span class="fu">stargazer</span>(null_model, simple_model, multiple_model, <span class="at">type =</span> <span class="st">"text"</span>,</span>
+<span id="cb106-2"><a href="#cb106-2" aria-hidden="true" tabindex="-1"></a>          <span class="at">star.cutoffs =</span> <span class="fu">c</span>(<span class="fl">0.05</span>, <span class="fl">0.01</span>, <span class="fl">0.001</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+==================================================================================
+                                          Dependent variable:                     
+                      ------------------------------------------------------------
+                                         Democratization_Level                    
+                            (1)                (2)                   (3)          
+----------------------------------------------------------------------------------
+GINI_Index                                   -0.273*                -0.174        
+                                             (0.137)               (0.136)        
+                                                                                  
+Education_Expenditure                                               -0.654        
+                                                                   (0.753)        
+                                                                                  
+GDP_per_Capita                                                     0.001**        
+                                                                   (0.0003)       
+                                                                                  
+Year                                                                0.033         
+                                                                   (0.126)        
+                                                                                  
+Constant                 21.105***          34.986***              -40.383        
+                          (0.643)            (6.970)              (248.466)       
+                                                                                  
+----------------------------------------------------------------------------------
+Observations                117                117                   117          
+R2                         0.000              0.034                 0.153         
+Adjusted R2                0.000              0.025                 0.122         
+Residual Std. Error   6.957 (df = 116)   6.869 (df = 115)      6.517 (df = 112)   
+F Statistic                            4.000* (df = 1; 115) 5.046*** (df = 4; 112)
+==================================================================================
+Note:                                                *p&lt;0.05; **p&lt;0.01; ***p&lt;0.001</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb108"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb108-1"><a href="#cb108-1" aria-hidden="true" tabindex="-1"></a><span class="fu">sink</span>(<span class="st">"model_summary.txt"</span>)</span>
+<span id="cb108-2"><a href="#cb108-2" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(multiple_model)</span>
+<span id="cb108-3"><a href="#cb108-3" aria-hidden="true" tabindex="-1"></a><span class="fu">sink</span>()</span>
+<span id="cb108-4"><a href="#cb108-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb108-5"><a href="#cb108-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb108-6"><a href="#cb108-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb108-7"><a href="#cb108-7" aria-hidden="true" tabindex="-1"></a><span class="co"># GINI Index Effect</span></span>
+<span id="cb108-8"><a href="#cb108-8" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(merged_data, <span class="fu">aes</span>(<span class="at">x =</span> GINI_Index, <span class="at">y =</span> Democratization_Level)) <span class="sc">+</span></span>
+<span id="cb108-9"><a href="#cb108-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>() <span class="sc">+</span></span>
+<span id="cb108-10"><a href="#cb108-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_smooth</span>(<span class="at">method =</span> <span class="st">"lm"</span>, <span class="at">se =</span> <span class="cn">TRUE</span>, <span class="at">color =</span> <span class="st">"blue"</span>) <span class="sc">+</span></span>
+<span id="cb108-11"><a href="#cb108-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"GINI Index and Democratization Level"</span>,</span>
+<span id="cb108-12"><a href="#cb108-12" aria-hidden="true" tabindex="-1"></a>       <span class="at">x =</span> <span class="st">"GINI Index"</span>,</span>
+<span id="cb108-13"><a href="#cb108-13" aria-hidden="true" tabindex="-1"></a>       <span class="at">y =</span> <span class="st">"Democratization Level"</span>) <span class="sc">+</span></span>
+<span id="cb108-14"><a href="#cb108-14" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>`geom_smooth()` using formula = 'y ~ x'</code></pre>
+</div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="Analysis_text_files/figure-html/unnamed-chunk-2-26.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+<div class="sourceCode cell-code" id="cb110"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb110-1"><a href="#cb110-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Education Expenditure Effect</span></span>
+<span id="cb110-2"><a href="#cb110-2" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(merged_data, <span class="fu">aes</span>(<span class="at">x =</span> Education_Expenditure, <span class="at">y =</span> Democratization_Level)) <span class="sc">+</span></span>
+<span id="cb110-3"><a href="#cb110-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>() <span class="sc">+</span></span>
+<span id="cb110-4"><a href="#cb110-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_smooth</span>(<span class="at">method =</span> <span class="st">"lm"</span>, <span class="at">se =</span> <span class="cn">TRUE</span>, <span class="at">color =</span> <span class="st">"green"</span>) <span class="sc">+</span></span>
+<span id="cb110-5"><a href="#cb110-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"Education Expenditure and Democratization Level"</span>,</span>
+<span id="cb110-6"><a href="#cb110-6" aria-hidden="true" tabindex="-1"></a>       <span class="at">x =</span> <span class="st">"Education Expenditure (% of GDP)"</span>,</span>
+<span id="cb110-7"><a href="#cb110-7" aria-hidden="true" tabindex="-1"></a>       <span class="at">y =</span> <span class="st">"Democratization Level"</span>) <span class="sc">+</span></span>
+<span id="cb110-8"><a href="#cb110-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>`geom_smooth()` using formula = 'y ~ x'</code></pre>
+</div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="Analysis_text_files/figure-html/unnamed-chunk-2-27.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+<div class="sourceCode cell-code" id="cb112"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb112-1"><a href="#cb112-1" aria-hidden="true" tabindex="-1"></a><span class="co"># GDP per Capita Effect</span></span>
+<span id="cb112-2"><a href="#cb112-2" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(merged_data, <span class="fu">aes</span>(<span class="at">x =</span> GDP_per_Capita, <span class="at">y =</span> Democratization_Level)) <span class="sc">+</span></span>
+<span id="cb112-3"><a href="#cb112-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>() <span class="sc">+</span></span>
+<span id="cb112-4"><a href="#cb112-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_smooth</span>(<span class="at">method =</span> <span class="st">"lm"</span>, <span class="at">se =</span> <span class="cn">TRUE</span>, <span class="at">color =</span> <span class="st">"purple"</span>) <span class="sc">+</span></span>
+<span id="cb112-5"><a href="#cb112-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"GDP per Capita and Democratization Level"</span>,</span>
+<span id="cb112-6"><a href="#cb112-6" aria-hidden="true" tabindex="-1"></a>       <span class="at">x =</span> <span class="st">"GDP per Capita (USD)"</span>,</span>
+<span id="cb112-7"><a href="#cb112-7" aria-hidden="true" tabindex="-1"></a>       <span class="at">y =</span> <span class="st">"Democratization Level"</span>) <span class="sc">+</span></span>
+<span id="cb112-8"><a href="#cb112-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>`geom_smooth()` using formula = 'y ~ x'</code></pre>
+</div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="Analysis_text_files/figure-html/unnamed-chunk-2-28.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
 
 </main>
 <!-- /main column -->

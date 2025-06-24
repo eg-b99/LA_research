@@ -164,3 +164,829 @@ ggplot(gini_latin_america_long_clean, aes(x = Year, y = GINI_Index, color = Coun
 
 write.csv(gini_latin_america_long_clean, "cleaned_interpolated_gini.csv", row.names = FALSE)
 ```
+
+# **Overview of Income Inequality**
+
+The region’s average GINI Index differs greatly; Uruguay has the lowest mean inequality (42,4) and Brazil the highest one (56,4). This difference emphasizes the variety of income distribution trends found in Latin America. For most nations, median GINI values nearly match the means and indicate quite symmetric distributions. Standard deviations, which track change in inequality over time, range from 2,01 in Uruguay (showing stability) to 6,15 in Bolivia (indicating morefluctuations). The GINI Index of the area varies greatly. With a mean inequality of 42,4 Uruguay boasts the lowest and Brazil the greatest (56,4). This variation might highlight the range of income distribution patterns seen in Latin America. Generally speaking, median GINI values almost match the means and show rather symmetric distributions for most countries. Standard deviations range from 2,01 in Uruguay (showing stability) to 6,15 in Bolivia (indicating more oscillations). Track movement in inequality over time.
+
+# KEY OBSERVATIONS
+
+A few nations have regularly high degrees of inequality. Brazil, Colombia, Honduras, and Guatemala show consistently high average inequality with mean GINI values more than 53. Reflecting continued enormous disparity, Brazil likewise has the highest maximum GINI of 63,2. Conversely Uruguay (42,4) and Costa Rica (46,6) have the lowest average degrees of inequality. While Uruguay and Colombia show rather steady inequality levels over time (SD = 2,01 and SD = 2,12, respectively), Bolivia and El Salvador show substantial volatility (SD = 6,15 and SD = 5,39, respectively). The GINI Index’s skewness offers still another background for the income distribution’s asymmetry. Positive skewness in nations including Chile, Bolivia, and Argentina could point to sporadic cases of high inequality. Negative skewness in Mexico, the Dominican Republic, and Costa Rica points to periods of really dramatic inequality reduction. Countries with very negligible skewness, like Brazil and Panama, represent rather symmetric distributions. These results highlight the need of looking at the part income disparity plays in democratizing processes. Higher average inequality countries like Brazil and Honduras could find it difficult to build inclusive democratic systems since some academics might hypostatize. Likewise, based on the same reasoning, countries with great variation in inequality like Bolivia and El Salvador may undergo political unrest or major policy changes. The latter can also affect the variations in democratic degrees.
+
+# DEMOCRACY LEVEL OVERVIEW
+
+The descriptive statistics for democratization levels provide an insightful overview of political openness and institutional stability across different Latin American countries. These results underscore the varying trajectories of democratization in the region and set the stage for exploring the factors influencing political development.
+
+**Overview of Democratization Levels**
+
+The mean democratization degrees expose notable national differences. Uruguay stands out with the greatest average democratization score (24,9), while Guatemala (6,16) has the lowest, so indicating somewhat poor democracy level. With rather high mean democratization levels, Costa Rica (17,41) and Argentina (18,9) instead point to apparently constant political development. Reflecting very symmetric distributions, the median democratization values quite match the means of most countries. But in nations like Mexico (Mean=10.6, Median=7.9), variations might indicate considerable skewness or appreciable shift in democracy levels. The standard deviations reveal how steadily democratization is evolving with time. Showing the largest swings are Uruguay (SD=13,1) and Brazil (SD=13,1), suggesting moments of both democratic growth and backsliding. Though their average scores remain very low (SD = 4,26 and SD = 4,82, respectively), Guatemala (SD = 4,26) and Colombia (SD = 4,82 show rather consistent democratizing rates. For many countries, including Brazil, Chile, Guatemala, and Argentina, democratization scores of 0 indicate periods of autocratic control. Uruguay (Max = 45,9) and Argentina (Max = 38,5) had the best success in democratization. Available data suggests that although some countries experienced problems with democratization, and still remain at low stages of democracy, one can claim that Latin America has experienced a positive democratizing trend. To understand how, to that extend, and if at all this is connected to the income inequality, there is a need to firstly introduce control variables.
+
+# DESCRIPTIVE ANALYSIS OF EDUCATIONAL SPENDING TO GDP ACROSS LATIN AMERICA
+
+Education expenditure varies from a minimum of 2,64% of GDP in Guatemala to a maximum of 5,58% in Costa Rica. Brazil demonstrates a substantial average expenditure of 5,19%, with a minimum of 3,75%. The average expenditures of 3,15% and 2,64%, respectively, suggest that nations like Paraguay and Guatemala have significantly lower investment levels.The fluctuations in educational spending indicate certain trends. Honduras exhibits the biggest standard deviation (SD = 1,9), signifying considerable variability in funding amounts over time. Panama demonstrates the lowest variability (SD = 0,46), signifying more solid financial practices. Analyzing the minimum and maximum levels of educational funding highlights existing inequities. El Salvador demonstrates the lowest minimum expenditure, indicative of years of little investment in education. In contrast, Honduras achieves a maximum of 5,90%. Countries such as Uruguay and Peru have a consistent, albeit not the highest, dedication to education, with maximum expenditures of 2,83% and 3,23%, respectively. The results highlight the inequalities in educational funding throughout the region. Countries like Brazil and Costa Rica, marked by continuously high spending, undoubtedly gain advantages by emphasizing education in their developmental objectives. Conversely, diminished investment in Guatemala and Paraguay may impede the rapid development of human capital, thereby affecting democratization results. Educational expenditure will serve as the principal control variable in assessing the influence of GINI on democratization in Latin America.
+
+**GDP PER CAPITA OVERVIEW**
+
+The average GDP across the countries varies from a low of 212 for El Salvador to a high of 5245 for Mexico. Costa Rica’s average GDP of 3770 is comparatively high, whereas countries such as El Salvador and Honduras exhibit significantly lower averages, highlighting a substantial discrepancy in economic performance. The median GDP, indicating the central value of the sorted dataset, has significant variability. For instance, El Salvador's median GDP is 250, whereas Mexico and Uruguay exhibit far larger median values of 5434 and 3872, respectively, signifying a concentration of GDP at the upper end for those nations. SD is greatest in Brazil and Chile, with values of 3016 and 4284 respectively, signifying a broad spectrum of GDP estimates within these nations. In contrast, El Salvador possesses the lowest standard deviation at 107, signifying that its GDP figures are very stable. The minimum and highest GDP numbers underscore the disparity in economic performance, with El Salvador recording the lowest minimum GDP of 55,2 and Brazil attaining a maximum GDP of 9815, indicating substantial variations in economic progress. These figures offer a comprehensive summary of the GDP inequalities among the investigated countries.
+
+# GINI AND DEMOCRACY LEVEL. BIVARIATE ANALYSIS
+
+The bivariate analysis examines the relationship between income inequality, as measured by the GINI Index, and democratization levels across Latin American countries. Using Pearson’s correlation coefficient, this analysis quantifies the strength and direction of the relationship between these two variables within each country. Most of the countries show negative relationships, meaning that lower degrees of democratization are linked to more economic disparity. The following cases show the strongest negative associations. First Ecuador (r = -0,78) and El Salvador (r = -0,838), implying a strong inverse link between democratization and inequality. Further underlining the negative effect of inequality on democratic processes are Peru (r = -0,823) and Honduras (r = -0,610). The above suggests that these outcomes fit theoretical models that hold that strong income disparity compromises political inclusiveness, erodes democratic institutions, and promotes societaldivisions. Still, there are certain examples with somewhat distinct outcomes. For instance, nations with modest negative correlations include Guatemala (r = -0,504), Mexico (r = -0,525), and Nicaragua (r = -0,575). This could imply that although inequality has a major influence, other elements could also affect democratization degrees in different countries. Furthermore, there are nations where connection is negligible. Among these, one could highlight Chile (r = -0,0708), Colombia (r = -0,102), and Costa Rica (r = 0,0665). They exhibit positive correlations with r = 0,172 and r = 0,153 respectively. These unexpected findings may warrant further investigation into unique country-specific factors that could decouple democratization from inequality, and link democratization more with economic growth or education. The predominance of negative correlations supports the broader hypothesis that higher income inequality undermines democratization. This trend is particularly pronounced in countries with the strongest negative correlations, such as El Salvador, Peru, and Ecuador, where inequality appears to have a profound impact on democratic governance.
+
+**Regression Analysis for All of Latin America**
+
+The overall regression model for the whole Latin American region analyzes the correlation between income inequality (GINI Index) and degrees of democracy across the Latin American area. This thorough analysis offers a regional perspective on the effects of inequality on democratic government. The model reveals a statistically significant inverse relationship between the GINI index and levels of democracy. The slope coefficient for the GINI index is -0,755, indicating that for each one-unit increase in the GINI index, the level of democratization decreases by an average of 0,755 points. This effect is notably considerable, demonstrating a robust and consistent negative connection across the region. The residual standard error of 8,37 signifies moderate variability in democratization levels that is not accounted for by the GINI Index. The R\^2 value of approximately 0,18 indicates that about 18,14% of the variance in democratization levels can be accounted for by the GINI Index. This suggests that while inequality is a vital predictor, additional factors outside this model substantially affect democratization results. The adjusted R\^2 of 0,179 confirms the model’s dependability, given its simplicity. This model demonstrates a significant negative relationship between economic disparity and degrees of democratization in Latin America. The findings suggest that reducing inequality might greatly strengthen democratic governance across the region. Low R\^2 value highlights the need for other variables, such as education, economic development, or institutional difficulties, in future investigations to better understand the complex nature of democratization. The bivariate study indicates a primarily negative correlation between economic inequality and democratization in Latin America. This tendency highlights, along with some research findings, the potential for inequality to undermine democratic norms by intensifying social divisions and restricting political inclusion. Nonetheless, the weak or positive correlations observed in certain nations indicate that the link is not consistent and may be influenced by country-specific variables. These findings establish a basis for investigating more intricate, multivariate models to enhance comprehension of how inequality interacts with other variables to influence democratization efforts throughout the area. Furthermore, to establish a more comprehensive conclusion, it is needed to incorporate control variables.
+
+# MULTIVARIATE REGRESSION ANALYSIS
+
+This study examines the influence of income inequality, quantified by the GINI Index, on levels of democratization, while controlling for economic development (GDP per capita), educational investment, and temporal factors (measured in years). The findings are derived from two regression models: a simple regression concentrating just on the GINI Index and a multiple regression that includes control factors.
+
+**Simple Regression Model**
+
+The simple regression model indicates a statistically substantial negative correlation between the GINI Index and degrees of democracy. For each one-unit increase in the GINI Index, democratization levels decline by an average of 0,273 points (p = 0,048). This conclusion corresponds with theoretical expectations that increased income inequality may obstruct democratic advancement by exacerbating societal divisions and diminishing egalitarian political engagement. Nevertheless, the model accounts for merely 3,36% of the variance in democratization levels (R\^2 = 0,0336), suggesting that inequality alone may be inadequate to explain the wider fluctuations in democracy.
+
+**Multiple Regression Model Results**
+
+The multiple regression model incorporates supplementary variables: Education Expenditure, GDP per capita, and Year. The inverse correlation between inequality and democratization lessens and becomes statistically insignificant (beta = -0,174, p = 0,201)2 upon the inclusion of control factors. This indicates that the impact of inequality on democracy may be modulated or confounded by additional factors, especially economic development. GDP per capita is identified as the sole statistically significant predictor in the model (beta = 0,00095, p = 0,005). For each \$1 increase in GDP per capita, democratization levels rise by 0,00095 points, underscoring a significant correlation between wealth and democracy. This discovery may corroborate modernization theory, which asserts that increased economic development promotes the establishment of democratic institutions. Unexpectedly, education expenditure exhibits an insignificant and negative correlation with democratization (beta = -0,654, p = 0,387). This may illustrate the intricacy of education’s function in democratization, contingent upon the implementation of education systems and their capacity to foster civic engagement or cater to elite interests. The year variable, included to account for temporal trends, is not significant (beta = 0,033, p = 0,795). This indicates the absence of a consistent rising or negative trend in democratization levels over the investigated time period. The multiple regression model explains 15.27% of the variance in democratization levels (R\^2 = 0.1527) and surpasses the basic model, yielding an adjusted R\^2 of 12.24%. A significant percentage of the variance remains unaccounted for, suggesting that additional essential factors affecting democratization may be excluded from the model.
+
+# ACKNOLEGEMENTS AND LIMITATIONS
+
+While the findings provide valuable insights into the dynamics between inequality and democratization, several potential limitations may be pointed out. For example, reliance on interpolated data for some variables (e.g., Democratization level) may introduce biases and reduce the precision of estimates. In addition, the dataset is limited to a specific set of countries and years, potentially reducing the generalizability of findings. Also, it would be insightful to conduct a cross-regional study to compare Latin America with other regions. It is intriguing because if the results for GINI influence on democracy is different in other regions, then there is maybe another variable which mitigates GINI effect on a regional level.
+
+# CONCLUSION
+
+This study highlights the nuanced relationship between inequality and democratization. While the GINI Index alone appears to negatively influence democratization levels, this relationship becomes insignificant when accounting for other factors, particularly economic development. GDP per capita emerges as the strongest predictor, emphasizing the role of economic modernization in fostering democratic institutions. The findings contribute to the broader understanding of democratization but also call for further research incorporating additional variables and alternative analytical approaches to address the study’s limitations. It can be said that when it comes to the explanation of rising democratization levels across many Latin American countries’ modernization theory has the strongest explanatory ability. The multivariate regression model shows that in contrast to the proposed theoretical approaches to the negative influence of high inequality on levels of democratization, this does not hold true. Although bivariate analysis may support the aforementioned approach, the statistical significance of GINI influence becomes little, when it comes to controlling for other variables.
+
+# BIBLIOGRAPHY
+
+Acemoglu, Daron, and James A. Robinson. *Economic origins of dictatorship and democracy*. Cambridge university press, 2006.
+
+Acemoglu, Daron, Simon Johnson, James A. Robinson, and Pierre Yared. "Income and democracy." *American economic review* 98, no. 3 (2008): 808-842.
+
+Acemoglu, Daron, Simon Johnson, James A. Robinson, and Pierre Yared. "From education to democracy?." *American Economic Review* 95, no. 2 (2005): 44-49.
+
+Alemán, Eduardo, and Yeaji Kim. "The democratizing effect of education." *Research & Politics* 2, no. 4 (2015): 2053168015613360.
+Ansell, Ben W., and David J. Samuels. "Inequality and Democratization." *Available at SSRN 1144087* (2008).
+
+Burkhart, Ross. "Democracy, capitalism, and income inequality: Seeking causal directions." *Comparative Sociology* 6, no. 4 (2007): 481-507.
+
+Friedman, Milton. *Capitalism and Freedom*. Chicago, University of Chicago Press, 1962.
+
+Gerring, John, Philip Bond, William T. Barndt, and Carola Moreno. "Democracy and economic growth: A historical perspective." *World politics* 57, no. 3 (2005): 323-364.
+
+Hlavac, Marek (2022). stargazer: Well-Formatted Regression and Summary Statistics Tables
+
+Heo, Uk, and Alexander C. Tan. "Democracy and economic growth: A causal analysis." *Comparative politics* (2001): 463-473.
+
+Krauss, Alexander. "The scientific limits of understanding the (potential) relationship betweencomplex social phenomena: the case of democracy and inequality." *Journal of Economic Methodology* 23, no. 1 (2016): 97-109.
+
+Lipset, Seymour Martin. "Some social requisites of democracy: Economic development and political legitimacy." *American political science review* 53, no. 1 (1959): 69-105.
+
+Treisman, Daniel. "Economic development and democracy: predispositions and triggers." *Annual Review of Political Science* 23, no. 1 (2020): 241-257.
+
+# CODE APPENDIX
+
+```{r}
+
+
+library(tidyverse)
+library(gtsummary)
+library(gt)
+library(zoo)
+library(psych)
+library(flextable)
+
+
+setwd("/Users/macbookpro/Documents/Statistics project")
+
+
+data <- read.csv("gini_world.csv", header = TRUE, skip = 4, sep = ",")
+
+
+colnames(data) <- make.names(colnames(data), unique = TRUE)
+
+
+latin_america_countries <- c(
+  "Argentina", "Bolivia", "Brazil", "Chile", "Colombia", "Costa Rica",
+  "Cuba", "Dominican Republic", "Ecuador", "El Salvador", "Guatemala",
+  "Honduras", "Mexico", "Nicaragua", "Panama", "Paraguay", "Peru",
+  "Uruguay", "Venezuela"
+)
+
+
+gini_latin_america <- data %>%
+  filter(Country.Name %in% latin_america_countries)
+
+
+gini_latin_america_long <- gini_latin_america %>%
+  pivot_longer(
+    cols = starts_with("X"),
+    names_to = "Year",
+    values_to = "GINI_Index"
+  ) %>%
+  mutate(
+    Year = as.numeric(gsub("X", "", Year))  # Convert Year column to numeric
+  )
+
+# Interpolating missing values
+gini_latin_america_long <- gini_latin_america_long %>%
+  group_by(Country.Name) %>%
+  arrange(Year) %>%
+  mutate(GINI_Index = zoo::na.approx(GINI_Index, na.rm = FALSE))  
+
+# Excluding countries with no valid data
+gini_latin_america_long_clean <- gini_latin_america_long %>%
+  group_by(Country.Name) %>%
+  filter(any(!is.na(GINI_Index)))
+
+
+descriptive_stats <- gini_latin_america_long_clean %>%
+  summarise(
+    Mean_GINI = mean(GINI_Index, na.rm = TRUE),
+    Median_GINI = median(GINI_Index, na.rm = TRUE),
+    SD_GINI = sd(GINI_Index, na.rm = TRUE),
+    Min_GINI = min(GINI_Index, na.rm = TRUE),
+    Max_GINI = max(GINI_Index, na.rm = TRUE),
+    Skewness_GINI = psych::skew(GINI_Index, na.rm = TRUE),
+    Kurtosis_GINI = psych::kurtosi(GINI_Index, na.rm = TRUE)
+  )
+
+
+print(descriptive_stats)
+
+
+ggplot(gini_latin_america_long_clean, aes(x = Country.Name, y = GINI_Index)) +
+  geom_boxplot(fill = "blue", color = "black") +
+  theme_minimal() +
+  coord_flip() +  
+  labs(title = "GINI Index by Country", x = "Country", y = "GINI Index")
+
+
+ggplot(gini_latin_america_long_clean, aes(x = GINI_Index)) +
+  geom_density(fill = "lightblue", color = "darkblue", alpha = 0.7) +
+  theme_minimal() +
+  labs(title = "Density Plot of GINI Index", x = "GINI Index", y = "Density")
+
+
+ggplot(gini_latin_america_long_clean, aes(x = GINI_Index)) +
+  geom_histogram(binwidth = 2, fill = "blue", color = "black") +
+  theme_minimal() +
+  facet_wrap(~ Country.Name, scales = "free_y") +
+  labs(title = "GINI Index Distribution by Country", x = "GINI Index", y = "Frequency")
+
+
+ggplot(gini_latin_america_long_clean, aes(x = Year, y = GINI_Index, color = Country.Name, group = Country.Name)) +
+  geom_line() +
+  theme_minimal() +
+  labs(title = "GINI Index Over Time by Country", x = "Year", y = "GINI Index") +
+  theme(legend.position = "bottom")
+
+
+ggplot(gini_latin_america_long_clean, aes(x = Year, y = GINI_Index, color = Country.Name, group = Country.Name)) +
+  geom_line(size = 1.2) +                             
+  geom_point(size = 2, shape = 21, fill = "white") +  
+  theme_minimal() +                                   
+  labs(
+    title = "Trends in GINI Index Across Latin American Countries",
+    subtitle = "Data interpolated for missing years",
+    caption = "Source: World Bank, GINI Index Dataset",
+    x = "Year",
+    y = "GINI Index"
+  ) +
+  scale_color_brewer(palette = "Dark2") +             
+  theme(
+    plot.title = element_text(size = 16, face = "bold", hjust = 0.5), 
+    plot.subtitle = element_text(size = 12, hjust = 0.5),            
+    plot.caption = element_text(size = 10, face = "italic"),         
+    legend.position = "bottom",                                      
+    legend.title = element_blank(),                                  
+    legend.text = element_text(size = 10),                           
+    axis.text.x = element_text(angle = 45, hjust = 1),               
+    axis.title.x = element_text(size = 12, face = "bold"),           
+    axis.title.y = element_text(size = 12, face = "bold"),           
+    panel.grid.major = element_line(color = "gray90")                
+  ) +
+  guides(
+    color = guide_legend(ncol = 3)                                   
+  )
+
+
+
+write.csv(gini_latin_america_long_clean, "cleaned_interpolated_gini.csv", row.names = FALSE)
+
+
+
+
+# DEMOCRATIZATION 
+
+setwd("/Users/macbookpro/Documents/Statistics project")
+
+
+democratization_data <- read.csv("index_democratization.csv", sep = ";", dec = ",")
+
+
+democratization_countries <- c(
+  "Argentina", "Bolivia", "Brazil", "Chile", "Colombia", "Costa Rica",
+  "Dominican Republic", "Ecuador", "El Salvador", "Guatemala",
+  "Honduras", "Mexico", "Nicaragua", "Panama", "Paraguay", "Peru",
+  "Uruguay", "Venezuela"
+)
+
+democratization_filtered <- democratization_data %>%
+  filter(cname %in% democratization_countries)
+
+
+democratization_long <- democratization_filtered %>%
+  select(cname, year, van_index) %>%
+  rename(Country.Name = cname, Year = year, Democratization_Index = van_index) %>%
+  mutate(Year = as.numeric(Year))
+
+
+democratization_long_clean <- democratization_long %>%
+  group_by(Country.Name) %>%
+  arrange(Year)
+
+
+democratization_stats <- democratization_long_clean %>%
+  summarise(
+    Mean_Index = mean(Democratization_Index, na.rm = TRUE),
+    Median_Index = median(Democratization_Index, na.rm = TRUE),
+    SD_Index = sd(Democratization_Index, na.rm = TRUE),
+    Min_Index = min(Democratization_Index, na.rm = TRUE),
+    Max_Index = max(Democratization_Index, na.rm = TRUE),
+    Skewness_Index = psych::skew(Democratization_Index, na.rm = TRUE),
+    Kurtosis_Index = psych::kurtosi(Democratization_Index, na.rm = TRUE)
+  )
+
+
+print(democratization_stats)
+
+
+
+ggplot(democratization_long_clean, aes(x = Country.Name, y = Democratization_Index)) +
+  geom_boxplot(fill = "blue", color = "black") +
+  theme_minimal() +
+  coord_flip() +
+  labs(title = "Democratization Index by Country", x = "Country", y = "Democratization Index")
+
+
+ggplot(democratization_long_clean, aes(x = Democratization_Index)) +
+  geom_density(fill = "lightblue", color = "darkblue", alpha = 0.7) +
+  theme_minimal() +
+  labs(title = "Density Plot of Democratization Index", x = "Democratization Index", y = "Density")
+
+
+ggplot(democratization_long_clean, aes(x = Democratization_Index)) +
+  geom_histogram(binwidth = 0.5, fill = "blue", color = "black") +
+  theme_minimal() +
+  facet_wrap(~ Country.Name, scales = "free_y") +
+  labs(title = "Democratization Index Distribution by Country", x = "Democratization Index", y = "Frequency")
+
+
+ggplot(democratization_long_clean, aes(x = Year, y = Democratization_Index, color = Country.Name, group = Country.Name)) +
+  geom_line(size = 1) +                             
+  geom_point(size = 3, shape = 22, fill = "yellow", color = "black") +  
+  theme_minimal() +                                 
+  labs(
+    title = "Trends in Democratization Index Across Latin American Countries",
+    subtitle = "Detailed yearly trends",
+    caption = "Source: Democratization Dataset",
+    x = "Year",
+    y = "Democratization Index"
+  ) +
+  scale_color_manual(values = rainbow(length(unique(democratization_long_clean$Country.Name)))) +  
+  theme(
+    plot.title = element_text(size = 16, face = "bold", hjust = 0.5), 
+    plot.subtitle = element_text(size = 12, hjust = 0.5),             
+    plot.caption = element_text(size = 10, face = "italic"),          
+    legend.position = "right",                                       
+    legend.title = element_blank(),                                   
+    legend.text = element_text(size = 8),                             
+    axis.text.x = element_text(angle = 45, hjust = 1, size = 10),     
+    axis.text.y = element_text(size = 10),                            
+    axis.title.x = element_text(size = 12, face = "bold"),            
+    axis.title.y = element_text(size = 12, face = "bold"),            
+    panel.grid.major = element_line(color = "gray90")                 
+  ) +
+  guides(
+    color = guide_legend(ncol = 2)                                    
+  )
+
+
+write.csv(democratization_long_clean, "cleaned_democratization.csv", row.names = FALSE)
+
+
+#EDUCATION SPENDINGS AS GDP PERCENTAGE
+
+
+education_data <- read.csv("Education_expenditure_pGDP.csv", sep = ";", dec = ",")
+
+
+latin_america_countries <- c(
+  "Argentina", "Bolivia", "Brazil", "Chile", "Colombia", "Costa Rica",
+  "Dominican Republic", "Ecuador", "El Salvador", "Guatemala",
+  "Honduras", "Mexico", "Nicaragua", "Panama", "Paraguay", "Peru",
+  "Uruguay", "Venezuela"
+)
+
+education_latin_america <- education_data %>%
+  filter(cname %in% latin_america_countries) %>%
+  select(cname, year, wdi_expedu) %>%
+  rename(Country = cname, Year = year, Education_Expenditure = wdi_expedu)
+
+
+descriptive_stats <- education_latin_america %>%
+  group_by(Country) %>%
+  summarise(
+    Mean_Expenditure = mean(Education_Expenditure, na.rm = TRUE),
+    Median_Expenditure = median(Education_Expenditure, na.rm = TRUE),
+    SD_Expenditure = sd(Education_Expenditure, na.rm = TRUE),
+    Min_Expenditure = min(Education_Expenditure, na.rm = TRUE),
+    Max_Expenditure = max(Education_Expenditure, na.rm = TRUE)
+  )
+
+
+print(descriptive_stats)
+
+
+
+ggplot(education_latin_america, aes(x = Country, y = Education_Expenditure)) +
+  geom_boxplot(fill = "blue", color = "black") +
+  theme_minimal() +
+  coord_flip() +
+  labs(title = "Education Expenditure by Country", x = "Country", y = "Education Expenditure (% of GDP)")
+
+
+ggplot(education_latin_america, aes(x = Education_Expenditure)) +
+  geom_density(fill = "lightblue", color = "darkblue", alpha = 0.7) +
+  theme_minimal() +
+  labs(title = "Density Plot of Education Expenditure", x = "Education Expenditure (% of GDP)", y = "Density")
+
+
+ggplot(education_latin_america, aes(x = Education_Expenditure)) +
+  geom_histogram(binwidth = 0.5, fill = "blue", color = "black") +
+  theme_minimal() +
+  facet_wrap(~ Country, scales = "free_y") +
+  labs(title = "Education Expenditure Distribution by Country", x = "Education Expenditure (% of GDP)", y = "Frequency")
+
+
+ggplot(education_latin_america, aes(x = Year, y = Education_Expenditure, color = Country, group = Country)) +
+  geom_line(size = 1) +                             
+  geom_point(size = 3, shape = 22, fill = "yellow", color = "black") +  
+  theme_minimal() +                                 
+  labs(
+    title = "Trends in Education Expenditure Across Latin American Countries",
+    subtitle = "Detailed yearly trends",
+    caption = "Source: Education Expenditure Dataset",
+    x = "Year",
+    y = "Education Expenditure (% of GDP)"
+  ) +
+  scale_color_manual(values = rainbow(length(unique(education_latin_america$Country)))) +  
+  theme(
+    plot.title = element_text(size = 16, face = "bold", hjust = 0.5), 
+    plot.subtitle = element_text(size = 12, hjust = 0.5),             
+    plot.caption = element_text(size = 10, face = "italic"),          
+    legend.position = "right",                                       
+    legend.title = element_blank(),                                   
+    legend.text = element_text(size = 8),                             
+    axis.text.x = element_text(angle = 45, hjust = 1, size = 10),     
+    axis.text.y = element_text(size = 10),                            
+    axis.title.x = element_text(size = 12, face = "bold"),            
+    axis.title.y = element_text(size = 12, face = "bold"),            
+    panel.grid.major = element_line(color = "gray90")                 
+  ) +
+  guides(
+    color = guide_legend(ncol = 2)                                    
+  )
+
+
+custom_colors <- c(
+  "Argentina" = "#1f77b4", "Bolivia" = "#ff7f0e", "Brazil" = "#2ca02c",
+  "Chile" = "#d62728", "Colombia" = "#9467bd", "Costa Rica" = "#8c564b",
+  "Dominican Republic" = "#e377c2", "Ecuador" = "#7f7f7f",
+  "El Salvador" = "#bcbd22", "Guatemala" = "#17becf",
+  "Honduras" = "#393b79", "Mexico" = "#637939", "Nicaragua" = "#8c6d31",
+  "Panama" = "#843c39", "Paraguay" = "#ad494a", "Peru" = "#d6616b",
+  "Uruguay" = "#6b6ecf", "Venezuela" = "#ce6dbd"
+)
+
+
+ggplot(education_latin_america, aes(x = Year, y = Education_Expenditure, color = Country, group = Country)) +
+  geom_line(size = 1) +
+  geom_point(size = 3, shape = 22, fill = "yellow", color = "black") +
+  theme_minimal() +
+  labs(
+    title = "Trends in Education Expenditure Across Latin American Countries",
+    subtitle = "Detailed yearly trends",
+    caption = "Source: Education Expenditure Dataset",
+    x = "Year",
+    y = "Education Expenditure (% of GDP)"
+  ) +
+  scale_color_manual(values = custom_colors) +  
+  theme(
+    plot.title = element_text(size = 16, face = "bold", hjust = 0.5),
+    plot.subtitle = element_text(size = 12, hjust = 0.5),
+    plot.caption = element_text(size = 10, face = "italic"),
+    legend.position = "right",
+    legend.title = element_blank(),
+    legend.text = element_text(size = 8),
+    axis.text.x = element_text(angle = 45, hjust = 1, size = 10),
+    axis.text.y = element_text(size = 10),
+    axis.title.x = element_text(size = 12, face = "bold"),
+    axis.title.y = element_text(size = 12, face = "bold"),
+    panel.grid.major = element_line(color = "gray90")
+  ) +
+  guides(
+    color = guide_legend(ncol = 2)
+  )
+
+write.csv(education_latin_america, "cleaned_education_expenditure_new.csv", row.names = FALSE)
+
+
+#GDP PER CAPITA
+
+
+
+library(tidyverse)
+library(gtsummary)
+library(gt)
+library(zoo)
+library(psych)
+library(flextable)
+library(ggplot2)
+
+setwd("/Users/macbookpro/Documents/Statistics project")
+
+
+gdp_data <- read.csv("GDP_per_Capita_current_prices.csv", sep = ";", dec = ",")
+
+
+latin_america_countries <- c(
+  "Argentina", "Bolivia", "Brazil", "Chile", "Colombia", "Costa Rica",
+  "Dominican Republic", "Ecuador", "El Salvador", "Guatemala",
+  "Honduras", "Mexico", "Nicaragua", "Panama", "Paraguay", "Peru",
+  "Uruguay", "Venezuela"
+)
+
+gdp_latin_america <- gdp_data %>%
+  filter(cname %in% latin_america_countries) %>%
+  select(cname, year, gle_cgdpc) %>%
+  rename(Country = cname, Year = year, GDP_per_Capita = gle_cgdpc)
+
+
+descriptive_stats <- gdp_latin_america %>%
+  group_by(Country) %>%
+  summarise(
+    Mean_GDP = mean(GDP_per_Capita, na.rm = TRUE),
+    Median_GDP = median(GDP_per_Capita, na.rm = TRUE),
+    SD_GDP = sd(GDP_per_Capita, na.rm = TRUE),
+    Min_GDP = min(GDP_per_Capita, na.rm = TRUE),
+    Max_GDP = max(GDP_per_Capita, na.rm = TRUE)
+  )
+
+
+print(descriptive_stats)
+
+ggplot(gdp_latin_america, aes(x = Country, y = GDP_per_Capita)) +
+  geom_boxplot(fill = "blue", color = "black") +
+  theme_minimal() +
+  coord_flip() +
+  labs(title = "GDP per Capita by Country", x = "Country", y = "GDP per Capita (Current Prices)")
+
+
+ggplot(gdp_latin_america, aes(x = GDP_per_Capita)) +
+  geom_density(fill = "lightblue", color = "darkblue", alpha = 0.7) +
+  theme_minimal() +
+  labs(title = "Density Plot of GDP per Capita", x = "GDP per Capita (Current Prices)", y = "Density")
+
+
+ggplot(gdp_latin_america, aes(x = GDP_per_Capita)) +
+  geom_histogram(binwidth = 500, fill = "blue", color = "black") +
+  theme_minimal() +
+  facet_wrap(~ Country, scales = "free_y") +
+  labs(title = "GDP per Capita Distribution by Country", x = "GDP per Capita (Current Prices)", y = "Frequency")
+
+
+ggplot(gdp_latin_america, aes(x = Year, y = GDP_per_Capita, color = Country, group = Country)) +
+  geom_line(size = 1) +   
+  geom_point(size = 3, shape = 22, fill = "yellow", color = "black") +
+  theme_minimal() +                                 
+  labs(
+    title = "Trends in GDP per Capita Across Latin American Countries",
+    subtitle = "Detailed yearly trends",
+    caption = "Source: GDP per Capita Dataset",
+    x = "Year",
+    y = "GDP per Capita (Current Prices)"
+  ) +
+  scale_color_manual(values = rainbow(length(unique(gdp_latin_america$Country)))) + 
+  theme(
+    plot.title = element_text(size = 16, face = "bold", hjust = 0.5), 
+    plot.subtitle = element_text(size = 12, hjust = 0.5),       
+    plot.caption = element_text(size = 10, face = "italic"),        
+    legend.position = "right",                          
+    legend.title = element_blank(),                           
+    legend.text = element_text(size = 8),                          
+    axis.text.x = element_text(angle = 45, hjust = 1, size = 10),    
+    axis.text.y = element_text(size = 10),                  
+    axis.title.x = element_text(size = 12, face = "bold"),
+    axis.title.y = element_text(size = 12, face = "bold"),
+    panel.grid.major = element_line(color = "gray90")
+  ) +
+  guides(
+    color = guide_legend(ncol = 2)                                    
+  )
+
+write.csv(gdp_latin_america, "cleaned_gdp_per_capita.csv", row.names = FALSE)
+
+# BIVARIATE ANALYSIS
+
+
+
+library(tidyverse)
+library(gtsummary)
+library(gt)
+library(zoo)
+library(psych)
+library(flextable)
+library(GGally)
+
+
+setwd("/Users/macbookpro/Documents/Statistics project")
+
+
+gini_data <- read.csv("cleaned_interpolated_gini.csv")
+democratization_data <- read.csv("cleaned_democratization.csv")
+
+
+bivariate_data <- inner_join(gini_data, democratization_data, by = c("Country.Name" = "Country.Name", "Year" = "Year"))
+
+
+bivariate_data <- bivariate_data %>%
+  rename(
+    GINI_Index = GINI_Index,
+    Democratization_Index = Democratization_Index
+  )
+
+
+# Removing rows with N/A values
+bivariate_data <- bivariate_data %>% drop_na(GINI_Index, Democratization_Index)
+
+
+correlations_by_country <- bivariate_data %>%
+  group_by(Country.Name) %>%
+  summarise(
+    Correlation = cor(GINI_Index, Democratization_Index, use = "complete.obs", method = "pearson")
+  )
+print(correlations_by_country)
+
+
+regression_results <- bivariate_data %>%
+  group_by(Country.Name) %>%
+  summarise(Model = list(lm(Democratization_Index ~ GINI_Index, data = .)))
+
+
+for (i in seq_along(regression_results$Country.Name)) {
+  country <- regression_results$Country.Name[i]
+  model <- regression_results$Model[[i]]
+  cat("\n---", country, "---\n")
+  print(summary(model))
+}
+
+
+ggplot(bivariate_data, aes(x = GINI_Index, y = Democratization_Index)) +
+  geom_point(color = "blue", alpha = 0.7) +
+  geom_smooth(method = "lm", color = "red", se = TRUE) +
+  theme_minimal() +
+  facet_wrap(~ Country.Name) +
+  labs(
+    title = "Relationship between GINI Index and Democratization Index by Country",
+    x = "GINI Index",
+    y = "Democratization Index"
+  )
+
+
+overall_correlation <- cor(bivariate_data$GINI_Index, bivariate_data$Democratization_Index, use = "complete.obs", method = "pearson")
+print(paste("Overall Pearson correlation for Latin America: ", round(overall_correlation, 2)))
+
+
+overall_model <- lm(Democratization_Index ~ GINI_Index, data = bivariate_data)
+summary(overall_model)
+
+
+ggplot(bivariate_data, aes(x = GINI_Index, y = Democratization_Index)) +
+  geom_point(color = "blue", alpha = 0.7) +
+  geom_smooth(method = "lm", color = "red", se = TRUE) +
+  theme_minimal() +
+  labs(
+    title = "Relationship between GINI Index and Democratization Index in Latin America",
+    x = "GINI Index",
+    y = "Democratization Index"
+  )
+
+
+par(mfrow = c(2, 2))  
+plot(overall_model, main = "Diagnostics for Overall Model")
+par(mfrow = c(1, 1))  
+
+write.csv(bivariate_data, "bivariate_gini_democratization_cleaned.csv", row.names = FALSE)
+
+
+library(tidyverse)
+library(zoo)
+
+setwd("/Users/macbookpro/Documents/Statistics project")
+
+
+# MULTIVARIATE REGRESSION ANALYSIS
+
+gini <- read.csv("interpolated_gini_latin_america.csv")  
+democratization <- read.csv("cleaned_interpolated_democratization.csv") 
+education <- read.csv("cleaned_education_expenditure_new.csv") 
+gdp <- read.csv("cleaned_gdp_per_capita.csv")  
+
+
+gini <- gini %>% select(-2)  
+
+
+colnames(gini) <- c("Country", "Year", "GINI_Index")
+colnames(democratization) <- c("Country", "Year", "Democratization_Level")
+colnames(education) <- c("Country", "Year", "Education_Expenditure")
+colnames(gdp) <- c("Country", "Year", "GDP_per_Capita")
+
+
+gini <- gini %>% mutate(Year = as.numeric(gsub("[^0-9]", "", Year)))
+democratization <- democratization %>% mutate(Year = as.numeric(Year))
+education <- education %>% mutate(Year = as.numeric(Year))
+gdp <- gdp %>% mutate(Year = as.numeric(Year))
+
+
+common_years <- intersect(intersect(unique(gini$Year), unique(democratization$Year)),
+                          intersect(unique(education$Year), unique(gdp$Year)))
+
+gini <- gini %>% filter(Year %in% common_years)
+democratization <- democratization %>% filter(Year %in% common_years)
+education <- education %>% filter(Year %in% common_years)
+gdp <- gdp %>% filter(Year %in% common_years)
+
+
+merged_data <- gini %>%
+  left_join(democratization, by = c("Country", "Year")) %>%
+  left_join(education, by = c("Country", "Year")) %>%
+  left_join(gdp, by = c("Country", "Year"))
+
+
+
+merged_data <- merged_data %>%
+  mutate(GINI_Index = ifelse(GINI_Index == 0, NA, GINI_Index))
+
+
+merged_data <- merged_data %>%
+  group_by(Country) %>%
+  mutate(
+    GINI_Index = zoo::na.approx(GINI_Index, na.rm = FALSE),
+    Education_Expenditure = zoo::na.approx(Education_Expenditure, na.rm = FALSE),
+    GDP_per_Capita = zoo::na.approx(GDP_per_Capita, na.rm = FALSE)
+  ) %>%
+  ungroup()
+
+
+merged_data <- merged_data %>%
+  drop_na(GINI_Index, Education_Expenditure, GDP_per_Capita)
+
+
+write.csv(merged_data, "final_merged_dataset.csv", row.names = FALSE)
+
+
+summary(merged_data)
+head(merged_data)
+
+
+
+
+library(car)
+library(tidyverse)
+library(car)
+library(ggplot2)
+library(broom)
+library(ggiraphExtra)
+library(stargazer)
+library(lmtest)
+library(corrplot)
+
+
+
+
+merged_data <- read.csv("final_merged_dataset.csv")
+
+
+merged_data <- merged_data %>%
+  mutate(
+    GINI_Index = as.numeric(GINI_Index),
+    Democratization_Level = as.numeric(Democratization_Level),
+    Education_Expenditure = as.numeric(Education_Expenditure),
+    GDP_per_Capita = as.numeric(GDP_per_Capita),
+    Year = as.numeric(Year)
+  )
+
+
+
+# Null Model
+null_model <- lm(Democratization_Level ~ 1, data = merged_data)
+summary(null_model)
+
+
+ggplot(merged_data, aes(x = Country, y = Democratization_Level)) +
+  geom_segment(aes(xend = Country, yend = mean(Democratization_Level)), color = "darkgray") +
+  geom_point() +
+  geom_hline(aes(yintercept = mean(Democratization_Level)), color = "deeppink") +
+  labs(title = "Null Model Intercept and Prediction Error",
+       x = NULL,
+       y = "Democratization Level") +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1, size = 6))
+
+# Simple Model
+simple_model <- lm(Democratization_Level ~ GINI_Index, data = merged_data)
+summary(simple_model)
+
+
+ggplot(merged_data, aes(x = GINI_Index, y = Democratization_Level)) +
+  geom_segment(aes(xend = GINI_Index, yend = predict(simple_model)), color = "darkgray") +
+  geom_point() +
+  geom_smooth(method = "lm", color = "blue") +
+  labs(title = "Simple Regression Model",
+       x = "GINI Index",
+       y = "Democratization Level")
+
+# Multivariatye Regression Model
+multiple_model <- lm(Democratization_Level ~ GINI_Index + Education_Expenditure + GDP_per_Capita + Year, 
+                     data = merged_data)
+summary(multiple_model)
+
+
+vif_values <- vif(multiple_model)
+print(vif_values)
+
+
+par(mfrow = c(2, 2))
+plot(multiple_model)
+
+
+bp_test <- bptest(multiple_model)
+print(bp_test)
+
+
+shapiro_test <- shapiro.test(residuals(multiple_model))
+print(shapiro_test)
+
+
+cooks_distance <- cooks.distance(multiple_model)
+merged_data$cooksd <- cooks_distance
+ggplot(merged_data, aes(x = seq_along(cooksd), y = cooksd)) +
+  geom_col() +
+  geom_hline(yintercept = 4 / nrow(merged_data), color = "deeppink", linetype = "dashed") +
+  labs(title = "Cook's Distance for Multiple Regression",
+       x = "Index", y = "Cook's Distance")
+
+
+
+
+stargazer(null_model, simple_model, multiple_model, type = "text",
+          star.cutoffs = c(0.05, 0.01, 0.001))
+
+
+sink("model_summary.txt")
+summary(multiple_model)
+sink()
+
+
+
+# GINI Index Effect
+ggplot(merged_data, aes(x = GINI_Index, y = Democratization_Level)) +
+  geom_point() +
+  geom_smooth(method = "lm", se = TRUE, color = "blue") +
+  labs(title = "GINI Index and Democratization Level",
+       x = "GINI Index",
+       y = "Democratization Level") +
+  theme_minimal()
+
+# Education Expenditure Effect
+ggplot(merged_data, aes(x = Education_Expenditure, y = Democratization_Level)) +
+  geom_point() +
+  geom_smooth(method = "lm", se = TRUE, color = "green") +
+  labs(title = "Education Expenditure and Democratization Level",
+       x = "Education Expenditure (% of GDP)",
+       y = "Democratization Level") +
+  theme_minimal()
+
+# GDP per Capita Effect
+ggplot(merged_data, aes(x = GDP_per_Capita, y = Democratization_Level)) +
+  geom_point() +
+  geom_smooth(method = "lm", se = TRUE, color = "purple") +
+  labs(title = "GDP per Capita and Democratization Level",
+       x = "GDP per Capita (USD)",
+       y = "Democratization Level") +
+  theme_minimal()
+
+
+
+```
